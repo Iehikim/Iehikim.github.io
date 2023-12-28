@@ -11,9 +11,9 @@ title                    : "S.Joung / OptLab in CNU"
 title_separator          : "-"
 name                     : &name "Seulgi Joung"
 description              : &description "Assistant professor in CNU"
-url                      : "https://sgjoung.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://Iehikim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "sgjoung/sgjoung.github.io"
+repository               : "Iehikim/Iehikim.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
