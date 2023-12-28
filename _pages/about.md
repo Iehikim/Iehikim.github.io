@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Seulgi Joung, Ph.D."
+title: "Hyeon-Il Kim, Ph.D."
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-_전남대학교 산업공학과 정슬기_ 
-- Assistant Professor in Department of Industrial Engineering, Chonnam National University, Republic of Korea
-    - 2020.09 - present
+_한양대학교 산업공학과 김현일_ 
+- Ph.D. Candidate & Teaching Faculty in Department of Industrial Engineering, Chonnam National University, Republic of Korea
+    #- 2020.09 - present
 - CV ([pdf](http://sgjoung.github.io/files/CV_JSG.pdf), updated 2023.08)
 
 ## **Research Interests**
