@@ -9,9 +9,7 @@ redirect_from:
 ---
 
 _한양대학교 산업공학과 김현일_ 
-- Ph.D. Candidate & Teaching Faculty in Department of Industrial Engineering, Chonnam National University, Republic of Korea
-    #- 2020.09 - present
-- CV ([pdf](http://sgjoung.github.io/files/CV_JSG.pdf), updated 2023.08)
+- Ph.D. Candidate & Teaching Faculty in Department of Industrial Engineering, Hanyang University, Republic of Korea
 
 ## **Research Interests**
 - Optimization under uncertainty (Robust optimization, Stochastic optimization, Data-driven optimization,...)
