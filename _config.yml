@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "S.Joung / OptLab in CNU"
+title                    : "Hyeon-Il KIm / PLI Lab in HYU"
 title_separator          : "-"
-name                     : &name "Seulgi Joung"
-description              : &description "Assistant professor in CNU"
+name                     : &name "Hyeon-Il Kim"
+description              : &description "Ph.D. Candidate & Teaching Faculty in HYU"
 url                      : "https://Iehikim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Iehikim/Iehikim.github.io"
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Seulgi Joung"
-  avatar           : "profile2.jpg"
-  bio              : "Assistant professor in Chonnam National University"
-  location         : "Gwangju, Republic of Korea"
+  name             : "Hyeon-Il Kim"
+  avatar           : #"profile2.jpg"
+  bio              : "Ph.D. Candidate & Teaching Faculty in Hanyang University"
+  location         : "Seoul, Republic of Korea"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=j-bCTNgAAAAJ&hl=en"
-  email            : "sgjoung@jnu.ac.kr"
-  researchgate     : "https://www.researchgate.net/profile/Seulgi-Joung" # example: "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=ko"
+  email            : "iehikim@hanyang.ac.kr"
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -100,13 +100,13 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/0000-0001-7608-2266"
+  orcid            : #"http://orcid.org/0000-0001-7608-2266"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : 
