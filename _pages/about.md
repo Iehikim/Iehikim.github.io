@@ -19,7 +19,7 @@ _한양대학교 산업공학과 김현일_
 - Applications of OR
 
 ## **Education**
-- M.S. Degree in [Department of Industrial Engineering](ie.hanyang.ac.kr)
+- M.S. Degree in [Department of Industrial Engineering](ie.hanyang.ac.kr/)
   - Hanyang University, Republic of Korea 
   - [Production Logistics & Information Lab](http://pli.hanyang.ac.kr/), Advisor: [Prof. Dong-Ho Lee](https://scholar.google.com/citations?user=Mlnfd5AAAAAJ&hl=ko)
   - 2020.03 - 2022.02
