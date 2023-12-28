@@ -21,7 +21,7 @@ _한양대학교 산업공학과 김현일_
 ## **Education**
 - M.S. Degree in [Department of Industrial Engineering](https://ie.hanyang.ac.kr/)
   - Hanyang University, Republic of Korea 
-  - [Production Logistics & Information Lab](http://pli.hanyang.ac.kr/), Advisor: [Prof. Dong-Ho Lee]([https://scholar.google.com/citations?user=CZJd_6cAAAAJ&hl=en&oi=ao](https://scholar.google.com/citations?user=Mlnfd5AAAAAJ&hl=ko)) 
+  - [Production Logistics & Information Lab](http://pli.hanyang.ac.kr/), Advisor: [Prof. Dong-Ho Lee](https://scholar.google.com/citations?user=Mlnfd5AAAAAJ&hl=ko)
   - 2020.03 - 2022.02
   - Thesis topic: "Scheduling Algorithms for Multi-stage Flow Shop Scheduling Problem with Reworks under Overlapped Queue Time Limits"
 - Undergraduate Degree in Department of Industrial and Mangement Engineering
