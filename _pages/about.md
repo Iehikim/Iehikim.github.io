@@ -10,15 +10,19 @@ redirect_from:
 
 _한양대학교 산업공학과 김현일_ 
 - Ph.D. Candidate & Teaching Faculty in Department of Industrial Engineering, Hanyang University, Republic of Korea
-- CV ([pdf](http://sgjoung.github.io/files/CV_JSG.pdf), updated 2023.08)
+- CV ([pdf](http://sgjoung.github.io/files/CV_JSG.pdf), updated 2023.12)
   
 ## **Research Interests**
-- Optimization under uncertainty (Robust optimization, Stochastic optimization, Data-driven optimization,...)
-- Robust discrete optimization and submodularity
-- Discrete optimization, Combinatorial optimization
-- Applications of OR
+- Design and operation of manufacturing/service systems
+- Environmental conscious manufacturing
+- Reverse logistics
+- Operations research applications
 
 ## **Education**
+- Ph.D. Degree in [Department of Industrial Engineering](http://ie.hanyang.ac.kr/)
+  - Hanyang University, Republic of Korea 
+  - [Production Logistics & Information Lab](http://pli.hanyang.ac.kr/), Advisor: [Prof. Dong-Ho Lee](https://scholar.google.com/citations?user=Mlnfd5AAAAAJ&hl=ko)
+  - 2022.03 - Present
 - M.S. Degree in [Department of Industrial Engineering](http://ie.hanyang.ac.kr/)
   - Hanyang University, Republic of Korea 
   - [Production Logistics & Information Lab](http://pli.hanyang.ac.kr/), Advisor: [Prof. Dong-Ho Lee](https://scholar.google.com/citations?user=Mlnfd5AAAAAJ&hl=ko)
@@ -43,6 +47,4 @@ _한양대학교 산업공학과 김현일_
   - Department of Industrial and Systems Engineering, KAIST
 
 ## **Activities**
-- 대한산업공학회 교육본부, 2023 - present
-- 대한산업공학회 산업공학 위상강화 TF팀, October 2021 - October 2022
-- 전남대학교 데이터사이언스대학원 개원준비단 위원, October 2021 - February 2022
+- 대한산업공학회 FIELD 학술교류부서, March 2017 - December 2018
