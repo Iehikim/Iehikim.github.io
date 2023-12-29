@@ -9,14 +9,21 @@ redirect_from:
 ---
 
 _한양대학교 산업공학과 김현일_ 
-- Ph.D. Candidate & Teaching Faculty in Department of Industrial Engineering, Hanyang University, Republic of Korea
-- CV ([pdf](http://sgjoung.github.io/files/CV_JSG.pdf), updated 2023.12)
+- Ph.D. Candidate & Teaching Faculty in Department of Industrial Engineering, Hanyang University, Republic of Korea
+- CV ([pdf](http://iehikim.github.io/files/CV_HIK.pdf), updated 2023.12)
   
 ## **Research Interests**
-- Design and operation of manufacturing/service systems
-- Environmental conscious manufacturing
-- Reverse logistics
-- Operations research applications
+- Design and Operation of Manufacturing/Service Systems
+  - Production Planning and Scheduling, Inventory Management, Process Planning, etc.
+- Environmentally Conscious Design & Manufacturing
+  - Disassembly Process Planning and Scheduling, Planning and Scheduling in Remanufacturing Systems, Design for Environment, etc. 
+- Forward and Reverse Logistics
+  - Network Design (Facility Location), Vehicle Routing and Scheduling, etc.
+- Applications of Optimization Methodologies
+  - Mathematical Programming, Interpretable Artificial Intelligence, Reinforcement Learning, Meta-heuristics, etc.
+- Applications of Operations Research
+- Industrial Applications
+  - Reconfigurable Manufacturing Systems, Semiconductor Manufacturing Systems, Fastner Manufacturing Systems, Automatic Guided Vehicle Systems, etc.
 
 ## **Education**
 - Ph.D. Degree in [Department of Industrial Engineering](http://ie.hanyang.ac.kr/)
@@ -34,17 +41,32 @@ _한양대학교 산업공학과 김현일_
   - 2014.03 - 2020.02
 
 ## **Work Experiences**
-- Postdoctoral Researcher, 2018.03 - 2020.08
-  - in Department of Industrial Engineering, Seoul National University, Republic of Korea
-  - [Systems Optimization Lab](http://optimize.snu.ac.kr/), Advisor: [Prof. Kyungsik Lee](https://scholar.google.com/citations?user=rr_xEbgNRDcC&hl=en&oi=ao)
-
+- Lecture, 2023.09 - 2024.08
+  - in Department of Industrial Engineering, Hanyang University, Republic of Korea
+    - Linear Programming [INE2009] Fall 2023
+    - Operation Managements [INE3081] Spring 2024
+- Teaching Assistant
+  - in Department of Industrial Engineering, Hanyang University, Republic of Korea
+    - Linear Programming [INE2009] Fall 2020, Fall 2021, Fall 2022
+    - Operation Managements [INE3081] Spring 2020, Spring 2021, Spring 2022, Spring 2023
+    - Introduction to Smart Factory [INE2075] Spring 2020, Spring 2021, Spring 2022, Spring 2023
+    - Manufacturing Systems Engineering [INE4100] Fall 2020, Fall 2021, Fall 2022
+      
 ## **Honors & Awards**
-- 교육연구 우수 교수상, December 2021
-  - College of Engineering, Chonnam National University
-- Best Ph.D. Thesis Award 2018, October 2018
-  - The Korean Operations Research and Management Science Society (KORMS)
-- Outstanding Thesis Award 2018, February 2018
-  - Department of Industrial and Systems Engineering, KAIST
+- Best Presentation Award, August 2023
+  - International Congress on Logistics and SCM Systems (ICLS 2023)
+- Academic Achievement Excellence Award (Summa Cum Laude, Top 1%), February 2020
+  - Kyungsung University 
+- Fully Funded Scholarships, 2014 - 2020
+  - Kyungsung University
+- Bronze Prize in the Undergraduate Project Competition, November 2019
+  - Korean Logistics Society (KLS)
+- Bronze Prize in the Undergraduate Project Competition, November 2018
+  - Korean Institute of Industrial Engineers (KIIE)
+- 제 6회 경성대학교 총장배 대학생 토론대회 우수상, November 2017
+  - Kyungsung University
+- Silver Prize in the Undergraduate Project Competition, June 2017
+  - The Korean Society of Supply Chain Management (KSCM)
 
 ## **Activities**
-- 대한산업공학회 FIELD 학술교류부서, March 2017 - December 2018
+- 대한산업공학회 FIELD 학술교류부서, March 2017 - December 2018
