@@ -15,7 +15,7 @@ author_profile: true
 ## **Publications - International Journal**
 (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 1. Y, Cho, **H.-I. Kim**, Y.-R. Kim, S.-K Yoo, B.-H. Kim and D.-H. Lee\*. "A scheduling mechanism for hybrid flow shops with reworks under general queue time limits" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 2023: 1-9. [https://doi.org/10.1177/09544054231182](https://doi.org/10.1177/09544054231182174)
-1. Y.-H. Choi, **H.-I. Kim** and D.-H. Lee\*. "Disassembly leveling and lot-sizing for multiple product types with uncertain component demands" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 2023: 1-9. [https://doi.org/10.1177/095440542211365](https://doi.org/10.1177/09544054221136526)
+1. Y.-H. Choi, **H.-I. Kim** and D.-H. Lee\*. "Disassembly leveling and lot-sizing for multiple product types with uncertain component demands" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 237(11) 2023: 1660-1670. [https://doi.org/10.1177/095440542211365](https://doi.org/10.1177/09544054221136526)
 1. **H.-I. Kim** and D.-H. Lee\*. "Scheduling algorithms for multi-stage flow shops with reworks under overlapped queue time limits." _International Journal of Production Research_ 61(20) 2023: 6908-6922. [https://doi.org/10.1080/00207543.2022.2139004](https://doi.org/10.1080/00207543.2022.2139004)<br /><br />
 *: corresponding authors
 
