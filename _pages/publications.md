@@ -14,7 +14,7 @@ author_profile: true
 
 ## **Publications - International Journal**
 (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=j-bCTNgAAAAJ&hl=en))<br />
-1. **H.I. Kim** and D.H. Lee\*. "A scheduling mechanism for hybrid flow shops with reworks under general queue time limits." _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 2023: 1-9 . [https://doi.org/10.1177/09544054231182](https://doi.org/10.1177/09544054231182)<br /><br />
+1. Y, Cho, **H.I. Kim**, Y.-R. Kim, S.-K Yoo, B.-H. Kim and D.H. Lee\*. "A scheduling mechanism for hybrid flow shops with reworks under general queue time limits." _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 2023: 1-9. [https://doi.org/10.1177/09544054231182](https://doi.org/10.1177/09544054231182)<br /><br />
 *: corresponding authors
 
 ## **Publications - Domestic Journal**
