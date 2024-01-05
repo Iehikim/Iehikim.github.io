@@ -23,7 +23,7 @@ _한양대학교 산업공학과 김현일_
   - Mathematical Programming, Interpretable Artificial Intelligence, Reinforcement Learning, Meta-heuristics, etc.
 - Applications of Operations Research
 - Industrial Applications
-  - Reconfigurable Manufacturing Systems, Semiconductor Manufacturing Systems, Fastner Manufacturing Systems, Automatic Guided Vehicle Systems, etc.
+  - Reconfigurable Manufacturing Systems, Flexible Manufacturing Systems, Semiconductor Manufacturing Systems, Fastner Manufacturing Systems, Automatic Guided Vehicle Systems, etc.
 
 ## **Education**
 - Ph.D. Degree in [Department of Industrial Engineering](http://ie.hanyang.ac.kr/)
