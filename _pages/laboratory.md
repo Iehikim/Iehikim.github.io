@@ -7,7 +7,7 @@ author_profile: true
 ## **Co-Worked at HYU PLI Lab** 👨‍💻
 
 - **2019**
- - Yooney Cho (조윤희) MS in Industrial Engineering
+  - Yooney Cho (조윤희) MS in Industrial Engineering
    - Thesis: Mathematical Model and Solution Approaches for Multi-stage Hybrid Flow Shop Scheduling with Reworks under General Queue Time Limits
 - **2021**
  - Yun-Hyok Choi (최윤혁) MS in Industrial Engineering
