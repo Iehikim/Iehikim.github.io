@@ -4,7 +4,7 @@ title: "Student Directed"
 permalink: /laboratory/
 author_profile: true
 ---
-## **Co-Worked at HYU PLI Lab** [HYU_logo_singlecolor_png](https://github.com/Iehikim/Iehikim.github.io/assets/127397591/0f58d598-24ac-48cb-9de5-50de7414a216)
+## **Co-Worked at HYU PLI Lab** 👨‍💻
 
 - **2019**
  - Yooney Cho (조윤희) MS in Industrial Engineering
