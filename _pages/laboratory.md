@@ -8,7 +8,7 @@ author_profile: true
 
 - **2019**
   - Yooney Cho (조윤희) MS in Industrial Engineering
-   - Thesis: Mathematical Model and Solution Approaches for Multi-stage Hybrid Flow Shop Scheduling with Reworks under General Queue Time Limits
+     - Thesis: Mathematical Model and Solution Approaches for Multi-stage Hybrid Flow Shop Scheduling with Reworks under General Queue Time Limits
 - **2021**
  - Yun-Hyok Choi (최윤혁) MS in Industrial Engineering
    - Thesis: Disassembly Leveling and Lot-sizing for Multiple Product Types with Uncertain Component Demands
