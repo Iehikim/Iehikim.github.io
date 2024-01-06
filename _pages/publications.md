@@ -40,9 +40,9 @@ author_profile: true
 ## **Research Projects**
 ## **In Progress**
 - **Consulting Mathematical Optimization Algrithms**
-  - LG-CNS (산업체 과제 - 연구 실무책임), 2023.04 - 2024.03
+  - LG-CNS (산업체 과제 – 연구 실무책임), 2023.04 - 2024.03
 - **Hybrid Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Mathematical Models and Predictive/Reactive Algorithms**
-  - National Research Foundation of Korea (NRF) (한국연구재단 이공학 개인기초연구지원 사업 - 연구 실무책임), 2022.06 - 2024.12
+  - National Research Foundation of Korea (NRF) (한국연구재단 이공학 개인기초연구지원 사업 – 연구 실무책임), 2022.06 - 2024.12
 - **Development of an AI-based Production Planning Technology for Reconfigurable Manufacturing Systems**
   - Ministry of Science and ICT (과학기술정보 통신부, 정보통신방송 기술개발사업: 스마트공장혁신기술개발  – 세부과제 연구 실무책임), 2022.04 - 2024.12
 - **An Education and Research Team for Sharing and Cooperation based Smart Systems**
@@ -52,4 +52,4 @@ author_profile: true
 - **Development of Forecasting, Production Planning and Scheduling Algorithms and Framework for APS (Advanced Planning and Scheduling) System**
   - Youngsin Metal Industrial Co., Ltd. (산업체 과제 – 연구 실무책임), 2021.12 - 2022.11
 - **Consulting Mathematical Optimization Algorithms**
-  - LG-CNS (산업체 과제 - 연구 실무책임), 2021.11 - 2022.10
+  - LG-CNS (산업체 과제 – 연구 실무책임), 2021.11 - 2022.10
