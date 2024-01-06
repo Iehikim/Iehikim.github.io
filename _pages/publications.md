@@ -39,24 +39,19 @@ author_profile: true
 1. **Kim, H.-I.,** Kim, Y.-R., Li, X., and Lee, D.-H.,2021, Mathematical Model and Simple Heuristic for Flow Shop Scheduling with Overlapped Queue Time Limits and Reworks, Proceedings of the Spring KIIE/KORMS Joint Conference, Seogwipo, Jeju. (2021.06)<br /><br />
 
 ## **Research Projects**
-- 한국전력기술, January 2023 - December 2023
-  - "불확실성 기반 해상풍력단지 정비계획 모델링 및 최적화 기술자문"
-  - 2023.08 특허 출원 ("후류 영향을 고려한 해상풍력단지 정비 스케줄링 시스템 및 방법", 정슬기/이현태/이남경/송정욱, 10-2023-0105711)
-- National Research Foundation of Korea, March 2021 - February 2024
-  - "Decision making under uncertainty and k-submodularity", PI
-- National Research Foundation of Korea, May 2021 - February 2027
-  - 인공지능 혁신공유대학 사업단, 전남대학교 산업공학과 참여교수
-  - "문제해결과 알고리즘" 공유교과목 운영
-  - "AI 알고리즘" 공동운영교과목 개선
-- SK Telecom, July 2017 - February 2018
-  - with Broadband Tech. Lab, Network Technology R&D center, SK Telecom, Republic of Korea
-  - "Traffic optimization and scheduling algorithms for L3 level transport networks"
-- SK Telecom, October 2016 - April 2017
-  - with Broadband Tech. Lab, Network Technology R&D center, SK Telecom, Republic of Korea
-  - "Bandwidth calendaring algorithms in the design of path computing environment (PCE) for L2 level transport networks"
-- National Research Foundation of Korea, June 2016 - May 2019
-  - "Studies on the polyhedral structures of the solution sets of robust optimization problems"
-- SK Innovation, Ph.D. Intern, June 2014 - August 2014
-  - in Optimization and Analysis Lab
-  - "Vessel arrival scheduling considering uncertainty"
 
+## **In Progress**
+- **Consulting Mathematical Optimization Algorithms**
+  - LG-CNS (산업체 과제 - 연구 실무책임), April 2023 - March 2024
+- **Hybrid Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Mathematical Models and Predictive/Reactive Algorithms**
+  - National Research Foundation of Korea (NRF) (한국연구재단 이공학 개인기초연구지원 사업 - 연구 실무책임), June 2022 - December 2024
+- **Development of an AI-based Production Planning Technology for Reconfigurable Manufacturing Systems**
+  - Ministry of Science and ICT. (과학기술정보 통신부, 정보통신방송 기술개발사업: 스마트공장혁신기술개발  – 세부과제 연구 실무책임), April 2022 - December 2024
+- **An Education and Research Team for Sharing and Cooperation based Smart Systems**
+  - Ministry of Education. (교육부 4 단계 두뇌한국21 (BK FOUR) 사업 교육 연구팀 – 참여), September 2020 - August 2027
+
+## **Finished**
+- **Development of Forecasting, Production Planning and Scheduling Algorithms and Framework for APS (Advanced Planning and Scheduling) System**
+  - Youngsin Metal Industrial Co., Ltd. (산업체 과제 – 연구 실무책임), December 2021 - November 2022
+- **Consulting Mathematical Optimization Algorithms**
+  - LG-CNS (산업체 과제 - 연구 실무책임), November 2021 - October 2022
