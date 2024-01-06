@@ -12,8 +12,7 @@ author_profile: true
 - System-level configuration selection algorithms for reconfigurable single part flow lines with controllable processing times
 - Capacity scalability planning algorithms for job-shop-type reconfigurable manufacturing systems with dynamic demands
 
-## **Publications** 
-(You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
+## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
 1. Y, Cho, **H.-I. Kim**, Y.-R. Kim, S.-K Yoo, B.-H. Kim and D.-H. Lee\*. "A scheduling mechanism for hybrid flow shops with reworks under general queue time limits" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 2023: 1-9. [https://doi.org/10.1177/09544054231182](https://doi.org/10.1177/09544054231182174)
 1. Y.-H. Choi, **H.-I. Kim** and D.-H. Lee\*. "Disassembly leveling and lot-sizing for multiple product types with uncertain component demands" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 237(11) 2023: 1660-1670. [https://doi.org/10.1177/095440542211365](https://doi.org/10.1177/09544054221136526)
@@ -39,7 +38,6 @@ author_profile: true
 1. **Kim, H.-I.,** Kim, Y.-R., Li, X., and Lee, D.-H.,2021, Mathematical Model and Simple Heuristic for Flow Shop Scheduling with Overlapped Queue Time Limits and Reworks, Proceedings of the Spring KIIE/KORMS Joint Conference, Seogwipo, Jeju. (2021.06)<br /><br />
 
 ## **Research Projects**
-
 ## **In Progress**
 - **Consulting Mathematical Optimization Algrithms**
   - LG-CNS (산업체 과제 - 연구 실무책임), 2023.04 - 2024.03
