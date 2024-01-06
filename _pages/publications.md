@@ -55,3 +55,5 @@ author_profile: true
   - Youngsin Metal Industrial Co., Ltd. (산업체 과제 – 연구 실무책임), 2021.12 - 2022.11
 - **Consulting Mathematical Optimization Algorithms**
   - LG-CNS (산업체 과제 – 연구 실무책임), 2021.11 - 2022.10
+- **Design and Development of Senior Friendly Products Improving the Cognitive Abilities by using Musical Recall**
+  - Ministry of Trade, Industry, & Energy (산업통상자원부 한국산업기술평가관리원 - 연구 실무책임), 2018.01 - 2018.12
