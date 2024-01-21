@@ -22,6 +22,7 @@ author_profile: true
 ## **Domestic Journals**
 
 ## **International Conferences**
+1. Sim, D.-G., **Kim, H.-I.,** Youn, A.-J,, and Lee, D.-H., 2023, VOperations Scheduling for Flexible Manufacturing Systems with Multiple Setup Stations and Multi-fixturing Pallets, Proceedings of the International Conference on Sustainable Energy and Green Technology (SEGT 2023), Ho Chi Minh City, Vietnam. (2023.12)
 1. **Kim, H.-I.,** and Lee, D.-H., 2023, Variable Neighborhood Search Algorithms for Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Minimizing Total Tardiness, Proceedings of the 17th International Congress on Logistics and SCM Systems (ICLS2023), Seoul, Korea. (2023.08) – **Best Presentation Award**
 1. **Kim, H.-I.,** Youn A.-J., Lee, S.-H., and Lee, D.-H., 2023, Variable Neighborhood Search Algorithms for System-level Configuration Selection in Reconfigurable Single Part Flow Lines, Proceedings of the 27th International Conference on Production Research (ICPR2023), Cluj-Napoca, Romania. (2023.07)
 1. **Kim, H.-I.,** and Lee, D.-H., 2023, A Two-level Optimal Algorithm for Three-machine Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the 27th International Conference on Production Research (ICPR2023), Cluj-Napoca, Romania. (2023.07)<br /><br />
