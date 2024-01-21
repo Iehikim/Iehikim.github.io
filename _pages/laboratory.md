@@ -33,9 +33,11 @@ author_profile: true
      - Thesis: TBD
        
 - **2026**
-   - Si-Hyoun Go (고시현) MS in Industrial Engineering
-     - Thesis: TBD
    - Jun-Yeong Lee (이준영) MS in Industrial Engineering
      - Thesis: TBD
    - Hyeon-Ji Moon (문현지) MS in Industrial Engineering
+     - Thesis: TBD
+  - Si-Hyoun Go (고시현) MS in Industrial Engineering
+     - Thesis: TBD
+  - Tae-Seok Kim (김태석) MS in Industrial Engineering
      - Thesis: TBD
