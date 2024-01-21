@@ -10,7 +10,7 @@ redirect_from:
 
 _한양대학교 산업공학과 김현일_ 
 - Ph.D. Candidate & Teaching Faculty in Department of Industrial Engineering, Hanyang University, Republic of Korea
-- CV ([pdf](http://iehikim.github.io/files/CV_HIK.pdf), updated 2023.12)
+- CV ([pdf](http://iehikim.github.io/files/CV-HIK 24-01.pdf), updated 2024.01)
   
 ## **Research Interests**
 - Design and Operation of Manufacturing/Service Systems
@@ -19,11 +19,11 @@ _한양대학교 산업공학과 김현일_
   - Disassembly Process Planning and Scheduling, Planning and Scheduling in Remanufacturing Systems, Design for Environment, etc. 
 - Forward and Reverse Logistics
   - Network Design (Facility Location), Vehicle Routing and Scheduling, etc.
+- Industrial Applications
+  - Reconfigurable Manufacturing Systems, Flexible Manufacturing Systems, Semiconductor Manufacturing Systems, Fastner Manufacturing Systems, Automatic Guided Vehicle Systems, etc.
 - Applications of Optimization Methodologies
   - Mathematical Programming, Interpretable Artificial Intelligence, Reinforcement Learning, Meta-heuristics, etc.
 - Applications of Operations Research
-- Industrial Applications
-  - Reconfigurable Manufacturing Systems, Flexible Manufacturing Systems, Semiconductor Manufacturing Systems, Fastner Manufacturing Systems, Automatic Guided Vehicle Systems, etc.
 
 ## **Education**
 - Ph.D. Degree in [Department of Industrial Engineering](http://ie.hanyang.ac.kr/)
