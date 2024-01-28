@@ -70,3 +70,7 @@ _한양대학교 산업공학과 김현일_
 
 ## **Activities**
 - 대한산업공학회 FIELD 학술교류부서, March 2017 - December 2018
+
+## **Programming Skills**
+- Languages: Python, C, C++, Java, R
+- Softwares: CPLEX, Gurobi
