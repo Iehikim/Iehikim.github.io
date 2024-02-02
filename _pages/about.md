@@ -44,16 +44,16 @@ _한양대학교 산업공학과 김현일_
 - Lecturer, 2023.09 - 2024.08
   - Department of Industrial Engineering, Hanyang University, Republic of Korea
     - **Undergraduate**
-      - Linear Programming [INE2009] Fall 2023
-      - Operation Managements [INE3081] Spring 2024
+      - [INE2009] Linear Programming (Fall 2023)
+      - [INE3081] Operation Managements (Spring 2024)
     - **Graduate**
-      - Production Planning and Control [INE9095] Spring 2024
+      - [INE9095] Production Planning and Control (Spring 2024)
 - Teaching Assistant
   - Department of Industrial Engineering, Hanyang University, Republic of Korea
-    - Linear Programming [INE2009] Fall 2020, Fall 2021, Fall 2022
-    - Operation Managements [INE3081] Spring 2020, Spring 2021, Spring 2022, Spring 2023
-    - Introduction to Smart Factory [INE2075] Spring 2020, Spring 2021, Spring 2022, Spring 2023
-    - Manufacturing Systems Engineering [INE4100] Fall 2020, Fall 2021, Fall 2022
+    - [INE2009] Linear Programming (Fall 2020, Fall 2021, Fall 2022)
+    - [INE3081] Operation Managements (Spring 2020, Spring 2021, Spring 2022, Spring 2023)
+    - [INE2075] Introduction to Smart Factory (Spring 2020, Spring 2021, Spring 2022, Spring 2023)
+    - [INE4100] Manufacturing Systems Engineering (Fall 2020, Fall 2021, Fall 2022)
       
 ## **Honors & Awards**
 - Best Presentation Award, August 2023
