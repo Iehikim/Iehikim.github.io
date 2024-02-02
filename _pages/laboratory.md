@@ -39,5 +39,3 @@ author_profile: true
      - Thesis: TBD
   - Si-Hyoun Go (고시현) MS in Industrial Engineering
      - Thesis: TBD
-  - Tae-Seok Kim (김태석) MS in Industrial Engineering
-     - Thesis: TBD
