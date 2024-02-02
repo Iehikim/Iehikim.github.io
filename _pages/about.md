@@ -10,7 +10,7 @@ redirect_from:
 
 _한양대학교 산업공학과 김현일_ 
 - Ph.D. Candidate & Teaching Faculty in Department of Industrial Engineering, Hanyang University, Republic of Korea
-- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.01)
+- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.02)
   
 ## **Research Interests**
 - Design and Operation of Manufacturing/Service Systems
@@ -42,11 +42,14 @@ _한양대학교 산업공학과 김현일_
 
 ## **Work Experiences**
 - Lecturer, 2023.09 - 2024.08
-  - in Department of Industrial Engineering, Hanyang University, Republic of Korea
+  - Department of Industrial Engineering, Hanyang University, Republic of Korea
+    **Undergraduate**
     - Linear Programming [INE2009] Fall 2023
     - Operation Managements [INE3081] Spring 2024
+    **Graduate**
+    - Production Planning and Control [INE9095] Spring 2024
 - Teaching Assistant
-  - in Department of Industrial Engineering, Hanyang University, Republic of Korea
+  - Department of Industrial Engineering, Hanyang University, Republic of Korea
     - Linear Programming [INE2009] Fall 2020, Fall 2021, Fall 2022
     - Operation Managements [INE3081] Spring 2020, Spring 2021, Spring 2022, Spring 2023
     - Introduction to Smart Factory [INE2075] Spring 2020, Spring 2021, Spring 2022, Spring 2023
