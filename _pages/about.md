@@ -16,7 +16,7 @@ _한양대학교 산업공학과 김현일_
 - Design and Operation of Manufacturing/Service Systems
   - Production Planning and Scheduling, Inventory Management, Process Planning, etc.
 - Environmentally Conscious Design & Manufacturing
-  - Disassembly Process Planning, Scheduling, leveling and lot-sizing, Planning and Scheduling in Remanufacturing Systems, Design for Environment, etc. 
+  - Disassembly Process Planning and Scheduling, Disassembly Leveling and Lot-sizing, Planning and Scheduling in Remanufacturing Systems, Design for Environment, etc. 
 - Forward and Reverse Logistics
   - Network Design (Facility Location), Vehicle Routing and Scheduling, etc.
 - Industrial Applications
