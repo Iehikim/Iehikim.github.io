@@ -22,7 +22,7 @@ _한양대학교 산업공학과 김현일_
 - Industrial Applications
   - Reconfigurable Manufacturing Systems, Flexible Manufacturing Systems, Semiconductor Manufacturing Systems, Fastner Manufacturing Systems, Automatic Guided Vehicle Systems, etc.
 - Applications of Optimization Methodologies
-  - Mathematical Programming, Interpretable Artificial Intelligence, Reinforcement Learning, Meta-heuristics, etc.
+  - Mathematical Programming (LP, IP, and NLP), Interpretable Artificial Intelligence, Reinforcement Learning, Meta-heuristics, etc.
 - Applications of Operations Research
 
 ## **Education**
