@@ -16,7 +16,7 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "jekyll", "~> 2.5"
+gem "jekyll", "~> 4.0"
 
 group :jekyll_plugins do
   gem "jekyll-timeago", "~> 0.13.1"
