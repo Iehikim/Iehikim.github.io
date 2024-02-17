@@ -36,11 +36,11 @@ _한양대학교 산업공학과 김현일_
   - 2020.03 - 2022.02
   - Thesis topic: "Scheduling Algorithms for Multi-stage Flow Shop Scheduling Problem with Reworks under Overlapped Queue Time Limits"
   - GPA: 4.44/4.5
-- Undergraduate Degree in Department of Industrial and Mangement Engineering (Summa cum Laude)
+- Undergraduate Degree in Department of Industrial and Mangement Engineering
   - Kyungsung University, Republic of Korea
   - Advisor: Prof. Chang Seong Ko
   - 2014.03 - 2020.02
-  - GPA: 4.45/4.5
+  - GPA: 4.45/4.5 (Summa cum Laude)
 
 ## **Work Experiences**
 - Lecturer, 2023.09 - 2024.08
