@@ -10,16 +10,17 @@ author_profile: true
 - Team orienteering with possible multiple visit: mathematical model and solution algorithms
 - A mathematical model and solution algorithms for optimizing system-level configurations of reconfigurable single part flow lines
 - System-level configuration selection algorithms for reconfigurable single part flow lines with controllable processing times
-- Capacity scalability planning algorithms for job-shop-type reconfigurable manufacturing systems with dynamic demands
 
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
-1. Y, Cho, **H.-I. Kim**, Y.-R. Kim, S.-K Yoo, B.-H. Kim and D.-H. Lee\*. "A scheduling mechanism for hybrid flow shops with reworks under general queue time limits" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 2024: 1-9. [https://doi.org/10.1177/09544054231182](https://doi.org/10.1177/09544054231182174)
-1. Y.-H. Choi, **H.-I. Kim** and D.-H. Lee\*. "Disassembly leveling and lot-sizing for multiple product types with uncertain component demands" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 237(11) 2023: 1660-1670. [https://doi.org/10.1177/095440542211365](https://doi.org/10.1177/09544054221136526)
-1. **H.-I. Kim** and D.-H. Lee\*. "Scheduling algorithms for multi-stage flow shops with reworks under overlapped queue time limits." _International Journal of Production Research_ 61(20) 2023: 6908-6922. [https://doi.org/10.1080/00207543.2022.2139004](https://doi.org/10.1080/00207543.2022.2139004)<br /><br />
+1. Cho, Y., **Kim, H.-I.,** Kim, Y.-R., Yoo, S.-K., Kim, B.-H., and Lee, D.-H.\*. "A scheduling mechanism for hybrid flow shops with reworks under general queue time limits" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 2024: 1-9. [https://doi.org/10.1177/09544054231182](https://doi.org/10.1177/09544054231182174)
+1. Choi, Y.-H., **Kim, H.-I.,** and Lee, D.-H.\*. "Disassembly leveling and lot-sizing for multiple product types with uncertain component demands" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 237(11) 2023: 1660-1670. [https://doi.org/10.1177/095440542211365](https://doi.org/10.1177/09544054221136526)
+1. **Kim, H.-I.,** and Lee, D.-H.\*. "Scheduling algorithms for multi-stage flow shops with reworks under overlapped queue time limits." _International Journal of Production Research_ 61(20) 2023: 6908-6922. [https://doi.org/10.1080/00207543.2022.2139004](https://doi.org/10.1080/00207543.2022.2139004)<br /><br />
 *: corresponding authors
 
 ## **Domestic Journals**
+1. Sim, D.-G., Choi, H., **Kim, H.-I.,** Youn, A.-J., and Lee, D.-H.\*. "Priority scheduling for flexible machining systems with multiple setup stations and multi-fixturing pallets" _Journal of the Research Institute of Industrial Science_
+1. Li, X., **Kim, H.-I.,** and Lee, D.-H.,\*. "Capacity scalability planning algorithms for job-shop-type reconfigurable manufacturing systems with dynamic demands" _Journal of the Korean Institute of Indistral Engineers_
 
 ## **International Conferences**
 1. Sim, D.-G., **Kim, H.-I.,** Youn, A.-J,, and Lee, D.-H., 2023, Operations Scheduling for Flexible Manufacturing Systems with Multiple Setup Stations and Multi-fixturing Pallets, Proceedings of the International Conference on Sustainable Energy and Green Technology (SEGT 2023), Ho Chi Minh City, Vietnam. (2023.12)
@@ -40,6 +41,8 @@ author_profile: true
 
 ## **Research Projects**
 ## **In Progress**
+- **•	Priority Scheduling for Flexible Machining Systems with Multiple Setup Stations and Multi-Fixturing Pallets**
+  - Hanyang University (한양대학교 산업과학연구소 연구지원사업 – 연구 실무책임), 2023.07 - 2024.02
 - **Consulting Mathematical Optimization Algrithms**
   - LG-CNS (산업체 과제 – 연구 실무책임), 2023.04 - 2024.03
 - **Hybrid Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Mathematical Models and Predictive/Reactive Algorithms**
