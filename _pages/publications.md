@@ -25,7 +25,7 @@ author_profile: true
 
 ## **Domestic Journals**
 1. Sim, D.-G., Choi, H., **Kim, H.-I.,** Youn, A.-J., and Lee, D.-H.\*, "Priority scheduling for flexible machining systems with multiple setup stations and multi-fixturing pallets." _Journal of the Research Institute of Industrial Science_
-1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\*, "Capacity scalability planning algorithms for job-shop-type reconfigurable manufacturing systems with dynamic demands." _Journal of the Korean Institute of Indistral Engineers_
+1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\*, "Capacity scalability planning algorithms for job-shop-type reconfigurable manufacturing systems with dynamic demands." _Journal of the Korean Institute of Industral Engineers_
 
 ## **International Conferences**
 1. Sim, D.-G., **Kim, H.-I.,** Youn, A.-J,, and Lee, D.-H.\*, 2023, Operations Scheduling for Flexible Manufacturing Systems with Multiple Setup Stations and Multi-fixturing Pallets, Proceedings of the International Conference on Sustainable Energy and Green Technology (SEGT 2023), Ho Chi Minh City, Vietnam. (2023.12)
