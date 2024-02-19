@@ -41,7 +41,7 @@ author_profile: true
 
 ## **Research Projects**
 ## **In Progress**
-- **•	Priority Scheduling for Flexible Machining Systems with Multiple Setup Stations and Multi-Fixturing Pallets**
+- **Priority Scheduling for Flexible Machining Systems with Multiple Setup Stations and Multi-Fixturing Pallets**
   - Hanyang University (한양대학교 산업과학연구소 연구지원사업 – 연구 실무책임), 2023.07 - 2024.02
 - **Consulting Mathematical Optimization Algrithms**
   - LG-CNS (산업체 과제 – 연구 실무책임), 2023.04 - 2024.03
