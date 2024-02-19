@@ -6,11 +6,16 @@ author_profile: true
 ---
 ## **Working Papers**
 - Two-phase solution algorithms for flow shop scheduling with reworks under overlapped queue time limits
-- A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits
-- Team orienteering with possible multiple visit: mathematical model and solution algorithms
-- A mathematical model and solution algorithms for optimizing system-level configurations of reconfigurable single part flow lines
+- Scheduling algorithms for flow shop scheduling with reworks under overlapped queue time limits: Minimizing total tardiness
+- Scheduling algorithms for hybrid flow shop scheduling with reworks under overlapped queue time limits
+- Multi-objective scheduling algorithms for dynamic hybird flow shop scheduling with reworks under overlapped queue time limits
 - System-level configuration selection algorithms for reconfigurable single part flow lines with controllable processing times
 
+## **Submitted Papers**
+- A mathematical model and solution algorithms for optimizing system-level configurations of reconfigurable single part flow lines
+- A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits
+- Team orienteering with possible multiple visit: mathematical model and solution algorithms
+  
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
 1. Cho, Y., **Kim, H.-I.,** Kim, Y.-R., Yoo, S.-K., Kim, B.-H., and Lee, D.-H.\* "A scheduling mechanism for hybrid flow shops with reworks under general queue time limits" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 2024: 1-9. [https://doi.org/10.1177/09544054231182](https://doi.org/10.1177/09544054231182174)
