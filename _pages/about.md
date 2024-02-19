@@ -10,7 +10,7 @@ redirect_from:
 
 _한양대학교 산업공학과 김현일_ 
 - Ph.D. Candidate & Teaching Faculty in Department of Industrial Engineering, Hanyang University, Republic of Korea
-- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.02)
+- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.02.19)
   
 ## **Research Interests**
 - Design and Operation of Manufacturing/Service Systems
