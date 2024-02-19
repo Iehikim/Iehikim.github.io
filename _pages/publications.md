@@ -37,7 +37,7 @@ author_profile: true
 1. Sim, D.-G., **Kim, H.-I.,** Kim, G., Choi, J., and Lee, D.-H.\*, 2022, A Case Study on Production Planning for a Bolt Manufacturing System, Proceedings of the Fall KIIE Conference, Incheon National University, Incheon. (2022.11)
 1. **Kim, H.-I.,** and Lee, D.-H.\*, 2022, Variable Neighborhood Search Algorithms for Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the Spring KIIE/KORMS Joint Conference, Jeju, Korea. (2022.06)
 1. Heo, S.-S., Sim, D.-G., **Kim, H.-I.,** and Lee, D.-H.\*, 2021, A Random Forest based Scheduling Approach for a Flexible Manufacturing System with Multi-fixturing Pallets, Proceedings of the Fall KIIE Conference, Dongguk University, Seoul. (2021.11)
-1. **Kim, H.-I.,** Kim, Y.-R., Li, X., and Lee, D.-H.\*,2021, Mathematical Model and Simple Heuristic for Flow Shop Scheduling with Overlapped Queue Time Limits and Reworks, Proceedings of the Spring KIIE/KORMS Joint Conference, Seogwipo, Jeju. (2021.06)<br /><br />
+1. **Kim, H.-I.,** Kim, Y.-R., Li, X., and Lee, D.-H.\*, 2021, Mathematical Model and Simple Heuristic for Flow Shop Scheduling with Overlapped Queue Time Limits and Reworks, Proceedings of the Spring KIIE/KORMS Joint Conference, Seogwipo, Jeju. (2021.06)<br /><br />
 
 ## **Research Projects**
 ## **In Progress**
