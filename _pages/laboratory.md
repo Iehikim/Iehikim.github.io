@@ -37,5 +37,3 @@ author_profile: true
      - Thesis: TBD
    - Hyeon-Ji Moon (문현지) MS in Industrial Engineering
      - Thesis: TBD
-  - Si-Hyoun Go (고시현) MS in Industrial Engineering
-     - Thesis: TBD
