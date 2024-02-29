@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hyeon-Il Kim, Ph.D."
+title: "Hyeon-Il Kim, Ph.D. Candidate"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,9 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-_한양대학교 산업공학과 김현일_ 
 - Ph.D. Candidate & Teaching Faculty in Department of Industrial Engineering, Hanyang University, Republic of Korea
-- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.02.24)
+- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.03.01)
   
 ## **Research Interests**
 - Design and Operation of Manufacturing/Service Systems
@@ -74,7 +73,8 @@ _한양대학교 산업공학과 김현일_
   - The Korean Society of Supply Chain Management (KSCM)
 
 ## **Activities**
-- 대한산업공학회 FIELD 학술교류부서, March 2017 - December 2018
+- Academic Competition Team
+  - Future Industrial Engineering Leaders and Dreamers (FIELD), March 2017 - December 2018
 
 ## **Programming Skills**
 - Languages: Python, C, C++, Java, R
