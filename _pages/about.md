@@ -9,13 +9,13 @@ redirect_from:
 ---
 
 - Ph.D. Candidate & Teaching Faculty in Department of Industrial Engineering, Hanyang University, Republic of Korea
-- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.03.01)
+- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.04.01)
   
 ## **Research Interests**
 - Design and Operation of Manufacturing/Service Systems
   - Production Planning and Scheduling, Inventory Management, Process Planning, etc.
 - Environmentally Conscious Design & Manufacturing
-  - Disassembly Process Planning and Scheduling, Disassembly Leveling and Lot-sizing, Planning and Scheduling in Remanufacturing Systems, Design for Environment, etc. 
+  - Disassembly Process Planning and Scheduling, Planning and Scheduling in Remanufacturing Systems, Design for Environment, etc. 
 - Forward and Reverse Logistics
   - Network Design (Facility Location), Vehicle Routing and Scheduling, etc.
 - Industrial Applications
