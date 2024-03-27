@@ -16,7 +16,7 @@ author_profile: true
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
-1. Jung, H.-B., **Kim, H.-I.,** and Lee, D.-H.\* "Team orienteering with possible multiple visits: Mathematical model and solution algorithms" _Computers and Industrial Engineering _ 2024 Accepted
+1. Jung, H.-B., **Kim, H.-I.,** and Lee, D.-H.\* "Team orienteering with possible multiple visits: Mathematical model and solution algorithms" _Computers and Industrial Engineering_ 2024: 110097. [https://doi.org/10.1016/j.cie.2024.110097](https://doi.org/10.1016/j.cie.2024.110097)
 1. Cho, Y., **Kim, H.-I.,** Kim, Y.-R., Yoo, S.-K., Kim, B.-H., and Lee, D.-H.\* "A scheduling mechanism for hybrid flow shops with reworks under general queue time limits" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 2024: 1-9. [https://doi.org/10.1177/09544054231182](https://doi.org/10.1177/09544054231182174)
 1. Choi, Y.-H., **Kim, H.-I.,** and Lee, D.-H.\* "Disassembly leveling and lot-sizing for multiple product types with uncertain component demands" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 237(11) 2023: 1660-1670. [https://doi.org/10.1177/095440542211365](https://doi.org/10.1177/09544054221136526)
 1. **Kim, H.-I.,** and Lee, D.-H.\* "Scheduling algorithms for multi-stage flow shops with reworks under overlapped queue time limits." _International Journal of Production Research_ 61(20) 2023: 6908-6922. [https://doi.org/10.1080/00207543.2022.2139004](https://doi.org/10.1080/00207543.2022.2139004)<br /><br />
