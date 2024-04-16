@@ -31,8 +31,7 @@ author_profile: true
 1. **Kim, H.-I.,** and Lee, D.-H.\*, 2023, Variable Neighborhood Search Algorithms for Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Minimizing Total Tardiness, Proceedings of the 17th International Congress on Logistics and SCM Systems (ICLS2023), Seoul, Korea. (2023.08) – **Best Presentation Award**
 1. **Kim, H.-I.,** Youn A.-J., Lee, S.-H., and Lee, D.-H.\*, 2023, Variable Neighborhood Search Algorithms for System-level Configuration Selection in Reconfigurable Single Part Flow Lines, Proceedings of the 27th International Conference on Production Research (ICPR2023), Cluj-Napoca, Romania. (2023.07)
 1. **Kim, H.-I.,** and Lee, D.-H.\*, 2023, A Two-level Optimal Algorithm for Three-machine Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the 27th International Conference on Production Research (ICPR2023), Cluj-Napoca, Romania. (2023.07)
-1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\*, 2023, Multi-period Capacity Scalability Planning Algorithms for
-Job-shop-type Reconfigurable Manufacturing Systems with Increasing Demands, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference, Taichung, Taiwan. (2022.11)<br /><br />
+1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\*, 2022, Multi-period Capacity Scalability Planning Algorithms for Job-shop-type Reconfigurable Manufacturing Systems with Increasing Demands, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference, Taichung, Taiwan. (2022.11)<br /><br />
 
 ## **Domestic Conferences**
 1. **Kim, H.-I.,** Youn, A.-J., Lee, K.-M., and Lee, D.-H.\*, 2023, System-level Configuration Selection Algorithms for Reconfigurable Single Part Flow Lines, Proceedings of the Fall KIIE Conference, UNIST, Ulsan, South Korea. (2023.11)
