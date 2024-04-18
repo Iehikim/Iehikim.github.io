@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 - Ph.D. Candidate in Department of Industrial Engineering, Hanyang University, Republic of Korea
-- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.04.01)
+- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.04.19)
   
 ## **Research Interests**
 - Design and Operation of Manufacturing/Service Systems
