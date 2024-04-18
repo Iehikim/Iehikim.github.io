@@ -4,7 +4,7 @@ title: "Student Directed"
 permalink: /laboratory/
 author_profile: true
 ---
-## **Co-Worked at Hanyang University, Department of Industrial Engineering, PLI Lab** 👨‍💻
+## **Co-Worked at HYU, PLI Lab** 👨‍💻
 
 - **2019**
   - Yooney Cho (조윤희) MS in Industrial Engineering
