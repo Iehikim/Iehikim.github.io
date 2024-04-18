@@ -5,17 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 ## **Working Papers**
-- Two-phase solution algorithms for flow shop scheduling with reworks under overlapped queue time limits
+- A two-phase solution approach for flow shop scheduling with reworks under overlapped queue time limits
 - Scheduling algorithms for hybrid flow shop scheduling with reworks under overlapped queue time limits
 - Multi-objective scheduling algorithms for dynamic hybird flow shop scheduling with reworks under overlapped queue time limits
-- System-level configuration selection algorithms for reconfigurable single part flow lines with controllable processing times
+- System design for configuration selection in reconfigurable single part flow lines with multiple machine types and controllable processing times
 
 ## **Submitted Papers**
-- A mathematical model and solution algorithms for optimizing system-level configurations of reconfigurable single part flow lines
 - A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
+1. **Kim, H.-I.,** Youn, A.-J., and Lee, D.-H.\* "A mathematical model and solution algorithms for optimizing system-level configurations of reconfigurable single part flow lines." _International Journal of Production Research_ 2024.
 1. Jung, H.-B., **Kim, H.-I.,** and Lee, D.-H.\* "Team orienteering with possible multiple visits: Mathematical model and solution algorithms" _Computers and Industrial Engineering_ 2024: 110097. [https://doi.org/10.1016/j.cie.2024.110097](https://www.sciencedirect.com/science/article/pii/S0360835224002183?dgcid=coauthor)
 1. Cho, Y., **Kim, H.-I.,** Kim, Y.-R., Yoo, S.-K., Kim, B.-H., and Lee, D.-H.\* "A scheduling mechanism for hybrid flow shops with reworks under general queue time limits" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 2024: 1-9. [https://doi.org/10.1177/09544054231182](https://doi.org/10.1177/09544054231182174)
 1. Choi, Y.-H., **Kim, H.-I.,** and Lee, D.-H.\* "Disassembly leveling and lot-sizing for multiple product types with uncertain component demands" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 237(11) 2023: 1660-1670. [https://doi.org/10.1177/095440542211365](https://doi.org/10.1177/09544054221136526)
@@ -34,6 +34,7 @@ author_profile: true
 1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\*, 2022, Multi-period Capacity Scalability Planning Algorithms for Job-shop-type Reconfigurable Manufacturing Systems with Increasing Demands, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference, Taichung, Taiwan. (2022.11)<br /><br />
 
 ## **Domestic Conferences**
+1. **Kim, H.-I.,** and Lee, D.-H.\*, 2024, A Branch and Bound Algorithm for Three-stage Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the Spring KIIE/KORMS/KSS Joint Conference, Yeosu, South Korea. (2024.05)
 1. **Kim, H.-I.,** Youn, A.-J., Lee, K.-M., and Lee, D.-H.\*, 2023, System-level Configuration Selection Algorithms for Reconfigurable Single Part Flow Lines, Proceedings of the Fall KIIE Conference, UNIST, Ulsan, South Korea. (2023.11)
 1. Li, X., **Kim, H.-I.,** Lee, S.-H., and Lee, D.-H.\*, 2023, Dynamic Capacity Scalability Algorithms for Job-shop-type Reconfigurable Manufacturing Systems, Proceedings of the Spring KIIE/KORMS Joint Conference, Jeju, Korea. (2023.06)
 1. Kim, Y.-R., **Kim, H.-I.,** and Lee, D.-H.\*, 2023, A Deep Reinforcement Learning based Scheduling Approach for Hybrid Flow Shops with Reworks under Queue Time Limits, Proceedings of the Spring KIIE/KORMS Joint Conference, Jeju, Korea. (2023.06)
@@ -46,20 +47,20 @@ author_profile: true
 
 ## **Research Projects**
 ## **In Progress**
-- **Priority Scheduling for Flexible Machining Systems with Multiple Setup Stations and Multi-Fixturing Pallets**
-  - Hanyang University (한양대학교 산업과학연구소 연구지원사업 – 연구 실무책임), 2023.07 - 2024.02
-- **Consulting Mathematical Optimization Algrithms**
-  - LG-CNS (산업체 과제 – 연구 실무책임), 2023.04 - 2024.03
 - **Hybrid Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Mathematical Models and Predictive/Reactive Algorithms**
   - National Research Foundation of Korea (NRF) (한국연구재단 이공학 개인기초연구지원 사업 – 연구 실무책임), 2022.06 - 2025.02
 - **Development of an AI-based Production Planning Technology for Reconfigurable Manufacturing Systems**
   - Ministry of Science and ICT (과학기술정보 통신부, 정보통신방송 기술개발사업: 스마트공장혁신기술개발  – 세부과제 연구 실무책임), 2022.04 - 2024.12
-- **Collaboration-Based Network Design for Flexible Delivery Service**
-  - National Research Foundation of Korea (NRF) (한국연구재단 이공학 개인기초연구지원 사업 – 참여), 2021.06 - 2024.02
 - **An Education and Research Team for Sharing and Cooperation based Smart Systems**
   - Ministry of Education (교육부 4 단계 두뇌한국21 (BK FOUR) 사업 교육 연구팀 – 참여), 2020.09 - 2027.08
 
 ## **Finished**
+- **Consulting Mathematical Optimization Algrithms**
+  - LG-CNS (산업체 과제 – 연구 실무책임), 2023.04 - 2024.03
+- **Collaboration-Based Network Design for Flexible Delivery Service**
+  - National Research Foundation of Korea (NRF) (한국연구재단 이공학 개인기초연구지원 사업 – 참여), 2021.06 - 2024.02
+- **Priority Scheduling for Flexible Machining Systems with Multiple Setup Stations and Multi-Fixturing Pallets**
+  - Hanyang University (한양대학교 산업과학연구소 연구지원사업 – 연구 실무책임), 2023.07 - 2024.02
 - **Development of Forecasting, Production Planning and Scheduling Algorithms and Framework for APS (Advanced Planning and Scheduling) System**
   - Youngsin Metal Industrial Co., Ltd. (산업체 과제 – 연구 실무책임), 2021.12 - 2022.11
 - **Consulting Mathematical Optimization Algorithms**
