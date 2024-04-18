@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-- Ph.D. Candidate & Teaching Faculty in Department of Industrial Engineering, Hanyang University, Republic of Korea
+- Ph.D. Candidate in Department of Industrial Engineering, Hanyang University, Republic of Korea
 - CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.04.01)
   
 ## **Research Interests**
