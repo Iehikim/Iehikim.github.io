@@ -35,6 +35,7 @@ author_profile: true
 
 ## **Domestic Conferences**
 1. **Kim, H.-I.,** and Lee, D.-H.\*, 2024, A Branch and Bound Algorithm for Three-stage Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the Spring KIIE/KORMS/KSS Joint Conference, Yeosu, South Korea. (2024.05)
+1. Youn, A.-J., **Kim, H.-I.,** and Lee, D.-H.\*, 2024, System-level Configuration Optimization Algorithms for Reconfigurable Single Part Flow Lines with Controllable Processing Times, Proceedings of the Spring KIIE/KORMS/KSS Joint Conference, Yeosu, South Korea. (2024.05)
 1. **Kim, H.-I.,** Youn, A.-J., Lee, K.-M., and Lee, D.-H.\*, 2023, System-level Configuration Selection Algorithms for Reconfigurable Single Part Flow Lines, Proceedings of the Fall KIIE Conference, UNIST, Ulsan, South Korea. (2023.11)
 1. Li, X., **Kim, H.-I.,** Lee, S.-H., and Lee, D.-H.\*, 2023, Dynamic Capacity Scalability Algorithms for Job-shop-type Reconfigurable Manufacturing Systems, Proceedings of the Spring KIIE/KORMS Joint Conference, Jeju, Korea. (2023.06)
 1. Kim, Y.-R., **Kim, H.-I.,** and Lee, D.-H.\*, 2023, A Deep Reinforcement Learning based Scheduling Approach for Hybrid Flow Shops with Reworks under Queue Time Limits, Proceedings of the Spring KIIE/KORMS Joint Conference, Jeju, Korea. (2023.06)
