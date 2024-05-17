@@ -21,7 +21,7 @@ redirect_from:
 - Industrial Applications
   - Reconfigurable Manufacturing Systems, Flexible Manufacturing Systems, Semiconductor Manufacturing Systems, Fastner Manufacturing Systems, Automatic Guided Vehicle Systems, etc.
 - Applications of Optimization Methodologies
-  - Mathematical Programming (LP, IP, NLP), Interpretable Artificial Intelligence, Reinforcement Learning, Meta-heuristics, etc.
+  - Mathematical Programming (LP, IP, NLP), Interpretable Artificial Intelligence, Reinforcement Learning, Meta-heuristics, Matheuristic etc.
 - Applications of Operations Research
 
 ## **Education**
