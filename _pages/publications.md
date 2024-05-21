@@ -8,7 +8,8 @@ author_profile: true
 - A two-phase solution approach for flow shop scheduling with reworks under overlapped queue time limits
 - Scheduling algorithms for hybrid flow shop scheduling with reworks under overlapped queue time limits
 - Multi-objective scheduling algorithms for dynamic hybird flow shop scheduling with reworks under overlapped queue time limits
-- System design for configuration selection in reconfigurable single part flow lines with multiple machine types and controllable processing times
+- System-level configuration optimization algorithms for reconfigurable single part flow lines with controllable processing times
+- A decomposition-based solution approach for reconfigurable multi-part flow lines with multiple machine types 
 
 ## **Submitted Papers**
 - A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits
