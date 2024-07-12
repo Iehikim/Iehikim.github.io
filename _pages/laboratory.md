@@ -24,12 +24,10 @@ author_profile: true
        
 - **2024**
    - Ae-Jin Youn (윤애진) MS in Industrial Engineering
-     - Thesis: TBD
+     - Thesis: System-level Configuration Optimization Algorithms for Reconfigurable Single Part Flow Lines with Controllable Processing Times
        
 - **2025**
    - Keon-Min Lee (이건민) MS in Industrial Engineering
-     - Thesis: TBD
-   - Chenghan Bai (백정한) MS in Industrial Engineering
      - Thesis: TBD
        
 - **2026**
