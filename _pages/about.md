@@ -28,7 +28,8 @@ redirect_from:
 - Ph.D. Degree in [Department of Industrial Engineering](http://ie.hanyang.ac.kr/)
   - Hanyang University, Republic of Korea 
   - [Production Logistics & Information Lab](http://pli.hanyang.ac.kr/), Advisor: [Prof. Dong-Ho Lee](https://scholar.google.com/citations?user=Mlnfd5AAAAAJ&hl=ko)
-  - 2022.03 - 2025.02 (Expected)
+  - 2022.03 - 2025.08 (Expected)
+  - GPA: 4.00/4.5
 - M.S. Degree in [Department of Industrial Engineering](http://ie.hanyang.ac.kr/)
   - Hanyang University, Republic of Korea 
   - [Production Logistics & Information Lab](http://pli.hanyang.ac.kr/), Advisor: [Prof. Dong-Ho Lee](https://scholar.google.com/citations?user=Mlnfd5AAAAAJ&hl=ko)
