@@ -5,14 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 ## **Working Papers**
-- A two-phase solution approach for flow shop scheduling with reworks under overlapped queue time limits
+- A two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits
 - Scheduling algorithms for hybrid flow shop scheduling with reworks under overlapped queue time limits
 - Multi-objective scheduling algorithms for dynamic hybird flow shop scheduling with reworks under overlapped queue time limits
-- System-level configuration optimization algorithms for reconfigurable single part flow lines with controllable processing times
-- A decomposition-based solution approach for reconfigurable multi-part flow lines with multiple machine types 
+- A decomposition-based solution approach for reconfigurable multi-part flow lines with multiple machine types
+- Hybrud flow shop scheduling with eligible unrelated parallel machines and contollalble processing times
 
 ## **Submitted Papers**
-- A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits
+- A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits (Under review)
+- System-level configuration optimization algorithms for reconfigurable single part flow lines with controllable processing times (Submitted)
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
@@ -24,15 +25,17 @@ author_profile: true
 *: corresponding authors
 
 ## **Domestic Journals**
-1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\*, "Capacity scalability planning algorithms for job-shop-type reconfigurable manufacturing systems with dynamic demands." _Journal of the Korean Institute of Industral Engineers_ 50(3) 2024: 157-172.
+1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\*, "Capacity scalability planning algorithms for job-shop-type reconfigurable manufacturing systems with dynamic demands." _Journal of the Korean Institute of Industral Engineers_ 50(3) 2024: 157-172. [PDF](https://jkiie.org/xml/40903/40903.pdf)
 1. Sim, D.-G., Choi, H., **Kim, H.-I.,** Youn, A.-J., and Lee, D.-H.\*, "Priority scheduling for flexible machining systems with multiple setup stations and multi-fixturing pallets." _Journal of the Research Institute of Industrial Science_
 
 ## **International Conferences**
+1. **Kim, H.-I.,** and Lee, D.-H.\*, 2024, Two-phase Variable Neighborhood Search Algorithms for Multi-stage Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2024), Chiang Mai, Thailand. (2024.11)
+1. Lee, J.-Y., **Kim, H.-I.,** and Lee, D.-H.\*, 2024, Hybrid Flow Shop Scheduling with Eligible Unrelated Parallel Machines and Controllable Processing Times, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2024), Chiang Mai, Thailand. (2024.11)
 1. Sim, D.-G., **Kim, H.-I.,** Youn, A.-J,, and Lee, D.-H.\*, 2023, Operations Scheduling for Flexible Manufacturing Systems with Multiple Setup Stations and Multi-fixturing Pallets, Proceedings of the International Conference on Sustainable Energy and Green Technology (SEGT 2023), Ho Chi Minh City, Vietnam. (2023.12)
-1. **Kim, H.-I.,** and Lee, D.-H.\*, 2023, Variable Neighborhood Search Algorithms for Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Minimizing Total Tardiness, Proceedings of the 17th International Congress on Logistics and SCM Systems (ICLS2023), Seoul, Korea. (2023.08) – **Best Presentation Award**
-1. **Kim, H.-I.,** Youn A.-J., Lee, S.-H., and Lee, D.-H.\*, 2023, Variable Neighborhood Search Algorithms for System-level Configuration Selection in Reconfigurable Single Part Flow Lines, Proceedings of the 27th International Conference on Production Research (ICPR2023), Cluj-Napoca, Romania. (2023.07)
-1. **Kim, H.-I.,** and Lee, D.-H.\*, 2023, A Two-level Optimal Algorithm for Three-machine Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the 27th International Conference on Production Research (ICPR2023), Cluj-Napoca, Romania. (2023.07)
-1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\*, 2022, Multi-period Capacity Scalability Planning Algorithms for Job-shop-type Reconfigurable Manufacturing Systems with Increasing Demands, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference, Taichung, Taiwan. (2022.11)<br /><br />
+1. **Kim, H.-I.,** and Lee, D.-H.\*, 2023, Variable Neighborhood Search Algorithms for Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Minimizing Total Tardiness, Proceedings of the 17th International Congress on Logistics and SCM Systems (ICLS 2023), Seoul, Korea. (2023.08) – **Best Presentation Award**
+1. **Kim, H.-I.,** Youn A.-J., Lee, S.-H., and Lee, D.-H.\*, 2023, Variable Neighborhood Search Algorithms for System-level Configuration Selection in Reconfigurable Single Part Flow Lines, Proceedings of the 27th International Conference on Production Research (ICPR 2023), Cluj-Napoca, Romania. (2023.07)
+1. **Kim, H.-I.,** and Lee, D.-H.\*, 2023, A Two-level Optimal Algorithm for Three-machine Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the 27th International Conference on Production Research (ICPR 2023), Cluj-Napoca, Romania. (2023.07)
+1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\*, 2022, Multi-period Capacity Scalability Planning Algorithms for Job-shop-type Reconfigurable Manufacturing Systems with Increasing Demands, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2022), Taichung, Taiwan. (2022.11)<br /><br />
 
 ## **Domestic Conferences**
 1. **Kim, H.-I.,** and Lee, D.-H.\*, 2024, A Branch and Bound Algorithm for Three-stage Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the Spring KIIE/KORMS/KSS Joint Conference, Yeosu, South Korea. (2024.05)
