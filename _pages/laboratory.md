@@ -29,6 +29,8 @@ author_profile: true
 - **2025**
    - Keon-Min Lee (이건민) MS in Industrial Engineering
      - Thesis: TBD
+   - Chenghan Bai (백정한) MS in Industrial Engineering
+     - Thesis: TBD
        
 - **2026**
    - Jun-Yeong Lee (이준영) MS in Industrial Engineering
