@@ -6,14 +6,15 @@ author_profile: true
 ---
 ## **Working Papers**
 - A two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits
-- Scheduling algorithms for hybrid flow shop scheduling with reworks under overlapped queue time limits
+- Evolutionary learning based scheduling approach for hybrid flow shop scheduling with reworks under overlapped queue time limits
 - Multi-objective scheduling algorithms for dynamic hybird flow shop scheduling with reworks under overlapped queue time limits
 - A matheuristic based solution approach for system-level configuration selection of reconfigurable multi-part flow lines
 - Operations scheduling for remanufacturing systems with flow-shop-type disassembly, reprocessing and reassembly lines
+- Disassembly leveling and lot-sizing for uncertain disassembly operations: Solution algorithms and a case study on electric vehicle battery
 
 ## **Submitted Papers**
-- A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits (Under revision)
-- System-level configuration optimization algorithms for reconfigurable single part flow lines with controllable processing times
+- A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits (Re-submitted)
+- System-level configuration optimization algorithms for reconfigurable single part flow lines with controllable processing times (Submitted)
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
@@ -30,7 +31,7 @@ author_profile: true
 
 ## **International Conferences**
 1. **Kim, H.-I.,** and Lee, D.-H.\*, 2024, Two-phase Variable Neighborhood Search Algorithms for Multi-stage Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2024), Chiang Mai, Thailand. (2024.11)
-1. Lee, J.-Y., **Kim, H.-I.,** and Lee, D.-H.\*, 2024, Hybrid Flow Shop Scheduling with Eligible Unrelated Parallel Machines and Controllable Processing Times, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2024), Chiang Mai, Thailand. (2024.11)
+1. Lee, J.-Y., **Kim, H.-I.,** Choi, Y.-H., and Lee, D.-H.\*, 2024, Hybrid Flow Shop Scheduling with Eligible Unrelated Parallel Machines and Controllable Processing Times, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2024), Chiang Mai, Thailand. (2024.11)
 1. Sim, D.-G., **Kim, H.-I.,** Youn, A.-J,, and Lee, D.-H.\*, 2023, Operations Scheduling for Flexible Manufacturing Systems with Multiple Setup Stations and Multi-fixturing Pallets, Proceedings of the International Conference on Sustainable Energy and Green Technology (SEGT 2023), Ho Chi Minh City, Vietnam. (2023.12)
 1. **Kim, H.-I.,** and Lee, D.-H.\*, 2023, Variable Neighborhood Search Algorithms for Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Minimizing Total Tardiness, Proceedings of the 17th International Congress on Logistics and SCM Systems (ICLS 2023), Seoul, Korea. (2023.08) – **Best Presentation Award**
 1. **Kim, H.-I.,** Youn A.-J., Lee, S.-H., and Lee, D.-H.\*, 2023, Variable Neighborhood Search Algorithms for System-level Configuration Selection in Reconfigurable Single Part Flow Lines, Proceedings of the 27th International Conference on Production Research (ICPR 2023), Cluj-Napoca, Romania. (2023.07)
@@ -38,6 +39,7 @@ author_profile: true
 1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\*, 2022, Multi-period Capacity Scalability Planning Algorithms for Job-shop-type Reconfigurable Manufacturing Systems with Increasing Demands, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2022), Taichung, Taiwan. (2022.11)<br /><br />
 
 ## **Domestic Conferences**
+1. **Kim, H.-I.,** and Lee, D.-H.\*, 2024, Genetic Programming based Scheduling for Hybrid Flow Shops with Reworks under Overlapped Queue Time Limits, Proceedings of the Fall KIIE Conference, Seoul, South Korea. (2024.10)
 1. **Kim, H.-I.,** and Lee, D.-H.\*, 2024, A Branch and Bound Algorithm for Three-stage Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the Spring KIIE/KORMS/KSS Joint Conference, Yeosu, South Korea. (2024.05)
 1. Youn, A.-J., **Kim, H.-I.,** and Lee, D.-H.\*, 2024, System-level Configuration Optimization Algorithms for Reconfigurable Single Part Flow Lines with Controllable Processing Times, Proceedings of the Spring KIIE/KORMS/KSS Joint Conference, Yeosu, South Korea. (2024.05)
 1. **Kim, H.-I.,** Youn, A.-J., Lee, K.-M., and Lee, D.-H.\*, 2023, System-level Configuration Selection Algorithms for Reconfigurable Single Part Flow Lines, Proceedings of the Fall KIIE Conference, UNIST, Ulsan, South Korea. (2023.11)
