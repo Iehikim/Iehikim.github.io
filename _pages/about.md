@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 - Ph.D. Candidate in Department of Industrial Engineering, Hanyang University, Republic of Korea
-- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.08.01)
+- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2024.10.14)
   
 ## **Research Interests**
 - Design and Operation of Manufacturing/Service Systems
@@ -40,7 +40,7 @@ redirect_from:
   - Kyungsung University, Republic of Korea
   - Advisor: Prof. Chang Seong Ko
   - 2014.03 - 2020.02
-  - GPA: 4.45/4.5 (Summa cum Laude)
+  - GPA: 4.44/4.5 (Summa cum Laude)
 
 ## **Work Experiences**
 - Lecturer, 2023.09 - 2024.08
@@ -79,4 +79,4 @@ redirect_from:
 
 ## **Programming Skills**
 - Languages: Python, C, C++, Java, R
-- Softwares: CPLEX, Gurobi
+- Softwares: CPLEX, Gurobi, MATLAB
