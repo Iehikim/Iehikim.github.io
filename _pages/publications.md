@@ -13,13 +13,13 @@ author_profile: true
 - Disassembly leveling and lot-sizing for uncertain disassembly operations: Solution algorithms and a case study on electric vehicle battery
 
 ## **Submitted Papers**
-- A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits (Re-submitted)
-- System-level configuration optimization algorithms for reconfigurable single part flow lines with controllable processing times (Submitted)
+
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
+1. **Kim, H.-I.,** Kim, Y.-R., and Lee, D.-H.\* "A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits." _Computers & Industrial Engineering_ 2025 (Accepted).
 1. **Kim, H.-I.,** Youn, A.-J., and Lee, D.-H.\* "A mathematical model and solution algorithms for optimizing system-level configurations of reconfigurable single part flow lines." _International Journal of Production Research_ 2024. [https://doi.org/10.1080/00207543.2024.2355324](https://www.tandfonline.com/doi/epdf/10.1080/00207543.2024.2355324?needAccess=true)
-1. Jung, H.-B., **Kim, H.-I.,** and Lee, D.-H.\* "Team orienteering with possible multiple visits: Mathematical model and solution algorithms" _Computers and Industrial Engineering_ 190 2024: 110097. [https://doi.org/10.1016/j.cie.2024.110097](https://www.sciencedirect.com/science/article/pii/S0360835224002183?dgcid=coauthor)
+1. Jung, H.-B., **Kim, H.-I.,** and Lee, D.-H.\* "Team orienteering with possible multiple visits: Mathematical model and solution algorithms" _Computers & Industrial Engineering_ 190 2024: 110097. [https://doi.org/10.1016/j.cie.2024.110097](https://www.sciencedirect.com/science/article/pii/S0360835224002183?dgcid=coauthor)
 1. Cho, Y., **Kim, H.-I.,** Kim, Y.-R., Yoo, S.-K., Kim, B.-H., and Lee, D.-H.\* "A scheduling mechanism for hybrid flow shops with reworks under general queue time limits" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 238(6-7) 2024: 962-970. [https://doi.org/10.1177/09544054231182](https://doi.org/10.1177/09544054231182174)
 1. Choi, Y.-H., **Kim, H.-I.,** and Lee, D.-H.\* "Disassembly leveling and lot-sizing for multiple product types with uncertain component demands" _Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture_ 237(11) 2023: 1660-1670. [https://doi.org/10.1177/095440542211365](https://doi.org/10.1177/09544054221136526)
 1. **Kim, H.-I.,** and Lee, D.-H.\* "Scheduling algorithms for multi-stage flow shops with reworks under overlapped queue time limits." _International Journal of Production Research_ 61(20) 2023: 6908-6922. [https://doi.org/10.1080/00207543.2022.2139004](https://doi.org/10.1080/00207543.2022.2139004)<br /><br />
@@ -54,14 +54,14 @@ author_profile: true
 
 ## **Research Projects**
 ## **In Progress**
-- **Hybrid Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Mathematical Models and Predictive/Reactive Algorithms**
-  - National Research Foundation of Korea (NRF) (한국연구재단 이공학 개인기초연구지원 사업 – 연구 실무책임), 2022.06 - 2025.02
-- **Development of an AI-based Production Planning Technology for Reconfigurable Manufacturing Systems**
-  - Ministry of Science and ICT (과학기술정보 통신부, 정보통신방송 기술개발사업: 스마트공장혁신기술개발  – 세부과제 연구 실무책임), 2022.04 - 2024.12
 - **An Education and Research Team for Sharing and Cooperation based Smart Systems**
   - Ministry of Education (교육부 4 단계 두뇌한국21 (BK FOUR) 사업 교육 연구팀 – 참여), 2020.09 - 2027.08
 
 ## **Finished**
+- **Hybrid Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Mathematical Models and Predictive/Reactive Algorithms**
+  - National Research Foundation of Korea (NRF) (한국연구재단 이공학 개인기초연구지원 사업 – 연구 실무책임), 2022.06 - 2025.02
+- **Development of an AI-based Production Planning Technology for Reconfigurable Manufacturing Systems**
+  - Ministry of Science and ICT (과학기술정보 통신부, 정보통신방송 기술개발사업: 스마트공장혁신기술개발  – 세부과제 연구 실무책임), 2022.04 - 2024.12
 - **Consulting Mathematical Optimization Algrithms**
   - LG-CNS (산업체 과제 – 연구 실무책임), 2023.04 - 2024.03
 - **Collaboration-Based Network Design for Flexible Delivery Service**
