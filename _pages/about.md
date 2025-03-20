@@ -52,10 +52,13 @@ redirect_from:
       - [INE9095] Production Planning and Control (Spring 2024)
 - Teaching Assistant
   - Department of Industrial Engineering, Hanyang University, Republic of Korea
-    - [INE2009] Linear Programming (Fall 2020, Fall 2021, Fall 2022)
-    - [INE3081] Operation Managements (Spring 2020, Spring 2021, Spring 2022, Spring 2023)
-    - [INE2075] Introduction to Smart Factory (Spring 2020, Spring 2021, Spring 2022, Spring 2023)
-    - [INE4100] Manufacturing Systems Engineering (Fall 2020, Fall 2021, Fall 2022)
+    - **Undergraduate**
+      - [INE2009] Linear Programming (Fall 2020, Fall 2021, Fall 2022, Fall 2024)
+      - [INE3081] Operation Managements (Spring 2020, Spring 2021, Spring 2022, Spring 2023, Spring 2025)
+      - [INE2075] Introduction to Smart Factory (Spring 2020, Spring 2021, Spring 2022, Spring 2023)
+      - [INE4100] Manufacturing Systems Engineering (Fall 2020, Fall 2021, Fall 2022)
+    - **Graduate**
+      - [INE9106] Integer and Combinatorial Optimization (Spring 2025)
       
 ## **Honors & Awards**
 - Best Presentation Award, August 2023
