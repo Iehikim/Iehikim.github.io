@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hyeon-Il Kim / PLI Lab in HYU"
+title                    : "Hyeon-Il Kim"
 title_separator          : "-"
 name                     : &name "Hyeon-Il Kim"
 description              : &description "Ph.D. Candidate in HYU"
