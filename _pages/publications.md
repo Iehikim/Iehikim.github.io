@@ -5,15 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 ## **Working Papers**
-- A two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits
 - Evolutionary learning based scheduling approach for hybrid flow shop scheduling with reworks under overlapped queue time limits
 - Digital twin-driven multi-objective dynamic hybrid flow shop scheduling with reworks under overlapped queue time limits
-- A matheuristic based solution approach for system-level configuration selection of reconfigurable multi-part flow lines
+- System-level configuration selection algorithms for reconfigurable multi-part flow lines with operation lot-splliting
 - Operations scheduling for remanufacturing systems with flow-shop-type disassembly, reprocessing and reassembly lines
 - Disassembly leveling and lot-sizing for uncertain disassembly operations: Solution algorithms and a case study on electric vehicle battery
 
 ## **Submitted Papers**
-
+- Two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
