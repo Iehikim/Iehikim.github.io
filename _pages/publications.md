@@ -7,7 +7,7 @@ author_profile: true
 ## **Working Papers**
 - Evolutionary learning based scheduling approach for hybrid flow shop scheduling with reworks under overlapped queue time limits
 - Digital twin-driven multi-objective dynamic hybrid flow shop scheduling with reworks under overlapped queue time limits
-- System-level configuration selection algorithms for reconfigurable multi-part flow lines with operation lot-splliting
+- System-level configuration selection algorithms for reconfigurable multi-part flow lines with operation lot-splitting
 - Operations scheduling for remanufacturing systems with flow-shop-type disassembly, reprocessing and reassembly lines
 - Disassembly leveling and lot-sizing for uncertain disassembly operations: Solution algorithms and a case study on electric vehicle battery
 
