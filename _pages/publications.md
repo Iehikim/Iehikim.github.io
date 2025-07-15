@@ -38,6 +38,8 @@ author_profile: true
 1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\* (2022). Multi-period Capacity Scalability Planning Algorithms for Job-shop-type Reconfigurable Manufacturing Systems with Increasing Demands, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2022), Taichung, Taiwan. (2022.11)<br /><br />
 
 ## **Domestic Conferences**
+1. **Kim, H.-I.,** and Lee, D.-H.\* (2025). A Genetic Programming based Variable Neighborhood Search Algorithm for Hybrid Flow Shops with Reworks under Overlapped Queue Time Limits, Proceedings of the Spring KIIE/KORMS/KSS Joint Conference, Jeju, South Korea. (2025.06)
+1. **Kim, H.-I.,** Lee, K.-M., and Lee, D.-H.\* (2025). System Configuration Selection Algorithms for Reconfigurable Multi-part Flow Lines with Non-identical Parallel Machine Workstations, Proceedings of the Spring KIIE/KORMS/KSS Joint Conference, Jeju, South Korea. (2025.06)
 1. **Kim, H.-I.,** and Lee, D.-H.\* (2024). Genetic Programming based Scheduling for Hybrid Flow Shops with Reworks under Overlapped Queue Time Limits, Proceedings of the Fall KIIE Conference, Seoul, South Korea. (2024.10)
 1. **Kim, H.-I.,** and Lee, D.-H.\* (2024). A Branch and Bound Algorithm for Three-stage Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the Spring KIIE/KORMS/KSS Joint Conference, Yeosu, South Korea. (2024.05)
 1. Youn, A.-J., **Kim, H.-I.,** and Lee, D.-H.\* (2024). System-level Configuration Optimization Algorithms for Reconfigurable Single Part Flow Lines with Controllable Processing Times, Proceedings of the Spring KIIE/KORMS/KSS Joint Conference, Yeosu, South Korea. (2024.05)
