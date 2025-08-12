@@ -28,12 +28,20 @@ author_profile: true
        
 - **2025**
    - Keon-Min Lee (이건민) MS in Industrial Engineering
-     - Thesis: TBD
+     - Thesis: Disassembly Leveling and Lot-sizing for End-of-life Products with Uncertain Component Yields
    - Chenghan Bai (백정한) MS in Industrial Engineering
-     - Thesis: TBD
+     - Thesis:  A Genetic Programming based Scheduling Approach for Remanufacturing Systems with Flow-shop type Disassembly, Reprocessing and Reassembly Lines
        
 - **2026**
    - Jun-Yeong Lee (이준영) MS in Industrial Engineering
      - Thesis: TBD
    - Hyeon-Ji Moon (문현지) MS in Industrial Engineering
+     - Thesis: TBD
+     - 
+- **2027**
+   - Min-Seo Lee (이민서) MS in Industrial Engineering
+     - Thesis: TBD
+   - Hyun-A Shim (심현아) MS in Industrial Engineering
+     - Thesis: TBD
+   - Dong-Jun Kim (김동준) MS in Industrial Engineering
      - Thesis: TBD
