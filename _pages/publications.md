@@ -14,7 +14,7 @@ author_profile: true
 - Dynamic configuration selection for reconfigurable single-part flow lines with controllable processing times
 
 ## **Submitted Papers**
-- Two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits, Under 1st revision, European Journal of Operational Research
+- Two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits, Under 1st revision, _European Journal of Operational Research_
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
