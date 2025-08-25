@@ -10,7 +10,7 @@ author_profile: true
 - Configuration selection algorithms for reconfigurable multi-part flow lines with non-identical machines at each stage and operation lot splitting
 - Operations scheduling for remanufacturing systems with flow-shop-type disassembly, reprocessing and reassembly lines
 - Disassembly leveling and lot-sizing for uncertain disassembly operations: Solution algorithms and a case study on electric vehicle battery
-- An iterative approach for configuration selection and scheduling of reconfigurable multi-part flow Lines with controllable processing times
+- An iterative approach for configuration selection and scheduling of reconfigurable multi-part flow lines with controllable processing times
 - Dynamic configuration selection for reconfigurable single-part flow lines with controllable processing times
 
 ## **Submitted Papers**
