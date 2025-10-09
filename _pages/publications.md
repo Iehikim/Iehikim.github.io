@@ -27,7 +27,7 @@ author_profile: true
 *: corresponding authors
 
 ## **Domestic Journals**
-1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\* (2024). Capacity scalability planning algorithms for job-shop-type reconfigurable manufacturing systems with dynamic demands, _Journal of the Korean Institute of Industral Engineers_, 50(3): 157-172. [PDF](https://jkiie.org/xml/40903/40903.pdf)
+1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\* (2024). Capacity scalability planning algorithms for job-shop-type reconfigurable manufacturing systems with dynamic demands, _Journal of the Korean Institute of Industrial Engineers_, 50(3): 157-172. [PDF](https://jkiie.org/xml/40903/40903.pdf)
 1. Sim, D.-G., Choi, H., **Kim, H.-I.,** Youn, A.-J., and Lee, D.-H.\* (2023). Priority scheduling for flexible machining systems with multiple setup stations and multi-fixturing pallets, _Journal of the Research Institute of Industrial Science_
 
 ## **International Conferences**
