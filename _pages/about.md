@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 - Ph.D. Candidate in Department of Industrial Engineering, Hanyang University, Republic of Korea
-- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2025.08.12)
+- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2025.11.12)
   
 ## **Research Interests**
 - Design and Operation of Manufacturing/Service Systems
@@ -28,7 +28,7 @@ redirect_from:
 - Ph.D. in [Industrial Engineering](http://ie.hanyang.ac.kr/)
   - Hanyang University, Republic of Korea 
   - [Production Logistics & Information Lab](http://pli.hanyang.ac.kr/), Advisor: [Prof. Dong-Ho Lee](https://scholar.google.com/citations?user=Mlnfd5AAAAAJ&hl=ko)
-  - 2022.03 - 2026.02 (Expected)
+  - 2022.03 - 2026.08 (Expected)
   - GPA: 4.00/4.5
 - M.S. in [Industrial Engineering](http://ie.hanyang.ac.kr/)
   - Hanyang University, Republic of Korea 
@@ -59,6 +59,7 @@ redirect_from:
       - [INE4100] Manufacturing Systems Engineering (Fall 2020, Fall 2021, Fall 2022)
     - **Graduate**
       - [INE9106] Integer and Combinatorial Optimization (Spring 2025)
+      - [INE8028] Sequencing and Scheduling (Fall 2025)
       
 ## **Honors & Awards**
 - Best Presentation Award, August 2023
