@@ -34,14 +34,12 @@ author_profile: true
        
 - **2026**
    - Jun-Yeong Lee (이준영) MS in Industrial Engineering
-     - Thesis: TBD
+     - Thesis: Iterative Algorithms for Configuration Selection and Scheduling of Reconfigurable Multi-part Flow Lines with Controllable Processing Times
    - Hyeon-Ji Moon (문현지) MS in Industrial Engineering
-     - Thesis: TBD
-     - 
+     - Thesis: Dynamic Configuration Selection Algorithms for Reconfigurable Single-part Flow Lines with Controllable Processing Times
+       
 - **2027**
    - Min-Seo Lee (이민서) MS in Industrial Engineering
      - Thesis: TBD
    - Hyun-A Shim (심현아) MS in Industrial Engineering
-     - Thesis: TBD
-   - Dong-Jun Kim (김동준) MS in Industrial Engineering
      - Thesis: TBD
