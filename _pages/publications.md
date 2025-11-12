@@ -5,16 +5,16 @@ permalink: /publications/
 author_profile: true
 ---
 ## **Working Papers**
-- A genetic programming based variable neighborhood search algorithm for hybrid flow shop scheduling with reworks under overlapped queue time limits.
+- A genetic programming based variable neighborhood search algorithm for hybrid flow shop scheduling with reworks under overlapped queue time limits
 - Digital twin-driven multi-objective dynamic hybrid flow shop scheduling with reworks under overlapped queue time limits
 - Configuration selection algorithms for reconfigurable multi-part flow lines with non-identical machines at each stage and operation lot splitting
-- Operations scheduling for remanufacturing systems with flow-shop-type disassembly, reprocessing and reassembly lines
+- A genetic programming based scheduling approach for remanufacturing systems with flow-shop-type disassembly, reprocessing and reassembly shops
 - Disassembly leveling and lot-sizing for uncertain disassembly operations: Solution algorithms and a case study on electric vehicle battery
 - An iterative approach for configuration selection and scheduling of reconfigurable multi-part flow lines with controllable processing times
 - Dynamic configuration selection for reconfigurable single-part flow lines with controllable processing times
 
 ## **Submitted Papers**
-- Two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits, Under 1st revision, _European Journal of Operational Research_
+- Two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits, Under 2nd revision, _European Journal of Operational Research_
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
@@ -31,6 +31,8 @@ author_profile: true
 1. Sim, D.-G., Choi, H., **Kim, H.-I.,** Youn, A.-J., and Lee, D.-H.\* (2023). Priority scheduling for flexible machining systems with multiple setup stations and multi-fixturing pallets, _Journal of the Research Institute of Industrial Science_
 
 ## **International Conferences**
+1. Bai, C., **Kim, H.-I.,** Lee, J.-Y., and Lee, D.-H.\* (2025). A Multi-tree Genetic Programming Algorithm for Scheduling Remanufacturing Systems with Disassembly, Reprocessing and Reassembly Lines, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2025), Hangzhou, China. (2025.11)
+1. Moon, H.-J., **Kim, H.-I.,** and Lee, D.-H.\* (2025). Dynamic Configuration Selection for Non-decreasing demands in Reconfigurable Single-part Flow Lines with Controllable Processing Times, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2025), Hangzhou, China. (2025.11)
 1. **Kim, H.-I.,** and Lee, D.-H.\* (2024). Two-phase Variable Neighborhood Search Algorithms for Multi-stage Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2024), Chiang Mai, Thailand. (2024.11)
 1. Lee, J.-Y., **Kim, H.-I.,** Choi, Y.-H., and Lee, D.-H.\* (2024). Hybrid Flow Shop Scheduling with Eligible Unrelated Parallel Machines and Controllable Processing Times, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2024), Chiang Mai, Thailand. (2024.11)
 1. Sim, D.-G., **Kim, H.-I.,** Youn, A.-J., and Lee, D.-H.\* (2023). Operations Scheduling for Flexible Manufacturing Systems with Multiple Setup Stations and Multi-fixturing Pallets, Proceedings of the International Conference on Sustainable Energy and Green Technology (SEGT 2023), Ho Chi Minh City, Vietnam. (2023.12)
@@ -40,6 +42,8 @@ author_profile: true
 1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\* (2022). Multi-period Capacity Scalability Planning Algorithms for Job-shop-type Reconfigurable Manufacturing Systems with Increasing Demands, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2022), Taichung, Taiwan. (2022.11)<br /><br />
 
 ## **Domestic Conferences**
+1. Lee, K.-M., **Kim, H.-I.,** Kang, J.-H., and Lee, D.-H.\* (2025). An Optimal Sample Average Approximation Algorithm for Disassembly Leveling and Lot-sizing for a Single Product Type with Uncertain Component Yields, Proceedings of the Fall KIIE Conference, KAIST, Daejon, South Korea. (2025.11)
+1. Lee, J.-Y., **Kim, H.-I.,** and Lee, D.-H.\* (2025). A Configuration Selection and Scheduling Algorithm for Reconfigurable Multi-part Flow Lines with Controllable Processing Times, Proceedings of the Fall KIIE Conference, KAIST, Daejon, South Korea. (2025.11)
 1. **Kim, H.-I.,** and Lee, D.-H.\* (2025). A Genetic Programming based Variable Neighborhood Search Algorithm for Hybrid Flow Shops with Reworks under Overlapped Queue Time Limits, Proceedings of the Spring KIIE/KORMS/KSS Joint Conference, Jeju, South Korea. (2025.06)
 1. **Kim, H.-I.,** Lee, K.-M., and Lee, D.-H.\* (2025). System Configuration Selection Algorithms for Reconfigurable Multi-part Flow Lines with Non-identical Parallel Machine Workstations, Proceedings of the Spring KIIE/KORMS/KSS Joint Conference, Jeju, South Korea. (2025.06)
 1. **Kim, H.-I.,** and Lee, D.-H.\* (2024). Genetic Programming based Scheduling for Hybrid Flow Shops with Reworks under Overlapped Queue Time Limits, Proceedings of the Fall KIIE Conference, Seoul, South Korea. (2024.10)
