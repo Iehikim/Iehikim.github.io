@@ -7,14 +7,14 @@ author_profile: true
 ## **Working Papers**
 - A genetic programming based variable neighborhood search algorithm for hybrid flow shop scheduling with reworks under overlapped queue time limits
 - Digital twin-driven multi-objective dynamic hybrid flow shop scheduling with reworks under overlapped queue time limits
-- Configuration selection algorithms for reconfigurable multi-part flow lines with non-identical machines at each stage and operation lot splitting
 - A genetic programming based scheduling approach for remanufacturing systems with flow-shop-type disassembly, reprocessing and reassembly shops
 - Disassembly leveling and lot-sizing for uncertain disassembly operations: Solution algorithms and a case study on electric vehicle battery
 - An iterative approach for configuration selection and scheduling of reconfigurable multi-part flow lines with controllable processing times
 - Dynamic configuration selection for reconfigurable single-part flow lines with controllable processing times
 
 ## **Submitted Papers**
-- Two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits, Under 2nd revision, _European Journal of Operational Research_
+- Two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits, Re-submitted after 2nd revision, _European Journal of Operational Research_
+- Configuration selection algorithms for reconfigurable multi-part flow lines with non-identical machines at each stage and operation lot splitting, Submitted, _International Journal of Production Research_
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
