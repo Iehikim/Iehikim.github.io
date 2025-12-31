@@ -13,11 +13,11 @@ author_profile: true
 - Dynamic configuration selection for reconfigurable single-part flow lines with controllable processing times
 
 ## **Submitted Papers**
-- Two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits, Re-submitted after 2nd revision, _European Journal of Operational Research_
 - Configuration selection algorithms for reconfigurable multi-part flow lines with non-identical machines at each stage and operation lot splitting, Submitted, _International Journal of Production Research_
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
+1. **Kim, H.-I., and Lee, D.-H.\* (2026). Two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits, _European Journal of Operational Research_ (Accepted).
 1. **Kim, H.-I.,** Kim, Y.-R., and Lee, D.-H.\* (2025). A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits, _Computers & Industrial Engineering_, 203: 111062. [https://doi.org/10.1016/j.cie.2025.111062](https://www.sciencedirect.com/science/article/pii/S0360835225002086/pdfft?md5=f7887a78c819626fc64869b53b3da871&pid=1-s2.0-S0360835225002086-main.pdf)
 1. **Kim, H.-I.,** Youn, A.-J., and Lee, D.-H.\* (2025). A mathematical model and solution algorithms for optimizing system-level configurations of reconfigurable single part flow lines, _International Journal of Production Research_, 63(1): 9-25. [https://doi.org/10.1080/00207543.2024.2355324](https://www.tandfonline.com/doi/epdf/10.1080/00207543.2024.2355324?needAccess=true)
 1. Jung, H.-B., **Kim, H.-I.,** and Lee, D.-H.\* (2024). Team orienteering with possible multiple visits: Mathematical model and solution algorithms, _Computers & Industrial Engineering_, 190: 110097. [https://doi.org/10.1016/j.cie.2024.110097](https://www.sciencedirect.com/science/article/pii/S0360835224002183?dgcid=coauthor)
