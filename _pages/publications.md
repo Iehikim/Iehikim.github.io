@@ -63,6 +63,8 @@ author_profile: true
 ## **In Progress**
 - **An Education and Research Team for Sharing and Cooperation based Smart Systems**
   - Ministry of Education (교육부 4 단계 두뇌한국21 (BK FOUR) 사업 교육 연구팀 – 참여), 2020.09 - 2027.08
+- **System-level Configuration Optimization Algorithms for Reconfigurable Single Part Flow Lines with Controllable Processing Times**
+  - Hanyang University (한양대학교 산업과학연구소 연구지원사업 – 연구 실무책임), 2025.08 - 2026.05
 
 ## **Finished**
 - **Hybrid Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Mathematical Models and Predictive/Reactive Algorithms**
