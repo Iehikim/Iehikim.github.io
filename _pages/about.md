@@ -78,10 +78,11 @@ redirect_from:
   - The Korean Society of Supply Chain Management (KSCM)
 
 ## **Professional Activities**
-- International Journal of Production Research (SCIE)
-- European Journal of Operational Research (SCIE)
-- Transportation Research Part E: Logistics and Transportation Review (SCIE)
-- Robotics and Computer Integrated Manufacturing (SCIE)
+- Invited Reviewer
+  - International Journal of Production Research (SCIE)
+  - European Journal of Operational Research (SCIE)
+  - Transportation Research Part E: Logistics and Transportation Review (SCIE)
+  - Robotics and Computer Integrated Manufacturing (SCIE)
 
 ## **Programming Skills**
 - Languages: Python, C, C++, Java, R
