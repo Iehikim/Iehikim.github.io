@@ -77,9 +77,11 @@ redirect_from:
 - Silver Prize in the Undergraduate Project Competition, June 2017
   - The Korean Society of Supply Chain Management (KSCM)
 
-## **Activities**
-- Academic Competition Team
-  - Future Industrial Engineering Leaders and Dreamers (FIELD), March 2017 - December 2018
+## **Professional Activities**
+- International Journal of Production Research (SCIE)
+- European Journal of Operational Research (SCIE)
+- Transportation Research Part E: Logistics and Transportation Review (SCIE)
+- Robotics and Computer Integrated Manufacturing (SCIE)
 
 ## **Programming Skills**
 - Languages: Python, C, C++, Java, R
