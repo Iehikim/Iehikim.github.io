@@ -80,6 +80,7 @@ redirect_from:
 ## **Professional Activities**
 - Invited Reviewer
   - International Journal of Production Research (SCIE)
+  - International Journal of Production Economics (SCIE)
   - European Journal of Operational Research (SCIE)
   - Computers & Industrial Engineering (SCIE)
   - Computers & Operations Research (SCIE)
