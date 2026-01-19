@@ -81,6 +81,8 @@ redirect_from:
 - Invited Reviewer
   - International Journal of Production Research (SCIE)
   - European Journal of Operational Research (SCIE)
+  - Computers & Industrial Engineering (SCIE)
+  - Computers & Operations Research (SCIE)
   - Transportation Research Part E: Logistics and Transportation Review (SCIE)
   - Robotics and Computer Integrated Manufacturing (SCIE)
 
