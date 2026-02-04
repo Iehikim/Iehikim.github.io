@@ -12,8 +12,8 @@ author_profile: true
 - Dynamic configuration selection for reconfigurable single-part flow lines with controllable processing times
 
 ## **Submitted Papers**
-- Configuration selection algorithms for reconfigurable multi-part flow lines with non-identical machines at each stage and operation lot splitting, Under review, _International Journal of Production Research_
-- A genetic programming based variable neighborhood search algorithm for hybrid flow shop scheduling with reworks under overlapped queue time limits, Under review, _International Journal of Production Economics_
+- Configuration selection algorithms for reconfigurable multi-part flow lines with non-identical machines at each stage and operation lot splitting, Under 1st revision, _International Journal of Production Research_
+- A genetic programming based variable neighborhood search algorithm for hybrid flow shop scheduling with reworks under overlapped queue time limits, Under review, _Swarm and Evolutionary Computation_
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
