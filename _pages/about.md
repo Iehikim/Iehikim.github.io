@@ -85,6 +85,7 @@ redirect_from:
   - International Journal of Production Research (SCIE)
   - International Journal of Production Economics (SCIE)
   - Journal of Manufacturing Systems (SCIE)
+  - Production Planning & Control (SCIE)
   - Robotics and Computer Integrated Manufacturing (SCIE)
   - Transportation Research Part E: Logistics and Transportation Review (SCIE)
 
