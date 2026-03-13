@@ -61,6 +61,8 @@ author_profile: true
 
 ## **Research Projects**
 ## **In Progress**
+- **Capacitated Disassembly Leveling and Lot-sizing for End-of-life Products with Uncertain Component Yields: Mathematical Models and Solution Algorithms**
+  - National Research Foundation of Korea (NRF) (한국연구재단 이공학 개인기초연구지원 사업 – 연구 실무책임), 2026.03 - 2028.02
 - **An Education and Research Team for Sharing and Cooperation based Smart Systems**
   - Ministry of Education (교육부 4 단계 두뇌한국21 (BK FOUR) 사업 교육 연구팀 – 참여), 2020.09 - 2027.08
 - **System-level Configuration Optimization Algorithms for Reconfigurable Single Part Flow Lines with Controllable Processing Times**
