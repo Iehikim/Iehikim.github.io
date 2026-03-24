@@ -4,6 +4,9 @@ main:
     url: /
   - title: "Research"
     url: /publications/
+
+  - title: "Projects"
+    url: /publications/
     
   - title: "Laboratory"
     url: /laboratory/
