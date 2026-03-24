@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "Projects"
+permalink: /Projects/
+author_profile: true
+---
+
 ## **Research Projects**
 ## **In Progress**
 - **Capacitated Disassembly Leveling and Lot-sizing for End-of-life Products with Uncertain Component Yields: Mathematical Models and Solution Algorithms**
