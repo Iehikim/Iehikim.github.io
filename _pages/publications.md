@@ -7,14 +7,14 @@ author_profile: true
 ## **Working Papers**
 - A multi-objective deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with machine availability and possible reworks under overlapped queue time limits
 - A genetic programming based scheduling approach for remanufacturing systems with flow-shop-type disassembly, reprocessing and reassembly shops
-- Disassembly leveling and lot-sizing for end-of-life products with uncertain component yields
-- Disassembly leveling and lot-sizing for end-of-life products with capacity constraints: Mathematical models and solution algorithms
+- Sample average approximation algorithms for disassembly leveling and lot-sizing of end-of-life products with uncertain component yields
+- Optimal and heuristic algorithms for disassembly leveling and lot-sizing for end-of-life products with capacity constraints
 - An iterative approach for configuration selection and scheduling of reconfigurable multi-part flow lines with controllable processing times
 - Dynamic configuration selection for reconfigurable single-part flow lines with controllable processing times
 
 ## **Submitted Papers**
 - Configuration selection algorithms for reconfigurable multi-part flow lines with non-identical machines at each stage and operation lot splitting, Under review after 1st revision, _International Journal of Production Research_
-- A genetic programming based variable neighborhood search algorithm for hybrid flow shop scheduling with reworks under overlapped queue time limits, Under review, _Swarm and Evolutionary Computation_
+- A genetic programming based variable neighborhood search algorithm for hybrid flow shop scheduling with reworks under overlapped queue time limits, Under 1st revision, _Swarm and Evolutionary Computation_
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
 ## **International Journals**
