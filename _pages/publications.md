@@ -28,8 +28,9 @@ author_profile: true
 *: corresponding authors
 
 ## **Domestic Journals**
+1. **Kim, H.-I.,** Youn, A.-J., and Lee, D.-H.\* (2026).  System-level Configuration Optimization Algorithms for Reconfigurable Single Part Flow Lines with Controllable Processing Times, _Journal of the Research Institute of Industrial Science_
+1. Sim, D.-G., Choi, H., **Kim, H.-I.,** Youn, A.-J., and Lee, D.-H.\* (2025). Priority scheduling for flexible machining systems with multiple setup stations and multi-fixturing pallets, _Journal of the Research Institute of Industrial Science_
 1. Li, X., **Kim, H.-I.,** and Lee, D.-H.\* (2024). Capacity scalability planning algorithms for job-shop-type reconfigurable manufacturing systems with dynamic demands, _Journal of the Korean Institute of Industrial Engineers_, 50(3): 157-172. [PDF](https://jkiie.org/xml/40903/40903.pdf)
-1. Sim, D.-G., Choi, H., **Kim, H.-I.,** Youn, A.-J., and Lee, D.-H.\* (2023). Priority scheduling for flexible machining systems with multiple setup stations and multi-fixturing pallets, _Journal of the Research Institute of Industrial Science_
 
 ## **International Conferences**
 1. Bai, C., **Kim, H.-I.,** Lee, J.-Y., and Lee, D.-H.\* (2025). A Multi-tree Genetic Programming Algorithm for Scheduling Remanufacturing Systems with Disassembly, Reprocessing and Reassembly Lines, Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2025), Hangzhou, China. (2025.11)
