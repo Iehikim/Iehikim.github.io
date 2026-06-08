@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hyeon-Il Kim, Ph.D. Candidate"
+title: "Hyeon-Il Kim, Postdoctoral Researcher"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
