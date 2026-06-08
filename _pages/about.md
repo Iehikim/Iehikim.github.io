@@ -8,10 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-- Ph.D. Candidate in Department of Industrial Engineering, Hanyang University, Republic of Korea
+- Postdoctoral Researcher at KTH Royal Institute of Technology, Stockholm, Sweden
 - CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2026.04.13)
   
-## **Research Interests**
+## **Work Experiences**
+- Postdoctoral Researcher, 2026.09 - 
+  - KTH Royal Institute of Technology, Stockholm, Sweden
+- Lecturer, 2023.09 - 2024.08
+  - Department of Industrial Engineering, Hanyang University, Republic of Korea
+    - **Undergraduate**
+      - [INE2009] Linear Programming (Fall 2023)
+      - [INE3081] Operation Managements (Spring 2024)
+    - **Graduate**
+      - [INE9095] Production Planning and Control (Spring 2024)
+
+## **Research Areas**
 - Design and Operation of Manufacturing/Service Systems
   - Production Planning and Scheduling, Inventory Management, Process Planning, etc.
 - Environmentally Conscious Design & Manufacturing
@@ -23,12 +34,12 @@ redirect_from:
 - Applications of Optimization Methodologies
   - Mathematical Programming (LP, IP, NLP), Interpretable Artificial Intelligence, Reinforcement Learning, Meta-heuristics, Matheuristic etc.
 - Applications of Operations Research
-
+- 
 ## **Education**
 - Ph.D. in [Industrial Engineering](http://ie.hanyang.ac.kr/)
   - Hanyang University, Republic of Korea 
   - [Production Logistics & Information Lab](http://pli.hanyang.ac.kr/), Advisor: [Prof. Dong-Ho Lee](https://scholar.google.com/citations?user=Mlnfd5AAAAAJ&hl=ko)
-  - 2022.03 - 2026.08 (Expected)
+  - 2022.03 - 2026.08
   - GPA: 4.00/4.5
 - M.S. in [Industrial Engineering](http://ie.hanyang.ac.kr/)
   - Hanyang University, Republic of Korea 
@@ -41,25 +52,6 @@ redirect_from:
   - Advisor: Prof. Chang Seong Ko
   - 2014.03 - 2020.02
   - GPA: 4.44/4.5 (Summa cum Laude)
-
-## **Work Experiences**
-- Lecturer, 2023.09 - 2024.08
-  - Department of Industrial Engineering, Hanyang University, Republic of Korea
-    - **Undergraduate**
-      - [INE2009] Linear Programming (Fall 2023)
-      - [INE3081] Operation Managements (Spring 2024)
-    - **Graduate**
-      - [INE9095] Production Planning and Control (Spring 2024)
-- Teaching Assistant
-  - Department of Industrial Engineering, Hanyang University, Republic of Korea
-    - **Undergraduate**
-      - [INE2009] Linear Programming (Fall 2020, Fall 2021, Fall 2022, Fall 2024)
-      - [INE3081] Operation Managements (Spring 2020, Spring 2021, Spring 2022, Spring 2023, Spring 2025)
-      - [INE2075] Introduction to Smart Factory (Spring 2020, Spring 2021, Spring 2022, Spring 2023)
-      - [INE4100] Manufacturing Systems Engineering (Fall 2020, Fall 2021, Fall 2022)
-    - **Graduate**
-      - [INE9106] Integer and Combinatorial Optimization (Spring 2025)
-      - [INE8028] Sequencing and Scheduling (Fall 2025)
       
 ## **Honors & Awards**
 - Best Presentation Award, August 2023
