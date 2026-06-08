@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Hyeon-Il Kim"
 title_separator          : "-"
 name                     : &name "Hyeon-Il Kim"
-description              : &description "Ph.D. Candidate in HYU"
+description              : &description "Postdoctoral Reseacher"
 url                      : "https://Iehikim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Iehikim/Iehikim.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Hyeon-Il Kim"
   avatar           : "Profile.jpeg"
-  bio              : "Ph.D. Candidate in Hanyang University"
+  bio              : "Postdoctoral Researcher at KTH Royal Institute of Technology"
   location         : "Seoul, Republic of Korea"
   employer         :
   pubmed           : 
