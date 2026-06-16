@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-- I am a postdoctoral researcher in Department of Engineering Mechanics and the Centre for ECO2 Vehicle Design at KTH Royal Institute of Technology, Stockholm, Sweden.
+- I am a postdoctoral researcher in Department of Engineering Mechanics and the Centre for ECO2 Vehicle Design at KTH Royal Institute of Technology, Stockholm, Sweden. <br>
   My research areas are operations scheduling, production planning, combinatorial optimization problem, design and operation of manufacturing, environmental conscious manufacturing, reverse logistics and
-  operations research applications. I am always looking for opportunities for research collaborations with both academic and industry partners. Please feel free to reach out to me!
+  operations research applications. <br>
+  I am always looking for opportunities for research collaborations with both academic and industry partners. <br>
+  Please feel free to reach out to me!
 - CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2026.04.13)
   
 ## **Work Experiences**
