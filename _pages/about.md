@@ -17,9 +17,9 @@ Please feel free to connect with me to discuss potential collaborations and rese
   
 ## **Work Experiences**
 - Postdoctoral Researcher, 2026.09 - 
-  - KTH Royal Institute of Technology, Stockholm, Sweden
+  - [The Centre of ECO2 Vehicle Design](https://www.eco2vehicledesign.kth.se/), KTH Royal Institute of Technology, Stockholm, Sweden
 - Lecturer, 2023.09 - 2024.08
-  - Department of Industrial Engineering, Hanyang University, Republic of Korea
+  - [Department of Industrial Engineering](http://ie.hanyang.ac.kr/), Hanyang University, Seoul, Republic of Korea
     - **Undergraduate**
       - [INE2009] Linear Programming (Fall 2023)
       - [INE3081] Operation Managements (Spring 2024)
