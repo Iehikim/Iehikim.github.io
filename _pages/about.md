@@ -14,11 +14,12 @@ My research areas are operations scheduling, production planning, combinatorial 
 I welcome opportunities to collaborate with researchers and industry practitioners on challenging real-world problems.
 Please feel free to connect with me to discuss potential collaborations and research opportunities. 
 <br>
-- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), updated 2026.04.13)
+- CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), Updated 2026.04.13)
   
 ## **Work Experiences**
 - Postdoctoral Researcher, 2026.09 - 
-  - [Department of Engineering Mechanics](https://www.kth.se/en/tekmek/institutionen-for-teknisk-mekanik-1.1204789) and [The Centre of ECO2 Vehicle Design](https://www.eco2vehicledesign.kth.se/), KTH Royal Institute of Technology, Stockholm, Sweden
+  - [Department of Engineering Mechanics](https://www.kth.se/en/tekmek/institutionen-for-teknisk-mekanik-1.1204789) and [The Centre of ECO2 Vehicle Design](https://www.eco2vehicledesign.kth.se/), <br>
+    KTH Royal Institute of Technology, Stockholm, Sweden
 - Lecturer, 2023.09 - 2024.08
   - [Department of Industrial Engineering](http://ie.hanyang.ac.kr/), Hanyang University, Seoul, Republic of Korea
     - **Undergraduate**
