@@ -12,9 +12,11 @@ I am a postdoctoral researcher in the Department of Engineering Mechanics and th
 My research areas are operations scheduling, production planning, combinatorial optimization problem, design and operation of manufacturing, environmental conscious manufacturing, reverse logistics and operations research applications. <br>
 <br>
 I welcome opportunities to collaborate with researchers and industry practitioners on challenging real-world problems.
-Please feel free to connect with me to discuss potential collaborations and research opportunities. 
+Please feel free to contact me to discuss potential potential research collaborations.
 <br>
+<!--
 - CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), Updated 2026.04.13)
+-->
   
 ## **Work Experiences**
 - Postdoctoral Researcher, 2026.09 - 
@@ -80,6 +82,7 @@ Please feel free to connect with me to discuss potential collaborations and rese
   - Computers & Industrial Engineering (SCIE)
   - Computers & Operations Research (SCIE)
   - European Journal of Operational Research (SCIE)
+  - IEEE Transactions on Systems, Man and Cybernetics: Systems (SCIE)
   - International Journal of Production Research (SCIE)
   - International Journal of Production Economics (SCIE)
   - Journal of Manufacturing Systems (SCIE)
