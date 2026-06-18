@@ -13,7 +13,6 @@ My research areas are operations scheduling, production planning, combinatorial 
 <br>
 I welcome opportunities to collaborate with researchers and industry practitioners on challenging real-world problems.
 Please feel free to contact me to discuss potential potential research collaborations.
-<br>
 <!--
 - CV ([pdf](http://iehikim.github.io/files/CV-HIK.pdf), Updated 2026.04.13)
 -->
