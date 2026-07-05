@@ -44,6 +44,7 @@ Please feel free to contact me if you are interested in research collaboration!
   - Hanyang University, Republic of Korea 
   - [Production Logistics & Information Lab](http://pli.hanyang.ac.kr/), Advisor: [Prof. Dong-Ho Lee](https://scholar.google.com/citations?user=Mlnfd5AAAAAJ&hl=ko)
   - 2022.03 - 2026.08
+  - Thesis topic: "Hybrid Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Mathematical Models and Static/Dynamic Algorithms"
   - GPA: 4.00/4.5
 - M.S. in [Industrial Engineering](http://ie.hanyang.ac.kr/)
   - Hanyang University, Republic of Korea 
