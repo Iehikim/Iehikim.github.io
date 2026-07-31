@@ -80,6 +80,7 @@ Please feel free to contact me if you are interested in research collaboration!
   - Computers & Operations Research (SCIE)
   - European Journal of Operational Research (SCIE)
   - IEEE Transactions on Systems, Man and Cybernetics: Systems (SCIE)
+  - IEEE/CAA Journal of Automatica Sinica (SCIE)
   - International Journal of Production Research (SCIE)
   - International Journal of Production Economics (SCIE)
   - Journal of Manufacturing Systems (SCIE)
