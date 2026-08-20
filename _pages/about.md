@@ -59,20 +59,14 @@ Please feel free to contact me if you are interested in research collaboration!
   - GPA: 4.44/4.5 (Summa cum Laude)
       
 ## **Honors & Awards**
+- Best Ph.D. Dissertation Award, August 2026
+  - Hanyang University
 - Best Presentation Award, August 2023
   - International Congress on Logistics and SCM Systems (ICLS 2023)
 - Academic Achievement Excellence Award (Summa Cum Laude, Top 1%), February 2020
   - Kyungsung University 
 - Fully Funded Scholarships, 2014 - 2020
   - Kyungsung University
-- Bronze Prize in the Undergraduate Project Competition, November 2019
-  - Korean Logistics Society (KLS)
-- Bronze Prize in the Undergraduate Project Competition, November 2018
-  - Korean Institute of Industrial Engineers (KIIE)
-- 제 6회 경성대학교 총장배 대학생 토론대회 우수상, November 2017
-  - Kyungsung University
-- Silver Prize in the Undergraduate Project Competition, June 2017
-  - The Korean Society of Supply Chain Management (KSCM)
 
 ## **Professional Activities**
 - Invited Reviewer
