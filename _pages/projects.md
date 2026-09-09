@@ -9,7 +9,7 @@ author_profile: true
 ## **In Progress**
 - **Sustainable Design, Operation and Optimization of Circular Value Creation Networks (SOLVE)**
   - Vinnova, Eureka Network Projects – Circular Value Creation (CVC) R&D Projects, 2026.05 - 2029.05
-    (https://www.vinnova.se/en/p/sustainable-design-operation-and-optimization-of-circular-value-creation-networks-solve)
+    [See more details](https://www.vinnova.se/en/p/sustainable-design-operation-and-optimization-of-circular-value-creation-networks-solve)
 - **Capacitated Disassembly Leveling and Lot-sizing for End-of-life Products with Uncertain Component Yields: Mathematical Models and Solution Algorithms**
   - National Research Foundation of Korea (NRF) (한국연구재단 이공학 개인기초연구지원 사업 – 연구 실무책임), 2026.03 - 2028.02
 
