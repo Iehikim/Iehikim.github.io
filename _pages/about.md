@@ -9,7 +9,7 @@ redirect_from:
 ---
 <br>
 I am a Postdoctoral Researcher in the Department of Engineering Mechanics and the Centre for ECO2 Vehicle Design at KTH Royal Institute of Technology, Stockholm, Sweden. <br>
-My research areas are operations scheduling, production planning, combinatorial optimization problem, design and operation of manufacturing, environmentally conscious design and manufacturing, reverse logistics and operations research applications. <br>
+My research areas are operations scheduling, production planning, combinatorial optimization problem, design and operation of manufacturing, environmentally conscious design and manufacturing, sustainable and circular closed-loop supply chain, and operations research applications. <br>
 <br>
 I welcome opportunities to collaborate with researchers and industry practitioners on challenging real-world problems. 
 Please feel free to contact me if you are interested in research collaboration!
@@ -31,7 +31,7 @@ Please feel free to contact me if you are interested in research collaboration!
   - Production Planning and Scheduling, Inventory Management, Process Planning, etc.
 - Environmentally Conscious Design & Manufacturing
   - Disassembly Process Planning and Lot-sizing, Production Planning and Scheduling in Remanufacturing Systems, Design for Environment, etc. 
-- Forward and Reverse Logistics
+- Sustainable and Circular Closed-loop Supply Chain
   - Network Design (Facility Location), Vehicle Routing and Scheduling, etc.
 - Industrial Applications
   - Reconfigurable Manufacturing Systems, Flexible Manufacturing Systems, Semiconductor Manufacturing Systems, Fastner Manufacturing Systems, Automatic Guided Vehicle Systems, etc.
