@@ -13,7 +13,7 @@ author_profile: true
 
 ## **Submitted Papers**
 - Disassembly leveling and lot-sizing for end-of-life products with uncertain component yields: Mathematical models and solution algorithms, Under review, _International Journal of Production Research_
-- Solution algorithms for designing reconfigurable multi-part flow lines with non-identical parallel machines at each stage and operation lot splitting, Under review, _Robotics and Computer-Integrated Manufacturing_
+- Configurations selection algorithms for reconfigurable multi-part flow lines with non-identical parallel machines at each stage and operation lot splitting, Under review, _Computers & Industrial Engineering_
 - A genetic programming based variable neighborhood search algorithm for hybrid flow shop scheduling with reworks under overlapped queue time limits, Resubmitted after 2nd revision, _Swarm and Evolutionary Computation_
   
 ## **Publications**  (You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=6ISLA88AAAAJ&hl=en))
