@@ -16,7 +16,7 @@ Please feel free to contact me if you are interested in research collaboration!
   
 ## **Work Experiences**
 - Postdoctoral Researcher, 2026.09 - 
-  - [Department of Engineering Mechanics](https://www.kth.se/en/tekmek/institutionen-for-teknisk-mekanik-1.1204789) and [The Centre of ECO2 Vehicle Design](https://www.eco2vehicledesign.kth.se/), <br>
+  - [Department of Engineering Mechanics](https://www.kth.se/en/tekmek/institutionen-for-teknisk-mekanik-1.1204789) and [Centre of ECO2 Vehicle Design](https://www.eco2vehicledesign.kth.se/), <br>
     KTH Royal Institute of Technology, Stockholm, Sweden
 - Lecturer, 2023.09 - 2024.08
   - [Department of Industrial Engineering](http://ie.hanyang.ac.kr/), Hanyang University, Seoul, Republic of Korea
