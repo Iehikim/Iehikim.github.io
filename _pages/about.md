@@ -30,7 +30,7 @@ Please feel free to contact me if you are interested in research collaboration!
 - Design and Operation of Manufacturing/Service Systems
   - Production Planning and Scheduling, Inventory Management, Process Planning, etc.
 - Environmentally Conscious Design & Manufacturing
-  - Disassembly Process Planning and Lot-sizing, Production Planning and Scheduling in Remanufacturing Systems, Design for Environment, etc. 
+  - Disassembly Process Planning and Lot-sizing, Production Planning and Scheduling in Remanufacturing Systems, Value Recovery Options Optimization, Design for Environment, etc. 
 - Sustainable and Circular Closed-loop Supply Chain
   - Network Design (Facility Location), Vehicle Routing and Scheduling, etc.
 - Industrial Applications
