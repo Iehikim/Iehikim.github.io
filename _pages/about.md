@@ -68,6 +68,9 @@ Please feel free to contact me if you are interested in research collaboration!
 - Fully Funded Scholarships, 2014 - 2020
   - Kyungsung University
 
+## **Talks**
+- Combinatorial Optimization Problems in Reverse Supply Chains for End-of-life Products, ECO2 Research Project Presentation Day, KTH Royal Institute of Technology, Stockholm, Sweden.
+
 ## **Professional Activities**
 - Invited Reviewer
   - Computers & Industrial Engineering (SCIE)
