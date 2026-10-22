@@ -75,6 +75,7 @@ Please feel free to contact me if you are interested in research collaboration!
 - Invited Reviewer
   - Computers & Industrial Engineering (SCIE)
   - Computers & Operations Research (SCIE)
+  - European Journal of Industrial Engineering (SCIE)
   - European Journal of Operational Research (SCIE)
   - IEEE Transactions on Evolutionary Computation (SCIE)
   - IEEE Transactions on Systems, Man and Cybernetics: Systems (SCIE)
