@@ -4,5 +4,5 @@ title: "Contact"
 permalink: /contact/
 author_profile: true
 ---
-- Email: iehikim@hanyang.ac.kr
-- Office: Room 703-2, Engineering Center, Hanyang University, 222 Wangsimni-ro, Seongdong-gu, Seoul,  Korea<br />
+- Email: hikim@kth.se
+- Office: Room 2305, Teknikringen 8, KTH Royal Institute of Technology, SE-100 44 Stockholm, Sweden<br />
