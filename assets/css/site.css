@@ -546,11 +546,7 @@ strong { font-weight: 600; color: var(--ink); }
 
 /* --- research drafts: shared bits */
 .area { --c: var(--accent); }
-.area-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
-.area-no { font-size: 0.78rem; font-weight: 700; color: var(--c); font-variant-numeric: tabular-nums; letter-spacing: 0.04em; }
-.area-kicker { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
-.area-meta::before { content: ""; order: 1; flex: 0 0 18px; height: 2px; border-radius: 2px; background: var(--c); }
-.area-no { order: 0; } .area-kicker { order: 2; }
+.area-text h3 .area-no { color: var(--c); font-weight: 700; margin-right: 0.55em; font-variant-numeric: tabular-nums; }
 /* --- A: polished cards */
 .areas--cards .area { position: relative; }
 .areas--cards .area-fig { border-color: color-mix(in srgb, var(--c) 22%, #e3e8ef); }

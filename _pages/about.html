@@ -62,8 +62,7 @@ redirect_from:
       <li class="area" style="--c: {{ a.color | default: '#1954a6' }}">
         {% if a.image %}<figure class="area-fig"><a href="{{ a.image | relative_url }}" target="_blank" rel="noopener" aria-label="Open figure: {{ a.title }}"><img src="{{ a.image | relative_url }}?v={{ figv }}" alt="" width="480" height="300" loading="lazy" decoding="async"></a></figure>{% else %}<i class="fas fa-{{ a.icon }}" aria-hidden="true"></i>{% endif %}
         <div class="area-text">
-          {% if a.short %}<div class="area-meta"><span class="area-no">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span><span class="area-kicker">{{ a.short }}</span></div>{% endif %}
-          <h3>{{ a.title }}</h3>
+          <h3><span class="area-no">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>{{ a.title }}</h3>
           <p>{{ a.text }}</p>
         </div>
       </li>
