@@ -8,7 +8,16 @@
       <h3>{{ p.title }}</h3>
       <p class="meta"><span class="org">{{ p.funder }}</span>{% if p.program %}, {{ p.program }}{% endif %}</p>
       {% if p.role %}<span class="role-tag">{{ p.role }}</span>{% endif %}
-      {% if p.url %}<p class="project-links"><a href="{{ p.url }}">Project page <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></p>{% endif %}
+      {% if p.summary %}<p class="proj-summary">{{ p.summary }}</p>{% endif %}
+      {% if p.partners or p.use_cases or p.funding_note %}
+      <dl class="proj-facts">
+        {% for g in p.partners %}<dt>{{ g.group }}</dt><dd>{% for o in g.orgs %}<span class="nb">{% if o contains 'KTH' %}<strong>{{ o }}</strong>{% else %}{{ o }}{% endif %}</span>{% unless forloop.last %}<span class="sep" aria-hidden="true"> · </span>{% endunless %}{% endfor %}</dd>
+        {% endfor %}{% if p.use_cases %}<dt>Use cases</dt><dd>{{ p.use_cases }}</dd>{% endif %}
+        {% if p.funding_note %}<dt>Funding</dt><dd>{{ p.funding_note }}</dd>{% endif %}
+      </dl>
+      {% endif %}
+      {% if p.links %}<p class="project-links">{% for l in p.links %}<a href="{{ l.url }}">{{ l.label }} <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>{% endfor %}</p>
+      {% elsif p.url %}<p class="project-links"><a href="{{ p.url }}">Project page <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></p>{% endif %}
     </div>
   </div>
 </li>

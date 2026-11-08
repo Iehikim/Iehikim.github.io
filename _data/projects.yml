@@ -1,6 +1,7 @@
 # Research projects. status: ongoing | completed
 # role: your role in English (shown as a tag). program: original program name.
 # logo: square funder logo (images/funders/, 128x128 webp). logo_text: short text tile when no logo exists.
+# Optional: summary, funding_note, partners (group + orgs), use_cases, links (label + url; url alone also works).
 
 - status: ongoing
   title: "Sustainable Design, Operation and Optimization of Circular Value Creation Networks (SOLVE)"
@@ -9,7 +10,21 @@
   program: "Circular Value Creation (CVC) R&D Projects"
   role: "Lead researcher"
   period: "2026.05 – 2029.05"
-  url: "https://www.vinnova.se/en/p/sustainable-design-operation-and-optimization-of-circular-value-creation-networks-solve"
+  summary: "An international consortium of research and industry partners from Germany, Austria, Sweden and South Korea. SOLVE develops methods, models and digital tools for designing and running circular value creation networks, in which manufacturers, suppliers, logistics firms and service partners work together, and a practice-oriented framework that lets companies weigh the environmental, technical and economic case for circular strategies."
+  funding_note: "Vinnova (Sweden); German Federal Ministry of Research, Technology and Space (BMFTR), managed by PTKA (Germany)"
+  partners:
+    - group: "Research"
+      orgs: ["Fraunhofer IAO", "Fraunhofer IBP", "IAT, University of Stuttgart", "KTH Royal Institute of Technology", "University of Graz"]
+    - group: "Software"
+      orgs: ["FLAVIA IT"]
+    - group: "Industry"
+      orgs: ["Hyundai Motor Company", "Hyundai Motor Europe Technical Center", "AVL List", "UP Designstudio", "Hermann Bock"]
+  use_cases: "Vehicle seats, battery housings, vehicle design, and nursing and hospital beds (automotive and healthcare)"
+  links:
+    - label: "Vinnova project page"
+      url: "https://www.vinnova.se/en/p/sustainable-design-operation-and-optimization-of-circular-value-creation-networks-solve"
+    - label: "Fraunhofer IAO news (Oct 2026)"
+      url: "https://www.iao.fraunhofer.de/en/press-and-media/latest-news/circular-economy.html"
 
 - status: ongoing
   title: "Capacitated Disassembly Leveling and Lot-sizing for End-of-life Products with Uncertain Component Yields: Mathematical Models and Solution Algorithms"
