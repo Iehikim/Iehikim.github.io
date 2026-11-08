@@ -93,7 +93,8 @@ redirect_from:
           <div class="org-text">
             <h3>{{ e.role }}</h3>
             <p class="meta"><span class="org">{{ e.org }}</span>, {{ e.place }}</p>
-            {% if e.detail %}<p class="detail">{{ e.detail }}</p>{% endif %}
+            {% if e.details %}<ul class="detail-lines">{% for d in e.details %}<li>{{ d }}</li>{% endfor %}</ul>
+            {% elsif e.detail %}<p class="detail">{{ e.detail }}</p>{% endif %}
           </div>
         </div>
       </li>
@@ -109,7 +110,8 @@ redirect_from:
           <div class="org-text">
             <h3>{{ e.role }}</h3>
             <p class="meta"><span class="org">{{ e.org }}</span>, {{ e.place }}</p>
-            {% if e.detail %}<p class="detail">{{ e.detail }}</p>{% endif %}
+            {% if e.details %}<ul class="detail-lines">{% for d in e.details %}<li>{{ d }}</li>{% endfor %}</ul>
+            {% elsif e.detail %}<p class="detail">{{ e.detail }}</p>{% endif %}
           </div>
         </div>
       </li>
