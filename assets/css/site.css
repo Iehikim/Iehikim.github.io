@@ -841,6 +841,11 @@ html:not(.js) .filter-bar { display: none; }
 .course-table td.code { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .course-table td.course { color: var(--ink); font-weight: 500; }
 .course-table td.term { white-space: nowrap; }
+.course-table .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.course-table th.num { padding-right: 0; }
+.course-table td.num { padding-right: 0; }
+.course-table td.eval .score { color: var(--ink); font-weight: 600; }
+.course-table .m-label { display: none; }
 
 /* ---------- Stacked items (students, talks) ---------- */
 .stack-list > li { padding: 12px 0; }
@@ -971,6 +976,11 @@ html:not(.js) .filter-bar { display: none; }
   .course-table td.course { font-size: 1rem; }
   .course-table td.level, .course-table td.term { display: inline; color: var(--muted); font-size: 0.9rem; }
   .course-table td.level::after { content: ", "; }
+  .course-table td.num { display: inline; color: var(--muted); font-size: 0.9rem; text-align: left; }
+  .course-table td.term::after { content: " · "; }
+  .course-table td.students::after { content: " · "; }
+  .course-table .m-label { display: inline; }
+  .course-table td.eval::before { content: "Evaluation "; }
 }
 
 @media (prefers-reduced-motion: reduce) {
