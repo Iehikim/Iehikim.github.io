@@ -477,6 +477,7 @@ strong { font-weight: 600; color: var(--ink); }
 .detail-lines li + li { margin-top: 4px; }
 .detail-lines a,
 .detail-lines .nb { display: inline-block; }
+.detail-lines .pub-note { margin-top: 2px; }
 .detail-lines .sep {
   margin: 0 4px;
   color: var(--muted);
