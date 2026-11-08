@@ -11,13 +11,14 @@ description: "Teaching of Hyeon-Il Kim: Linear Programming, Operations Managemen
   <div class="section-body">
     <p class="meta-line">{{ inst.role }}, <a href="{{ inst.url }}">{{ inst.department }}</a>, {{ inst.place }}</p>
     <table class="course-table">
-      <thead><tr><th scope="col">Code</th><th scope="col">Course</th><th scope="col">Level</th><th scope="col">Term</th></tr></thead>
+      <thead><tr><th scope="col">Code</th><th scope="col">Course</th><th scope="col">Level</th><th scope="col">Term</th><th scope="col" class="num">Students</th><th scope="col" class="num">Evaluation</th></tr></thead>
       <tbody>
         {% for c in inst.courses %}
-        <tr><td class="code">{{ c.code }}</td><td class="course">{{ c.title }}</td><td class="level">{{ c.level }}</td><td class="term">{{ c.term }}</td></tr>
+        <tr><td class="code">{{ c.code }}</td><td class="course">{{ c.title }}</td><td class="level">{{ c.level }}</td><td class="term">{{ c.term }}</td><td class="num students">{% if c.students %}{{ c.students }}<span class="m-label"> students</span>{% endif %}</td><td class="num eval">{% if c.evaluation %}<span class="score">{{ c.evaluation }}</span>/100{% endif %}</td></tr>
         {% endfor %}
       </tbody>
     </table>
+    <p class="list-note">Evaluation: student course-evaluation score out of 100.</p>
   </div>
 </section>
 {% endfor %}

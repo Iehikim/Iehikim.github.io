@@ -1,4 +1,5 @@
 # Courses taught. Grouped by institution.
+# students: enrollment. evaluation: student course-evaluation score (out of 100).
 
 - institution: "Hanyang University"
   department: "Department of Industrial Engineering"
@@ -11,11 +12,17 @@
       title: "Linear Programming"
       level: "Undergraduate"
       term: "Fall 2023"
+      students: 58
+      evaluation: 98
     - code: "INE3081"
       title: "Operations Management"
       level: "Undergraduate"
       term: "Spring 2024"
+      students: 46
+      evaluation: 97
     - code: "INE9095"
       title: "Production Planning and Control"
       level: "Graduate"
       term: "Spring 2024"
+      students: 6
+      evaluation: 100
