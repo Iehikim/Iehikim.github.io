@@ -1,0 +1,14 @@
+{% assign p = include.p %}
+<li>
+  <span class="when">{{ p.period }}</span>
+  <div class="what proj-entry">
+    {% if p.logo %}<span class="proj-logo"><img src="{{ p.logo | relative_url }}" alt="" width="64" height="64" loading="lazy" decoding="async"></span>
+    {% else %}<span class="proj-logo proj-logo--text" aria-hidden="true">{{ p.logo_text | default: p.funder }}</span>{% endif %}
+    <div class="proj-text">
+      <h3>{{ p.title }}</h3>
+      <p class="meta"><span class="org">{{ p.funder }}</span>{% if p.program %}, {{ p.program }}{% endif %}</p>
+      {% if p.role %}<span class="role-tag">{{ p.role }}</span>{% endif %}
+      {% if p.url %}<p class="project-links"><a href="{{ p.url }}">Project page <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></p>{% endif %}
+    </div>
+  </div>
+</li>

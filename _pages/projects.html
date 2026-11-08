@@ -13,15 +13,7 @@ description: "Research projects of Hyeon-Il Kim, including SOLVE (Vinnova, Eurek
   <div class="section-body">
     <ol class="dated-list dated-list--wide">
       {% for p in ongoing %}
-      <li>
-        <span class="when">{{ p.period }}</span>
-        <div class="what">
-          <h3>{{ p.title }}</h3>
-          <p class="meta"><span class="org">{{ p.funder }}</span>{% if p.program %}, {{ p.program }}{% endif %}</p>
-          {% if p.role %}<span class="role-tag">{{ p.role }}</span>{% endif %}
-          {% if p.url %}<p class="project-links"><a href="{{ p.url }}">Project page <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></p>{% endif %}
-        </div>
-      </li>
+      {% include hk/project.html p=p %}
       {% endfor %}
     </ol>
   </div>
@@ -32,15 +24,7 @@ description: "Research projects of Hyeon-Il Kim, including SOLVE (Vinnova, Eurek
   <div class="section-body">
     <ol class="dated-list dated-list--wide">
       {% for p in completed %}
-      <li>
-        <span class="when">{{ p.period }}</span>
-        <div class="what">
-          <h3>{{ p.title }}</h3>
-          <p class="meta"><span class="org">{{ p.funder }}</span>{% if p.program %}, {{ p.program }}{% endif %}</p>
-          {% if p.role %}<span class="role-tag">{{ p.role }}</span>{% endif %}
-          {% if p.url %}<p class="project-links"><a href="{{ p.url }}">Project page <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></p>{% endif %}
-        </div>
-      </li>
+      {% include hk/project.html p=p %}
       {% endfor %}
     </ol>
   </div>
