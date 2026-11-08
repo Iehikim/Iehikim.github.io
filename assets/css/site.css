@@ -768,6 +768,25 @@ html:not(.js) .filter-bar { display: none; }
 .dated-list--wide > li { grid-template-columns: 8.6rem minmax(0, 1fr); }
 .project-links { margin-top: 8px; font-size: 0.88rem; }
 .project-links i { font-size: 0.8em; margin-left: 2px; }
+.project-links { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+.proj-summary {
+  margin-top: 10px;
+  font-size: 0.93rem;
+}
+.proj-facts {
+  display: grid;
+  grid-template-columns: 5.6rem minmax(0, 1fr);
+  gap: 5px 12px;
+  margin: 10px 0 0;
+  font-size: 0.88rem;
+}
+.proj-facts dt {
+  color: var(--muted);
+  font-weight: 500;
+}
+.proj-facts dd { margin: 0; }
+.proj-facts .sep { color: var(--muted); }
+.proj-facts .nb { display: inline-block; }
 
 /* Funder logo tile next to each project */
 .proj-entry {
@@ -931,6 +950,8 @@ html:not(.js) .filter-bar { display: none; }
   .proj-entry { grid-template-columns: 48px minmax(0, 1fr); gap: 12px; margin-top: 4px; }
   .proj-logo { width: 48px; height: 48px; border-radius: 8px; }
   .proj-logo--text { font-size: 0.66rem; }
+  .proj-facts { grid-template-columns: 1fr; gap: 0; }
+  .proj-facts dd + dt { margin-top: 6px; }
   .when, .contact-rows .label { line-height: 1.5; }
 
   .pub-list > li.pub { grid-template-columns: 1fr; gap: 6px; }
