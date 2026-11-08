@@ -10,7 +10,7 @@ Most content lives in YAML files under `_data/`, so adding an item never require
 | --- | --- | --- |
 | News on the home page | `_data/news.yml` | Newest first. The first 5 show; older ones sit behind "Show older news". |
 | Papers | `_data/publications.yml` | Set `group` (journal, domestic-journal, under-review, intl-conf, domestic-conf, working). `selected: true` also lists a paper on the home page. Your name is bolded automatically. |
-| Projects | `_data/projects.yml` | `status: ongoing` or `completed`. |
+| Projects | `_data/projects.yml` | `status: ongoing` or `completed`. `logo:` points to a 128×128 tile in `images/funders/`; use `logo_text:` when no logo exists. |
 | Courses | `_data/teaching.yml` | |
 | Students | `_data/students.yml` | Leave `thesis: ""` while a thesis is in progress. |
 | Research areas, background, awards, talks, reviewer list, skills | `_data/cv.yml` | |

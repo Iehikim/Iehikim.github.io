@@ -754,6 +754,38 @@ html:not(.js) .filter-bar { display: none; }
 .project-links { margin-top: 8px; font-size: 0.88rem; }
 .project-links i { font-size: 0.8em; margin-left: 2px; }
 
+/* Funder logo tile next to each project */
+.proj-entry {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+.proj-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+}
+.proj-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.proj-logo--text {
+  padding: 4px;
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+}
+
 /* ---------- Teaching table ---------- */
 .course-table {
   width: 100%;
@@ -881,6 +913,9 @@ html:not(.js) .filter-bar { display: none; }
 
   .dated-list > li,
   .contact-rows > li { grid-template-columns: 1fr; gap: 2px; }
+  .proj-entry { grid-template-columns: 48px minmax(0, 1fr); gap: 12px; margin-top: 4px; }
+  .proj-logo { width: 48px; height: 48px; border-radius: 8px; }
+  .proj-logo--text { font-size: 0.66rem; }
   .when, .contact-rows .label { line-height: 1.5; }
 
   .pub-list > li.pub { grid-template-columns: 1fr; gap: 6px; }
