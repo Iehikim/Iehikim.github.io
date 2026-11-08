@@ -1013,8 +1013,6 @@ html:not(.js) .filter-bar { display: none; }
   .course-table td.level::after { content: ", "; }
   .course-table td.num { display: inline; padding: 0; color: var(--muted); font-size: 0.9rem; text-align: left; }
   .course-table td.term::after { content: " · "; }
-  .course-table td.students::after { content: " · "; }
-  .course-table .m-label { display: inline; }
   .course-table td.eval::before { content: "Evaluation "; }
 }
 
