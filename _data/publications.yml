@@ -29,12 +29,6 @@
   venue_short: "IJPR"
   status: "Under review"
 
-- group: under-review
-  title: "Configurations selection algorithms for reconfigurable multi-part flow lines with non-identical parallel machines at each stage and operation lot splitting"
-  venue: "Computers & Industrial Engineering"
-  venue_short: "CAIE"
-  status: "Under review"
-
 # ---- International journals ----------------------------------------------
 - group: journal
   selected: true
@@ -361,10 +355,4 @@
   title: "A genetic programming based scheduling approach for remanufacturing systems with flow-shop-type disassembly, reprocessing and reassembly shops"
 
 - group: working
-  title: "Optimal and heuristic algorithms for disassembly leveling and lot-sizing for end-of-life products with capacity constraints"
-
-- group: working
-  title: "An iterative approach for configuration selection and scheduling of reconfigurable multi-part flow lines with controllable processing times"
-
-- group: working
-  title: "Dynamic configuration selection for reconfigurable single-part flow lines with controllable processing times"
+  title: "Configurations selection algorithms for reconfigurable multi-part flow lines with non-identical parallel machines at each stage and operation lot splitting"
