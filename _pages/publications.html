@@ -22,7 +22,7 @@ description: "Publications of Hyeon-Il Kim: journal articles and conference pape
     <button type="button" data-filter="journals" aria-pressed="false">Journal articles<span class="n">{{ n_journals }}</span></button>
     <button type="button" data-filter="conferences" aria-pressed="false">Conference papers<span class="n">{{ n_confs }}</span></button>
     <button type="button" data-filter="progress" aria-pressed="false">In progress<span class="n">{{ n_progress }}</span></button>
-    <p class="filter-note">* Corresponding author. Journal metrics are from Clarivate Journal Citation Reports, released {{ site.data.venues.jcr_release }}: quartile and top % refer to each journal's best-ranked category (hover for the category and rank); IF is the two-year Journal Impact Factor.</p>
+    <p class="filter-note">* Corresponding author. Journal metrics are from Clarivate Journal Citation Reports for each paper's publication year; papers published after the latest release (JCR {{ site.data.venues.jcr_latest }}, released {{ site.data.venues.jcr_release | split: ' (' | first }}) and papers under review show the latest release. Quartile and top % refer to the journal's best-ranked category that year (hover for the category and rank); IF is the two-year Journal Impact Factor.</p>
   </div>
 </div>
 

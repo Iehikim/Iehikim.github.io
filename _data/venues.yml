@@ -1,49 +1,81 @@
 # Journal details keyed by `venue_short` in publications.yml.
 #   cover: thumbnail shown next to the paper (journals without one get a placeholder)
-#   jcr:   Clarivate Journal Citation Reports, release of June 2026 (2025 data).
-#          Quartile, rank and top % refer to the journal's best-ranked category.
-#          top = rank / journals in category x 100. Update these each June.
+#   jcr:   Clarivate Journal Citation Reports, one entry per JCR year.
+#          A paper shows the JCR of its publication year; papers newer than
+#          `jcr_latest` (and papers under review) show the `jcr_latest` entry.
+#          Quartile, rank and top % refer to the journal's best-ranked category
+#          that year. top = rank / journals in category x 100.
+#          Each June, add the new year's entry and bump jcr_latest.
+jcr_latest: "2025"
 jcr_release: "June 2026 (2025 data)"
-
 EJOR:
   cover: /images/journals/ejor.webp
   jcr:
-    if: "7.0"
-    quartile: Q1
-    rank: "11/109"
-    top: "10.1"
-    category: "Operations Research & Management Science"
+    - year: "2025"
+      if: "7.0"
+      quartile: Q1
+      rank: "11/109"
+      top: "10.1"
+      category: "Operations Research & Management Science"
 CAIE:
   cover: /images/journals/caie.webp
   jcr:
-    if: "7.3"
-    quartile: Q1
-    rank: "30/185"
-    top: "16.2"
-    category: "Computer Science, Interdisciplinary Applications"
+    - year: "2025"
+      if: "7.3"
+      quartile: Q1
+      rank: "30/185"
+      top: "16.2"
+      category: "Computer Science, Interdisciplinary Applications"
+    - year: "2024"
+      if: "6.5"
+      quartile: Q1
+      rank: "25/177"
+      top: "14.1"
+      category: "Computer Science, Interdisciplinary Applications"
 IJPR:
   cover: /images/journals/ijpr.webp
   jcr:
-    if: "8.7"
-    quartile: Q1
-    rank: "9/109"
-    top: "8.3"
-    category: "Operations Research & Management Science"
+    - year: "2025"
+      if: "8.7"
+      quartile: Q1
+      rank: "9/109"
+      top: "8.3"
+      category: "Operations Research & Management Science"
+    - year: "2023"
+      if: "7.0"
+      quartile: Q1
+      rank: "7/106"
+      top: "6.6"
+      category: "Operations Research & Management Science"
 PIME-B:
   cover: /images/journals/pimeb.webp
   jcr:
-    if: "2.1"
-    quartile: Q3
-    rank: "103/184"
-    top: "56.0"
-    category: "Engineering, Mechanical"
+    - year: "2025"
+      if: "2.1"
+      quartile: Q3
+      rank: "103/184"
+      top: "56.0"
+      category: "Engineering, Mechanical"
+    - year: "2024"
+      if: "1.9"
+      quartile: Q3
+      rank: "103/182"
+      top: "56.6"
+      category: "Engineering, Mechanical"
+    - year: "2023"
+      if: "1.9"
+      quartile: Q3
+      rank: "92/183"
+      top: "50.3"
+      category: "Engineering, Mechanical"
 SWEVO:
   cover: /images/journals/swevo.webp
   jcr:
-    if: "9.6"
-    quartile: Q1
-    rank: "9/146"
-    top: "6.2"
-    category: "Computer Science, Theory & Methods"
+    - year: "2025"
+      if: "9.6"
+      quartile: Q1
+      rank: "9/146"
+      top: "6.2"
+      category: "Computer Science, Theory & Methods"
 JKIIE:
   cover: /images/journals/jkiie.webp
