@@ -56,82 +56,19 @@ redirect_from:
 <section class="section wrap" id="research" aria-labelledby="research-title">
   <div class="section-head"><h2 class="section-title" id="research-title">Research</h2></div>
   <div class="section-body">
-    {% assign area_layout = site.data.cv.research_layout | default: 'cards' %}
     {% assign figv = site.time | date: '%Y%m%d%H%M' %}
-    {% if area_layout == 'tabs' %}
-    <div class="rx" data-rx>
-      <div class="rx-tabs" role="tablist" aria-label="Research areas" aria-orientation="vertical">
-        {% for a in cv.research %}
-        <button class="rx-tab" type="button" role="tab" id="rx-tab-{{ forloop.index }}" aria-controls="rx-panel-{{ forloop.index }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" tabindex="{% if forloop.first %}0{% else %}-1{% endif %}" style="--c: {{ a.color }}">
-          <span class="rx-no">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
-          <span class="rx-name">{{ a.short | default: a.title }}</span>
-        </button>
-        {% endfor %}
-      </div>
-      <div class="rx-panels">
-        {% for a in cv.research %}
-        <div class="rx-panel" role="tabpanel" id="rx-panel-{{ forloop.index }}" aria-labelledby="rx-tab-{{ forloop.index }}" style="--c: {{ a.color }}"{% unless forloop.first %} hidden{% endunless %}>
-          <figure class="area-fig rx-fig"><a href="{{ a.image | relative_url }}" target="_blank" rel="noopener" aria-label="Open figure: {{ a.title }}"><img src="{{ a.image | relative_url }}?v={{ figv }}" alt="" width="480" height="300" decoding="async"></a></figure>
-          <div class="rx-body">
-            <div class="rx-main">
-              <h3>{{ a.title }}</h3>
-              <p>{{ a.text }}</p>
-              {% if a.keywords %}<ul class="kw">{% for k in a.keywords %}<li>{{ k }}</li>{% endfor %}</ul>{% endif %}
-            </div>
-            {% if a.related %}
-            <div class="rel-box">
-              <h4>Related work</h4>
-              <ul class="rel-list">{% for r in a.related %}<li class="rel rel--{{ r.kind }}"><i class="fas fa-{% if r.kind == 'paper' %}file-alt{% else %}flask{% endif %}" aria-hidden="true"></i><a href="{{ r.url | relative_url }}">{{ r.label }}</a></li>{% endfor %}</ul>
-            </div>
-            {% endif %}
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-    <script>
-    document.querySelectorAll('[data-rx]').forEach(function (rx) {
-      var tabs = [].slice.call(rx.querySelectorAll('[role=tab]'));
-      function select(t) {
-        tabs.forEach(function (x) {
-          var on = x === t;
-          x.setAttribute('aria-selected', on ? 'true' : 'false');
-          x.tabIndex = on ? 0 : -1;
-          document.getElementById(x.getAttribute('aria-controls')).hidden = !on;
-        });
-      }
-      tabs.forEach(function (t, i) {
-        t.addEventListener('click', function () { select(t); });
-        t.addEventListener('keydown', function (e) {
-          var j = null;
-          if (e.key === 'ArrowDown' || e.key === 'ArrowRight') j = (i + 1) % tabs.length;
-          if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') j = (i - 1 + tabs.length) % tabs.length;
-          if (j !== null) { e.preventDefault(); tabs[j].focus(); select(tabs[j]); }
-        });
-      });
-    });
-    </script>
-    {% else %}
-    <ul class="areas areas--{{ area_layout }}">
+    <ul class="areas areas--cards">
       {% for a in cv.research %}
-      {% assign np = a.related | where: 'kind', 'paper' | size %}{% assign nj = a.related | where: 'kind', 'project' | size %}
-      <li class="area" style="--c: {{ a.color }}">
+      <li class="area" style="--c: {{ a.color | default: '#1954a6' }}">
         {% if a.image %}<figure class="area-fig"><a href="{{ a.image | relative_url }}" target="_blank" rel="noopener" aria-label="Open figure: {{ a.title }}"><img src="{{ a.image | relative_url }}?v={{ figv }}" alt="" width="480" height="300" loading="lazy" decoding="async"></a></figure>{% else %}<i class="fas fa-{{ a.icon }}" aria-hidden="true"></i>{% endif %}
         <div class="area-text">
           {% if a.short %}<div class="area-meta"><span class="area-no">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span><span class="area-kicker">{{ a.short }}</span></div>{% endif %}
           <h3>{{ a.title }}</h3>
           <p>{{ a.text }}</p>
-          {% if a.keywords %}<ul class="kw">{% for k in a.keywords %}<li>{{ k }}</li>{% endfor %}</ul>{% endif %}
-          {% if a.related and area_layout == 'rows' %}
-          <ul class="rel-list rel-list--compact">{% for r in a.related limit: 3 %}<li class="rel rel--{{ r.kind }}"><i class="fas fa-{% if r.kind == 'paper' %}file-alt{% else %}flask{% endif %}" aria-hidden="true"></i><a href="{{ r.url | relative_url }}">{{ r.label }}</a></li>{% endfor %}</ul>
-          {% elsif a.related %}
-          <div class="area-foot"><span>{% if np > 0 %}<i class="fas fa-file-alt" aria-hidden="true"></i> {{ np }} paper{% if np != 1 %}s{% endif %}{% endif %}{% if np > 0 and nj > 0 %}<span class="sep">·</span>{% endif %}{% if nj > 0 %}<i class="fas fa-flask" aria-hidden="true"></i> {{ nj }} project{% if nj != 1 %}s{% endif %}{% endif %}</span><a href="{{ '/publications/' | relative_url }}">Related work →</a></div>
-          {% endif %}
         </div>
       </li>
       {% endfor %}
     </ul>
-    {% endif %}
   </div>
 </section>
 

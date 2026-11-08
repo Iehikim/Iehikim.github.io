@@ -1,7 +1,5 @@
 # Content for the home page sections (research, background, awards, service, skills).
 
-research_layout: cards   # cards | tabs | rows
-
 research:
   - title: "Manufacturing and service systems"
     short: "Manufacturing & service"
@@ -9,69 +7,36 @@ research:
     image: /images/research/scheduling.svg
     icon: industry
     text: "Production planning, operations scheduling, inventory control and process planning."
-    keywords: ["Production planning", "Operations scheduling", "Inventory control", "Process planning"]
-    related:
-      - { kind: paper, label: "EJOR 2026 · Flow shop scheduling with reworks under overlapped queue time limits", url: "https://doi.org/10.1016/j.ejor.2025.12.048" }
-      - { kind: paper, label: "CAIE 2025 · GP-based deep RL for dynamic hybrid flow shop scheduling", url: "https://doi.org/10.1016/j.cie.2025.111062" }
-      - { kind: paper, label: "PIME-B 2024 · Scheduling mechanism for hybrid flow shops with reworks", url: "https://doi.org/10.1177/09544054231182174" }
-      - { kind: paper, label: "IJPR 2023 · Scheduling algorithms for multi-stage flow shops with reworks", url: "https://doi.org/10.1080/00207543.2022.2139004" }
-      - { kind: project, label: "NRF 2022–2025 · Hybrid flow shop scheduling with reworks", url: "/projects/" }
   - title: "Environmentally conscious manufacturing"
     short: "Eco-conscious manufacturing"
     color: "#16a34a"
     image: /images/research/disassembly.svg
     icon: recycle
     text: "Disassembly process planning and lot-sizing, planning and scheduling in remanufacturing systems and design for environment."
-    keywords: ["Disassembly leveling", "Lot-sizing", "Remanufacturing", "Design for environment"]
-    related:
-      - { kind: paper, label: "PIME-B 2023 · Disassembly leveling and lot-sizing for multiple product types", url: "https://doi.org/10.1177/09544054221136526" }
-      - { kind: paper, label: "IJPR (under review) · Disassembly leveling and lot-sizing with uncertain yields", url: "/publications/" }
-      - { kind: project, label: "NRF 2026–2028 · Capacitated disassembly leveling and lot-sizing", url: "/projects/" }
-      - { kind: project, label: "Vinnova/Eureka 2026–2029 · SOLVE", url: "/projects/" }
   - title: "Circular closed-loop supply chains"
     short: "Closed-loop supply chains"
     color: "#0d9488"
     image: /images/research/closed-loop.svg
     icon: route
     text: "Network design and facility location, vehicle routing and scheduling for sustainable forward and reverse logistics."
-    keywords: ["Network design", "Facility location", "Vehicle routing", "Reverse logistics"]
-    related:
-      - { kind: paper, label: "CAIE 2024 · Team orienteering with possible multiple visits", url: "https://doi.org/10.1016/j.cie.2024.110097" }
-      - { kind: project, label: "NRF 2021–2024 · Collaboration-based network design for flexible delivery", url: "/projects/" }
-      - { kind: project, label: "Vinnova/Eureka 2026–2029 · SOLVE", url: "/projects/" }
   - title: "Industrial applications"
     short: "Industrial applications"
     color: "#b45309"
     image: /images/research/industrial.svg
     icon: cogs
     text: "Reconfigurable, flexible and semiconductor manufacturing systems, fastener manufacturing and automatic guided vehicle systems."
-    keywords: ["RMS", "FMS", "Semiconductor", "Fastener", "AGV"]
-    related:
-      - { kind: paper, label: "IJPR 2025 · System-level configurations of reconfigurable flow lines", url: "https://doi.org/10.1080/00207543.2024.2355324" }
-      - { kind: project, label: "MSIT 2022–2024 · AI-based production planning for RMS", url: "/projects/" }
-      - { kind: project, label: "Hanyang 2023–2024 · Priority scheduling for flexible machining systems", url: "/projects/" }
-      - { kind: project, label: "YM 2021–2022 · APS for fastener manufacturing", url: "/projects/" }
   - title: "Optimization methodologies"
     short: "Optimization methods"
     color: "#7c3aed"
     image: /images/research/optimization.svg
     icon: project-diagram
     text: "Mathematical programming (LP, IP, NLP), meta-heuristics and matheuristics, reinforcement learning, imitation learning and interpretable AI."
-    keywords: ["LP · IP · NLP", "Branch-and-cut", "Metaheuristics", "Matheuristics", "Deep RL", "Imitation learning", "Interpretable AI"]
-    related:
-      - { kind: paper, label: "EJOR 2026 · Two-phase optimal and heuristic algorithms", url: "https://doi.org/10.1016/j.ejor.2025.12.048" }
-      - { kind: paper, label: "CAIE 2025 · Genetic programming based deep RL", url: "https://doi.org/10.1016/j.cie.2025.111062" }
-      - { kind: paper, label: "SWEVO (under review) · GP-based variable neighborhood search", url: "/publications/" }
   - title: "Operations research in practice"
     short: "OR in practice"
     color: "#e11d48"
     image: /images/research/or-practice.svg
     icon: chart-line
     text: "Applying OR models and algorithms to industrial decision problems together with industry partners."
-    keywords: ["Industry collaboration", "Decision support", "APS"]
-    related:
-      - { kind: project, label: "LG CNS 2021–2024 · Consulting mathematical optimization algorithms", url: "/projects/" }
-      - { kind: project, label: "YM 2021–2022 · Forecasting, planning and scheduling framework for APS", url: "/projects/" }
 
 experience:
   - period: "2026.09 – present"
