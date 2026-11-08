@@ -300,16 +300,31 @@ strong { font-weight: 600; color: var(--ink); }
 }
 .hero-card p { margin: 0 0 8px; }
 .card-affil { color: var(--ink); font-weight: 500; }
-.card-links { margin-top: 12px; display: grid; gap: 5px; }
-.card-links a {
+.link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 22px;
+}
+.link-row a {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  color: var(--body);
-  overflow-wrap: anywhere;
+  gap: 7px;
+  padding: 6px 13px 6px 11px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 0.86rem;
+  font-weight: 500;
+  line-height: 1.3;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
 }
-.card-links a:hover { color: var(--accent); }
-.card-links i { color: var(--accent); font-size: 0.95em; }
+.link-row a i { color: var(--accent); font-size: 0.95em; }
+.link-row a:hover {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+  text-decoration: none;
+}
 
 .hero-photo {
   margin: 6px 0 0;
