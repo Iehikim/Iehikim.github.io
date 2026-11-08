@@ -76,9 +76,9 @@
 
 - status: completed
   title: "Development of Forecasting, Production Planning and Scheduling Algorithms and Framework for APS (Advanced Planning and Scheduling) System"
-  funder: "Youngsin Metal Industrial Co., Ltd."
-  logo_text: "영신금속"
-  program: "산업체 과제"
+  funder: "YM Co., Ltd."
+  logo: "/images/funders/ym.webp"
+  program: "(주)와이엠 산업체 과제"
   role: "Lead researcher"
   period: "2021.12 – 2022.11"
 
