@@ -1,0 +1,71 @@
+# M.S. students co-worked with at the PLI Lab, Hanyang University.
+# Grouped by year. Leave `thesis` empty while it is still in progress.
+
+- year: 2027
+  students:
+    - name: "Min-Seo Lee"
+      name_ko: "이민서"
+      degree: "M.S. in Industrial Engineering"
+      thesis: ""
+    - name: "Hyun-A Shim"
+      name_ko: "심현아"
+      degree: "M.S. in Industrial Engineering"
+      thesis: ""
+
+- year: 2026
+  students:
+    - name: "Jun-Yeong Lee"
+      name_ko: "이준영"
+      degree: "M.S. in Industrial Engineering"
+      thesis: "Iterative Algorithms for Configuration Selection and Scheduling of Reconfigurable Multi-part Flow Lines with Controllable Processing Times"
+    - name: "Hyeon-Ji Moon"
+      name_ko: "문현지"
+      degree: "M.S. in Industrial Engineering"
+      thesis: "Dynamic Configuration Selection Algorithms for Reconfigurable Single-part Flow Lines with Controllable Processing Times"
+
+- year: 2025
+  students:
+    - name: "Keon-Min Lee"
+      name_ko: "이건민"
+      degree: "M.S. in Industrial Engineering"
+      thesis: "Disassembly Leveling and Lot-sizing for End-of-life Products with Uncertain Component Yields"
+    - name: "Chenghan Bai"
+      name_ko: "백정한"
+      degree: "M.S. in Industrial Engineering"
+      thesis: "A Genetic Programming based Scheduling Approach for Remanufacturing Systems with Flow-shop type Disassembly, Reprocessing and Reassembly Lines"
+
+- year: 2024
+  students:
+    - name: "Ae-Jin Youn"
+      name_ko: "윤애진"
+      degree: "M.S. in Industrial Engineering"
+      thesis: "System-level Configuration Optimization Algorithms for Reconfigurable Single Part Flow Lines with Controllable Processing Times"
+
+- year: 2023
+  students:
+    - name: "Hyun-Bum Jung"
+      name_ko: "정현범"
+      degree: "M.S. in Industrial Engineering"
+      thesis: "Team Orienteering with Possible Multiple Visits: A Mathematical Model and Solution Algorithms"
+    - name: "Yeo-Reum Kim"
+      name_ko: "김여름"
+      degree: "M.S. in Industrial Engineering"
+      thesis: "A Genetic Programming based Deep Reinforcement Learning Approach for Dynamic Hybrid Flow Shop Scheduling with Reworks under General Queue Time Limits"
+    - name: "Xuebin Li"
+      name_ko: "이학빈"
+      degree: "M.S. in Industrial Engineering"
+      thesis: "Capacity Scalability Planning Algorithms for Job-shop-type Reconfigurable Manufacturing Systems with Dynamic Demands"
+
+- year: 2021
+  students:
+    - name: "Yun-Hyok Choi"
+      name_ko: "최윤혁"
+      degree: "M.S. in Industrial Engineering"
+      thesis: "Disassembly Leveling and Lot-sizing for Multiple Product Types with Uncertain Component Demands"
+
+- year: 2019
+  students:
+    - name: "Yooney Cho"
+      name_ko: "조윤희"
+      degree: "M.S. in Industrial Engineering"
+      thesis: "Mathematical Model and Solution Approaches for Multi-stage Hybrid Flow Shop Scheduling with Reworks under General Queue Time Limits"

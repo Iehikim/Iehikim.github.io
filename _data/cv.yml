@@ -1,0 +1,94 @@
+# Content for the home page sections (research, background, awards, service, skills).
+
+research:
+  - title: "Manufacturing and service systems"
+    icon: industry
+    text: "Production planning and scheduling, inventory management and process planning."
+  - title: "Environmentally conscious manufacturing"
+    icon: recycle
+    text: "Disassembly process planning and lot-sizing, planning and scheduling in remanufacturing systems, value recovery options, design for environment."
+  - title: "Circular closed-loop supply chains"
+    icon: route
+    text: "Network design and facility location, vehicle routing and scheduling for sustainable forward and reverse logistics."
+  - title: "Industrial applications"
+    icon: cogs
+    text: "Reconfigurable, flexible and semiconductor manufacturing systems, fastener manufacturing and automatic guided vehicle systems."
+  - title: "Optimization methodologies"
+    icon: project-diagram
+    text: "Mathematical programming (LP, IP, NLP), meta-heuristics and matheuristics, reinforcement learning and interpretable AI."
+  - title: "Operations research in practice"
+    icon: chart-line
+    text: "Applying OR models and algorithms to industrial decision problems together with industry partners."
+
+experience:
+  - period: "2026 – present"
+    role: "Postdoctoral Researcher"
+    org: "KTH Royal Institute of Technology"
+    org_short: "KTH"
+    place: "Stockholm, Sweden"
+    detail: '<a href="https://www.kth.se/en/tekmek/institutionen-for-teknisk-mekanik-1.1204789">Department of Engineering Mechanics</a> and <a href="https://www.eco2vehicledesign.kth.se/">Centre for ECO2 Vehicle Design</a>.'
+  - period: "2023 – 2024"
+    role: "Lecturer"
+    org: "Hanyang University"
+    org_short: "HYU"
+    place: "Seoul, Korea"
+    detail: '<a href="http://ie.hanyang.ac.kr/">Department of Industrial Engineering</a>. Taught Linear Programming, Operations Management and Production Planning and Control (<a href="/teaching/">courses</a>).'
+
+education:
+  - period: "2022 – 2026"
+    role: "Ph.D. in Industrial Engineering"
+    org: "Hanyang University"
+    org_short: "HYU"
+    place: "Seoul, Korea"
+    detail: 'Thesis: <em>Hybrid flow shop scheduling with reworks under overlapped queue time limits: Mathematical models and static/dynamic algorithms.</em> <a href="http://pli.hanyang.ac.kr/">Production Logistics &amp; Information Lab</a>, advisor <a href="https://scholar.google.com/citations?user=Mlnfd5AAAAAJ&amp;hl=ko">Prof. Dong-Ho Lee</a>. GPA 4.00/4.5. Best Ph.D. Dissertation Award.'
+  - period: "2020 – 2022"
+    role: "M.S. in Industrial Engineering"
+    org: "Hanyang University"
+    org_short: "HYU"
+    place: "Seoul, Korea"
+    detail: 'Thesis: <em>Scheduling algorithms for multi-stage flow shop scheduling problem with reworks under overlapped queue time limits.</em> <a href="http://pli.hanyang.ac.kr/">Production Logistics &amp; Information Lab</a>, advisor <a href="https://scholar.google.com/citations?user=Mlnfd5AAAAAJ&amp;hl=ko">Prof. Dong-Ho Lee</a>. GPA 4.44/4.5.'
+  - period: "2014 – 2020"
+    role: "B.S. in Industrial and Management Engineering"
+    org: "Kyungsung University"
+    org_short: "KSU"
+    place: "Busan, Korea"
+    detail: "Advisor Prof. Chang Seong Ko. GPA 4.44/4.5, summa cum laude."
+
+awards:
+  - year: "2026"
+    title: "Best Ph.D. Dissertation Award"
+    org: "Hanyang University"
+  - year: "2023"
+    title: "Best Presentation Award"
+    org: "International Congress on Logistics and SCM Systems (ICLS 2023)"
+  - year: "2020"
+    title: "Academic Achievement Excellence Award (summa cum laude, top 1%)"
+    org: "Kyungsung University"
+  - year: "2014 – 2020"
+    title: "Full scholarship"
+    org: "Kyungsung University"
+
+talks:
+  - title: "Combinatorial optimization problems in reverse supply chains for end-of-life products"
+    event: "ECO2 Research Project Presentation Day, KTH Royal Institute of Technology, Stockholm"
+
+reviewer:
+  - "Computers & Industrial Engineering"
+  - "Computers & Operations Research"
+  - "European Journal of Industrial Engineering"
+  - "European Journal of Operational Research"
+  - "IEEE Transactions on Evolutionary Computation"
+  - "IEEE Transactions on Systems, Man and Cybernetics: Systems"
+  - "IEEE/CAA Journal of Automatica Sinica"
+  - "International Journal of Production Research"
+  - "International Journal of Production Economics"
+  - "Journal of Manufacturing Systems"
+  - "Production Planning & Control"
+  - "Robotics and Computer-Integrated Manufacturing"
+  - "Transportation Research Part E: Logistics and Transportation Review"
+
+skills:
+  - label: "Programming"
+    items: ["Python", "C", "C++", "Java", "R"]
+  - label: "Solvers and tools"
+    items: ["CPLEX", "Gurobi", "MATLAB"]

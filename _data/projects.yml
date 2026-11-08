@@ -1,0 +1,86 @@
+# Research projects. status: ongoing | completed
+# role: your role in English (shown as a tag). program: original program name.
+
+- status: ongoing
+  title: "Sustainable Design, Operation and Optimization of Circular Value Creation Networks (SOLVE)"
+  funder: "Vinnova, Eureka Network Projects"
+  program: "Circular Value Creation (CVC) R&D Projects"
+  period: "2026.05 – 2029.05"
+  url: "https://www.vinnova.se/en/p/sustainable-design-operation-and-optimization-of-circular-value-creation-networks-solve"
+
+- status: ongoing
+  title: "Capacitated Disassembly Leveling and Lot-sizing for End-of-life Products with Uncertain Component Yields: Mathematical Models and Solution Algorithms"
+  funder: "National Research Foundation of Korea (NRF)"
+  program: "한국연구재단 이공학 개인기초연구지원 사업"
+  role: "Lead researcher"
+  period: "2026.03 – 2028.02"
+
+- status: completed
+  title: "System-level Configuration Optimization Algorithms for Reconfigurable Single Part Flow Lines with Controllable Processing Times"
+  funder: "Hanyang University"
+  program: "한양대학교 산업과학연구소 연구지원사업"
+  role: "Lead researcher"
+  period: "2025.08 – 2026.05"
+
+- status: completed
+  title: "An Education and Research Team for Sharing and Cooperation based Smart Systems"
+  funder: "Ministry of Education"
+  program: "교육부 4단계 두뇌한국21 (BK FOUR) 사업 교육연구팀"
+  role: "Participant"
+  period: "2020.09 – 2026.02"
+
+- status: completed
+  title: "Hybrid Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Mathematical Models and Predictive/Reactive Algorithms"
+  funder: "National Research Foundation of Korea (NRF)"
+  program: "한국연구재단 이공학 개인기초연구지원 사업"
+  role: "Lead researcher"
+  period: "2022.06 – 2025.02"
+
+- status: completed
+  title: "Development of an AI-based Production Planning Technology for Reconfigurable Manufacturing Systems"
+  funder: "Ministry of Science and ICT"
+  program: "과학기술정보통신부 정보통신방송 기술개발사업: 스마트공장혁신기술개발"
+  role: "Lead researcher (sub-project)"
+  period: "2022.04 – 2024.12"
+
+- status: completed
+  title: "Consulting Mathematical Optimization Algorithms"
+  funder: "LG CNS"
+  program: "산업체 과제"
+  role: "Lead researcher"
+  period: "2023.04 – 2024.03"
+
+- status: completed
+  title: "Collaboration-Based Network Design for Flexible Delivery Service"
+  funder: "National Research Foundation of Korea (NRF)"
+  program: "한국연구재단 이공학 개인기초연구지원 사업"
+  role: "Participant"
+  period: "2021.06 – 2024.02"
+
+- status: completed
+  title: "Priority Scheduling for Flexible Machining Systems with Multiple Setup Stations and Multi-Fixturing Pallets"
+  funder: "Hanyang University"
+  program: "한양대학교 산업과학연구소 연구지원사업"
+  role: "Lead researcher"
+  period: "2023.07 – 2024.02"
+
+- status: completed
+  title: "Development of Forecasting, Production Planning and Scheduling Algorithms and Framework for APS (Advanced Planning and Scheduling) System"
+  funder: "Youngsin Metal Industrial Co., Ltd."
+  program: "산업체 과제"
+  role: "Lead researcher"
+  period: "2021.12 – 2022.11"
+
+- status: completed
+  title: "Consulting Mathematical Optimization Algorithms"
+  funder: "LG CNS"
+  program: "산업체 과제"
+  role: "Lead researcher"
+  period: "2021.11 – 2022.10"
+
+- status: completed
+  title: "Design and Development of Senior Friendly Products Improving the Cognitive Abilities by using Musical Recall"
+  funder: "Ministry of Trade, Industry and Energy"
+  program: "산업통상자원부 한국산업기술평가관리원"
+  role: "Lead researcher"
+  period: "2018.01 – 2018.12"

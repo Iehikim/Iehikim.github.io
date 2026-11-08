@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Hyeon-Il Kim"
 title_separator          : "-"
 name                     : &name ""
-description              : &description ""
+description              : &description "Hyeon-Il Kim, postdoctoral researcher at KTH Royal Institute of Technology. Research on production scheduling, remanufacturing and circular closed-loop supply chains."
 url                      : "https://Iehikim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Iehikim/Iehikim.github.io"
@@ -123,6 +123,13 @@ include:
   - _pages
   - files
 exclude:
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - README.md
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -256,7 +263,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Stockholm # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

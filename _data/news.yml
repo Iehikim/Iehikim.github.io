@@ -1,0 +1,23 @@
+# News, newest first. The first 5 are shown; the rest sit behind "Show older news".
+# date: free text shown in the left column. text: plain text or inline HTML.
+
+- date: "Sep 2026"
+  text: 'Started as a Postdoctoral Researcher at the <a href="https://www.kth.se/en/tekmek/institutionen-for-teknisk-mekanik-1.1204789">Department of Engineering Mechanics</a> and the <a href="https://www.eco2vehicledesign.kth.se/">Centre for ECO2 Vehicle Design</a>, KTH Royal Institute of Technology.'
+
+- date: "Aug 2026"
+  text: "Received the Ph.D. in Industrial Engineering from Hanyang University, together with the Best Ph.D. Dissertation Award."
+
+- date: "Jun 2026"
+  text: "Presented two papers at the Spring KIIE/KORMS/KSS Joint Conference in Gyeongju."
+
+- date: "May 2026"
+  text: 'The <a href="https://www.vinnova.se/en/p/sustainable-design-operation-and-optimization-of-circular-value-creation-networks-solve">SOLVE project</a> on circular value creation networks (Vinnova, Eureka CVC) started.'
+
+- date: "Mar 2026"
+  text: "Started an NRF basic research project on capacitated disassembly leveling and lot-sizing under uncertain component yields."
+
+- date: "Nov 2025"
+  text: "Two papers presented at APIEMS 2025 in Hangzhou, China."
+
+- date: "Aug 2023"
+  text: "Best Presentation Award at the 17th International Congress on Logistics and SCM Systems (ICLS 2023)."

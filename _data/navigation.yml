@@ -1,18 +1,16 @@
-# main links links
+# Main navigation (top bar)
 main:
-  - title: "Home"
+  - title: "About"
     url: /
-  - title: "Research"
+  - title: "Publications"
     url: /publications/
-
   - title: "Projects"
     url: /projects/
-    
-  - title: "Laboratory"
-    url: /laboratory/
-  
   - title: "Teaching"
-    url: /teaching/    
-    
+    url: /teaching/
+  - title: "Students"
+    url: /laboratory/
   - title: "Contact"
     url: /contact/
+  - title: "CV"
+    url: /files/CV-HIK.pdf

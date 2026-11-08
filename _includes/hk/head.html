@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if page.url == "/" %}{% assign doc_title = site.title | append: ", " | append: site.author.bio %}{% else %}{% assign doc_title = page.title | append: " | " | append: site.title %}{% endif %}
+{% assign doc_desc = page.description | default: site.description | strip_html | strip_newlines %}
+<title>{{ doc_title }}</title>
+<meta name="description" content="{{ doc_desc | escape }}">
+<meta name="author" content="{{ site.title }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ doc_title | escape }}">
+<meta property="og:description" content="{{ doc_desc | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ '/images/profile-hero.jpg' | absolute_url }}">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="preload" href="{{ '/assets/fonts/ibm-plex-sans/ibm-plex-sans-latin-400-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<script>document.documentElement.classList.add('js');</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"{{ site.title }}","jobTitle":"Postdoctoral Researcher","affiliation":{"@type":"CollegeOrUniversity","name":"KTH Royal Institute of Technology"},"email":"mailto:{{ site.author.email }}","url":"{{ '/' | absolute_url }}","sameAs":["{{ site.author.googlescholar }}","{{ site.author.orcid }}","https://www.linkedin.com/in/{{ site.author.linkedin }}"]}
+</script>
+{% include analytics.html %}
