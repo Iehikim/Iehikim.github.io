@@ -7,11 +7,32 @@
 - date: "Aug 2026"
   text: "Received the Ph.D. in Industrial Engineering from Hanyang University, together with the Best Ph.D. Dissertation Award."
 
+- date: "Jul 2026"
+  text: 'Paper published in <em>European Journal of Operational Research</em>: <a href="https://doi.org/10.1016/j.ejor.2025.12.048">Two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits</a>.'
+
 - date: "Jun 2026"
   text: "Presented two papers at the Spring KIIE/KORMS/KSS Joint Conference in Gyeongju."
 
 - date: "Mar 2026"
   text: "Started an NRF basic research project on capacitated disassembly leveling and lot-sizing under uncertain component yields."
+
+- date: "May 2025"
+  text: 'Paper published in <em>Computers &amp; Industrial Engineering</em>: <a href="https://doi.org/10.1016/j.cie.2025.111062">A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits</a>.'
+
+- date: "Jan 2025"
+  text: 'Paper published in <em>International Journal of Production Research</em>: <a href="https://doi.org/10.1080/00207543.2024.2355324">A mathematical model and solution algorithms for optimizing system-level configurations of reconfigurable single part flow lines</a>.'
+
+- date: "May 2024"
+  text: 'Paper published in <em>Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture</em>: <a href="https://doi.org/10.1177/09544054231182174">A scheduling mechanism for hybrid flow shops with reworks under general queue time limits</a>.'
+
+- date: "Apr 2024"
+  text: 'Paper published in <em>Computers &amp; Industrial Engineering</em>: <a href="https://doi.org/10.1016/j.cie.2024.110097">Team orienteering with possible multiple visits: Mathematical model and solution algorithms</a>.'
+
+- date: "Oct 2023"
+  text: 'Paper published in <em>International Journal of Production Research</em>: <a href="https://doi.org/10.1080/00207543.2022.2139004">Scheduling algorithms for multi-stage flow shops with reworks under overlapped queue time limits</a>.'
+
+- date: "Sep 2023"
+  text: 'Paper published in <em>Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture</em>: <a href="https://doi.org/10.1177/09544054221136526">Disassembly leveling and lot-sizing for multiple product types with uncertain component demands</a>.'
 
 - date: "Aug 2023"
   text: "Best Presentation Award at the 17th International Congress on Logistics and SCM Systems (ICLS 2023)."
