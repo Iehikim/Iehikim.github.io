@@ -546,7 +546,7 @@ strong { font-weight: 600; color: var(--ink); }
 
 /* --- research drafts: shared bits */
 .area { --c: var(--accent); }
-.area-text h3 .area-no { color: var(--c); font-weight: 700; margin-right: 0.55em; font-variant-numeric: tabular-nums; }
+.area-text h3 .area-no { color: var(--c); font-weight: 700; margin-right: 0.3em; font-variant-numeric: tabular-nums; }
 /* --- A: polished cards */
 .areas--cards .area { position: relative; }
 .areas--cards .area-fig { border-color: color-mix(in srgb, var(--c) 22%, #e3e8ef); }
