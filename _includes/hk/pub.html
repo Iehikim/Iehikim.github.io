@@ -12,12 +12,20 @@
     {% if p.authors %}<p class="pub-authors">{{ p.authors | replace: 'Kim, H.-I.', '<strong class="me">Kim, H.-I.</strong>' }}</p>{% endif %}
     {% if p.venue %}<p class="pub-where"><em>{{ p.venue }}</em>{% if p.details %}, {{ p.details }}{% endif %}{% if p.status %}. <span class="pub-status">{{ p.status }}</span>{% endif %}</p>{% endif %}
     {% if v.jcr %}
-    <p class="pub-metrics" title="Clarivate JCR, released {{ site.data.venues.jcr_release }}: {{ v.jcr.category }}, rank {{ v.jcr.rank }}">
-      <span class="metric metric--{{ v.jcr.quartile | downcase }}">{{ v.jcr.quartile }}</span>
-      <span class="metric">JCR top {{ v.jcr.top }}%</span>
-      <span class="metric">IF {{ v.jcr.if }}</span>
-      <span class="sr-only">Best JCR category: {{ v.jcr.category }}, rank {{ v.jcr.rank }}.</span>
+    {% comment %} JCR of the publication year; newer papers and papers under review use the latest JCR. {% endcomment %}
+    {% assign jy = site.data.venues.jcr_latest | append: '' %}
+    {% assign latest_n = site.data.venues.jcr_latest | plus: 0 %}
+    {% assign is_latest = true %}
+    {% if p.year %}{% assign py = p.year | plus: 0 %}{% if py <= latest_n %}{% assign jy = p.year | append: '' %}{% assign is_latest = false %}{% endif %}{% endif %}
+    {% assign m = v.jcr | where: "year", jy | first %}
+    {% if m %}
+    <p class="pub-metrics" title="Clarivate JCR {{ m.year }}{% if is_latest %} (latest available){% endif %}: {{ m.category }}, rank {{ m.rank }}">
+      <span class="metric metric--{{ m.quartile | downcase }}">{{ m.quartile }}</span>
+      <span class="metric">JCR {{ m.year }} · top {{ m.top }}%</span>
+      <span class="metric">IF {{ m.if }}</span>
+      <span class="sr-only">Clarivate JCR {{ m.year }}, best category {{ m.category }}, rank {{ m.rank }}.</span>
     </p>
+    {% endif %}
     {% endif %}
     {% if p.note %}<p class="pub-note"><i class="fas fa-award" aria-hidden="true"></i>{{ p.note }}</p>{% endif %}
     {% if p.doi or p.url or p.pdf %}

@@ -75,7 +75,7 @@ redirect_from:
     <ol class="pub-list">
       {% for pub in selected %}{% include hk/pub.html pub=pub %}{% endfor %}
     </ol>
-    <p class="list-note">Journal metrics: Clarivate JCR, released {{ site.data.venues.jcr_release }}, best-ranked category.</p>
+    <p class="list-note">Journal metrics: Clarivate JCR of each paper's publication year (JCR {{ site.data.venues.jcr_latest }} for papers published since), best-ranked category.</p>
     <a class="more-link" href="{{ '/publications/' | relative_url }}">See all publications and conference papers</a>
   </div>
 </section>

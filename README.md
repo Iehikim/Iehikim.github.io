@@ -15,7 +15,7 @@ Most content lives in YAML files under `_data/`, so adding an item never require
 | Students | `_data/students.yml` | Leave `thesis: ""` while a thesis is in progress. |
 | Research areas, background, awards, talks, reviewer list, skills | `_data/cv.yml` | |
 | Bio and hero links | `_pages/about.html` | |
-| Journal covers and JCR metrics (Q, top %, IF) | `_data/venues.yml` | Keyed by `venue_short`. Update the JCR numbers each June when Clarivate releases new data. Cover thumbnails are in `images/journals/`. |
+| Journal covers and JCR metrics (Q, top %, IF) | `_data/venues.yml` | Keyed by `venue_short`, one `jcr` entry per JCR year; each paper shows the JCR of its publication year. Each June, add the new year's entry (for the journals that need it) and bump `jcr_latest`. Cover thumbnails are in `images/journals/`. |
 | School logos in Background | `_data/cv.yml` (`logo:`) | Files in `images/logos/`. |
 | Top navigation | `_data/navigation.yml` | |
 | CV | `files/CV-HIK.pdf` | Replace the file; the CV links follow automatically. |
