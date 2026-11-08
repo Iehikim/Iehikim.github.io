@@ -1,13 +1,24 @@
 {% assign p = include.pub %}
 <li class="pub pub--{{ p.group }}">
+  {% assign v = site.data.venues[p.venue_short] %}
   <div class="pub-mark">
-    {% if p.venue_short %}<span class="pub-venue" title="{{ p.venue | escape }}">{{ p.venue_short }}</span>{% endif %}
+    {% if p.group == 'journal' or p.group == 'domestic-journal' or p.group == 'under-review' %}
+      {% if v.cover %}<img class="pub-cover" src="{{ v.cover | relative_url }}" alt="" title="{{ p.venue | escape }}" width="52" height="69" loading="lazy">{% else %}<span class="pub-cover pub-cover--blank" title="{{ p.venue | escape }}">{{ p.venue_short }}</span>{% endif %}
+    {% elsif p.venue_short %}<span class="pub-venue" title="{{ p.venue | escape }}">{{ p.venue_short }}</span>{% endif %}
     {% if p.year %}<span class="pub-year">{{ p.year }}</span>{% elsif p.group == 'under-review' %}<span class="pub-year">In review</span>{% endif %}
   </div>
   <div class="pub-body">
     <h3 class="pub-title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% elsif p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% elsif p.pdf %}<a href="{{ p.pdf }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
     {% if p.authors %}<p class="pub-authors">{{ p.authors | replace: 'Kim, H.-I.', '<strong class="me">Kim, H.-I.</strong>' }}</p>{% endif %}
     {% if p.venue %}<p class="pub-where"><em>{{ p.venue }}</em>{% if p.details %}, {{ p.details }}{% endif %}{% if p.status %}. <span class="pub-status">{{ p.status }}</span>{% endif %}</p>{% endif %}
+    {% if v.jcr %}
+    <p class="pub-metrics" title="Clarivate JCR, released {{ site.data.venues.jcr_release }}: {{ v.jcr.category }}, rank {{ v.jcr.rank }}">
+      <span class="metric metric--{{ v.jcr.quartile | downcase }}">{{ v.jcr.quartile }}</span>
+      <span class="metric">JCR top {{ v.jcr.top }}%</span>
+      <span class="metric">IF {{ v.jcr.if }}</span>
+      <span class="sr-only">Best JCR category: {{ v.jcr.category }}, rank {{ v.jcr.rank }}.</span>
+    </p>
+    {% endif %}
     {% if p.note %}<p class="pub-note"><i class="fas fa-award" aria-hidden="true"></i>{{ p.note }}</p>{% endif %}
     {% if p.doi or p.url or p.pdf %}
     <p class="pub-links">

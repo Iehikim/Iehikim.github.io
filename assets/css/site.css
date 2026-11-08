@@ -280,9 +280,36 @@ strong { font-weight: 600; color: var(--ink); }
 .hero-grid {
   display: grid;
   grid-template-columns: var(--gutter) minmax(0, 1fr);
-  gap: var(--gap);
+  grid-template-areas:
+    "photo text"
+    "card  text";
+  grid-template-rows: auto 1fr;
+  column-gap: var(--gap);
+  row-gap: 20px;
   align-items: start;
 }
+.hero-photo { grid-area: photo; }
+.hero-card  { grid-area: card; }
+.hero-text  { grid-area: text; }
+
+.hero-card {
+  font-style: normal;
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.hero-card p { margin: 0 0 8px; }
+.card-affil { color: var(--ink); font-weight: 500; }
+.card-links { margin-top: 12px; display: grid; gap: 5px; }
+.card-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--body);
+  overflow-wrap: anywhere;
+}
+.card-links a:hover { color: var(--accent); }
+.card-links i { color: var(--accent); font-size: 0.95em; }
 
 .hero-photo {
   margin: 6px 0 0;
@@ -312,71 +339,6 @@ strong { font-weight: 600; color: var(--ink); }
 .hero-role .place { color: var(--muted); }
 
 .hero-bio p { margin-bottom: 0.85em; }
-
-.link-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 22px;
-}
-.link-row a {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 13px 6px 11px;
-  border: 1px solid var(--rule);
-  border-radius: 999px;
-  color: var(--ink);
-  font-size: 0.86rem;
-  font-weight: 500;
-  line-height: 1.3;
-  transition: border-color 0.15s ease, background-color 0.15s ease;
-}
-.link-row a i { color: var(--accent); font-size: 0.95em; }
-.link-row a:hover {
-  border-color: var(--accent);
-  background: var(--accent-wash);
-  text-decoration: none;
-}
-
-/* ---------- Gantt motif ---------- */
-.gantt { margin: 52px 0 0; }
-.gantt svg { width: 100%; height: auto; display: block; overflow: visible; }
-
-.g-label { fill: var(--muted); font: 500 13px var(--font); }
-.gantt line, .gantt path, .g-r { vector-effect: non-scaling-stroke; }
-.g-lane  { stroke: var(--rule); stroke-width: 1; stroke-dasharray: 2 4; }
-.g-axis  { stroke: var(--rule); stroke-width: 1; }
-.g-tick  { stroke: #c9cfd7; stroke-width: 1; }
-
-.g-job { transform-box: fill-box; transform-origin: left center; }
-.g-a { fill: var(--job-1); }
-.g-b { fill: var(--job-2); }
-.g-c { fill: var(--job-4); }
-.g-d { fill: var(--job-3); }
-.g-k { fill: var(--accent); }
-.g-r { fill: url(#gantt-hatch); stroke: var(--accent); stroke-width: 1.2; }
-.g-hatch-bg { fill: var(--paper); }
-.g-hatch-line { fill: var(--accent); }
-.g-queue {
-  fill: none;
-  stroke: var(--accent);
-  stroke-width: 1.4;
-  stroke-dasharray: 3 3;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .js .g-job {
-    animation: g-grow 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
-    animation-delay: var(--d, 0s);
-  }
-  .js .g-queue {
-    animation: g-fade 0.4s ease both;
-    animation-delay: var(--d, 0s);
-  }
-}
-@keyframes g-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-@keyframes g-fade { from { opacity: 0; } to { opacity: 1; } }
 
 /* ---------- Page header (sub-pages) ---------- */
 .page-head {
@@ -413,7 +375,7 @@ strong { font-weight: 600; color: var(--ink); }
   border-top: 1px solid var(--rule);
 }
 .section:first-of-type { margin-top: 48px; }
-.hero + .section { margin-top: 44px; }
+.hero + .section { margin-top: 52px; }
 
 .section-head { position: relative; }
 .section-title {
@@ -470,6 +432,19 @@ strong { font-weight: 600; color: var(--ink); }
   line-height: 1.5;
 }
 .what p, .stack-list p { margin-bottom: 0; }
+
+.org-entry {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+}
+.org-logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 2px;
+  object-fit: contain;
+}
 .what .org { color: var(--ink); }
 .what .meta {
   margin-top: 2px;
@@ -556,6 +531,26 @@ strong { font-weight: 600; color: var(--ink); }
   color: var(--accent-ink);
   border: 1px dashed #9db6dc;
 }
+.pub-cover {
+  display: block;
+  width: 52px;
+  height: 69px;
+  border-radius: 3px;
+  border: 1px solid var(--rule);
+  object-fit: cover;
+  background: var(--paper-2);
+}
+.pub-cover--blank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-wash);
+  border-color: #d5e1f3;
+  color: var(--accent-ink);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
 .pub-year {
   color: var(--muted);
   font-size: 0.86rem;
@@ -587,6 +582,28 @@ strong { font-weight: 600; color: var(--ink); }
   color: var(--muted);
   font-size: 0.9rem;
 }
+.pub-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 7px 0 0;
+}
+.metric {
+  display: inline-block;
+  padding: 0 7px;
+  border-radius: 4px;
+  background: var(--paper-2);
+  color: var(--body);
+  font-size: 0.76rem;
+  font-weight: 500;
+  line-height: 1.7;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.metric--q1 { background: var(--accent); color: #fff; font-weight: 600; }
+.metric--q2 { background: var(--accent-wash); color: var(--accent-ink); font-weight: 600; }
+.metric--q3, .metric--q4 { background: #eceff3; color: var(--ink); font-weight: 600; }
+.list-note { margin: 14px 0 0; color: var(--muted); font-size: 0.82rem; }
 .pub-status { color: var(--ink); font-weight: 500; font-style: normal; }
 .pub-note {
   display: inline-flex;
@@ -770,22 +787,19 @@ html:not(.js) .filter-bar { display: none; }
   border-top: 1px solid var(--rule);
   background: var(--paper-2);
   color: var(--muted);
-  font-size: 0.88rem;
+  font-size: 0.84rem;
 }
-.footer-inner {
+.footer-base {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 24px 48px;
-  padding-top: 36px;
-  padding-bottom: 20px;
+  gap: 6px 24px;
+  padding-top: 22px;
+  padding-bottom: 26px;
 }
-.footer-name { margin-bottom: 4px; color: var(--ink); font-weight: 600; font-size: 0.95rem; }
-.footer-links { display: flex; flex-direction: column; gap: 4px; }
-.footer-links a { display: inline-flex; align-items: center; gap: 8px; color: var(--body); }
-.footer-links a:hover { color: var(--accent); }
-.footer-links i { color: var(--muted); }
-.footer-base { padding-top: 12px; padding-bottom: 30px; font-size: 0.82rem; }
+.footer-base p { margin: 0; }
+.footer-base a { color: var(--body); }
+.footer-base a:hover { color: var(--accent); }
 
 /* ---------- 404 ---------- */
 .notfound { padding-top: 24px; }
@@ -824,10 +838,15 @@ html:not(.js) .filter-bar { display: none; }
   html:not(.js) .nav-toggle { display: none; }
 
   .hero { padding-top: 36px; }
-  .hero-grid { grid-template-columns: 1fr; gap: 22px; }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: "photo" "text" "card";
+    grid-template-rows: auto;
+    row-gap: 22px;
+  }
+  .hero-card { padding-top: 18px; border-top: 1px solid var(--rule); font-size: 0.9rem; }
   .hero-photo { width: 132px; margin: 0; border-radius: 12px; }
   .hero-name { font-size: 2.05rem; }
-  .gantt { margin-top: 36px; }
 
   .section { grid-template-columns: 1fr; padding-top: 34px; padding-bottom: 34px; }
   .section-title { position: static; font-size: 1.22rem; }
@@ -844,9 +863,6 @@ html:not(.js) .filter-bar { display: none; }
 
   .areas { grid-template-columns: 1fr; gap: 20px; }
 
-  /* Gantt: keep bars readable by letting the chart compress horizontally */
-  .gantt svg { height: 78px; }
-  .g-label { display: none; }
 
   .dated-list > li,
   .contact-rows > li { grid-template-columns: 1fr; gap: 2px; }
@@ -854,6 +870,7 @@ html:not(.js) .filter-bar { display: none; }
 
   .pub-list > li.pub { grid-template-columns: 1fr; gap: 6px; }
   .pub-mark { flex-direction: row; align-items: center; gap: 10px; padding-top: 0; }
+  .pub-cover { width: 39px; height: 52px; }
 
   .columns-2 { columns: 1; }
   .skill-rows > li { grid-template-columns: 1fr; gap: 6px; }
@@ -872,7 +889,7 @@ html:not(.js) .filter-bar { display: none; }
 }
 
 @media print {
-  .site-header, .site-footer, .filter-bar, .text-button, .gantt { display: none !important; }
+  .site-header, .site-footer, .filter-bar, .text-button { display: none !important; }
   .js .news-list > li.is-older { display: grid; }
   .section { break-inside: avoid-page; }
   a { color: inherit; }
