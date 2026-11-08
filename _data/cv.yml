@@ -38,7 +38,9 @@ experience:
     place: "Seoul, Korea"
     details:
       - '<a href="http://ie.hanyang.ac.kr/">Department of Industrial Engineering</a>'
-      - 'Taught Linear Programming, Operations Management and Production Planning and Control (<a href="/teaching/">courses</a>)'
+      - 'Linear Programming'
+      - 'Operations Management'
+      - 'Production Planning and Control'
 
 education:
   - period: "2022.03 – 2026.08"
