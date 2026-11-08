@@ -56,12 +56,15 @@ redirect_from:
 <section class="section wrap" id="research" aria-labelledby="research-title">
   <div class="section-head"><h2 class="section-title" id="research-title">Research</h2></div>
   <div class="section-body">
-    <ul class="areas">
+    {% assign area_layout = site.data.cv.research_layout | default: 'cards' %}
+    <ul class="areas areas--{{ area_layout }}">
       {% for a in cv.research %}
       <li class="area">
-        <i class="fas fa-{{ a.icon }}" aria-hidden="true"></i>
-        <h3>{{ a.title }}</h3>
-        <p>{{ a.text }}</p>
+        {% if a.image %}<figure class="area-fig"><a href="{{ a.image | relative_url }}" target="_blank" rel="noopener" aria-label="Open figure: {{ a.title }}"><img src="{{ a.image | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" alt="" width="480" height="300" loading="lazy" decoding="async"></a></figure>{% else %}<i class="fas fa-{{ a.icon }}" aria-hidden="true"></i>{% endif %}
+        <div class="area-text">
+          <h3>{{ a.title }}</h3>
+          <p>{{ a.text }}</p>
+        </div>
       </li>
       {% endfor %}
     </ul>
