@@ -151,7 +151,7 @@ redirect_from:
     </ul>
     <h3 class="subhead">Reviewer for {{ cv.reviewer.size }} journals</h3>
     <ul class="columns-2">
-      {% for j in cv.reviewer %}<li>{{ j }}</li>{% endfor %}
+      {% for j in cv.reviewer %}<li>{% if j.url %}<a href="{{ j.url }}">{{ j.name }}</a>{% else %}{{ j.name }}{% endif %}</li>{% endfor %}
     </ul>
   </div>
 </section>
