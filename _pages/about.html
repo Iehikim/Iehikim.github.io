@@ -84,7 +84,7 @@ redirect_from:
   <div class="section-head"><h2 class="section-title" id="bg-title">Background</h2></div>
   <div class="section-body">
     <h3 class="subhead">Experience</h3>
-    <ol class="dated-list">
+    <ol class="dated-list dated-list--wide">
       {% for e in cv.experience %}
       <li>
         <span class="when">{{ e.period }}</span>
@@ -101,7 +101,7 @@ redirect_from:
       {% endfor %}
     </ol>
     <h3 class="subhead">Education</h3>
-    <ol class="dated-list">
+    <ol class="dated-list dated-list--wide">
       {% for e in cv.education %}
       <li>
         <span class="when">{{ e.period }}</span>
