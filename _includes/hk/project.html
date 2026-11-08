@@ -2,7 +2,7 @@
 <li>
   <span class="when">{{ p.period }}</span>
   <div class="what proj-entry">
-    {% if p.logo %}<span class="proj-logo"><img src="{{ p.logo | relative_url }}" alt="" width="112" height="112" loading="lazy" decoding="async"></span>
+    {% if p.logo %}<span class="proj-logo"><img src="{{ p.logo | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" alt="" width="112" height="112" loading="lazy" decoding="async"></span>
     {% else %}<span class="proj-logo proj-logo--text" aria-hidden="true">{{ p.logo_text | default: p.funder }}</span>{% endif %}
     <div class="proj-text">
       <h3>{{ p.title }}</h3>
