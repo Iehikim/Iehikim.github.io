@@ -14,9 +14,11 @@
 <meta property="og:image" content="{{ '/images/profile-hero.jpg' | absolute_url }}">
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#ffffff">
-<link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-kth-32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="64x64" href="{{ '/images/favicon-kth-64.png' | relative_url }}">
 <link rel="preload" href="{{ '/assets/fonts/ibm-plex-sans/ibm-plex-sans-latin-400-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+{% capture asset_v %}{{ site.time | date: '%Y%m%d%H%M' }}{% endcapture %}
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ asset_v }}">
 <script>document.documentElement.classList.add('js');</script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Person","name":"{{ site.title }}","jobTitle":"Postdoctoral Researcher","affiliation":{"@type":"CollegeOrUniversity","name":"KTH Royal Institute of Technology"},"email":"mailto:{{ site.author.email }}","url":"{{ '/' | absolute_url }}","sameAs":["{{ site.author.googlescholar }}","{{ site.author.orcid }}","https://www.linkedin.com/in/{{ site.author.linkedin }}"]}
