@@ -6,7 +6,7 @@
   url: "http://ie.hanyang.ac.kr/"
   place: "Seoul, Korea"
   role: "Lecturer"
-  period: "2023 – 2024"
+  period: "2023.09 – 2024.08"
   courses:
     - code: "INE2009"
       title: "Linear Programming"
