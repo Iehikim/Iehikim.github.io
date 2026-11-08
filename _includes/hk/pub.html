@@ -1,0 +1,20 @@
+{% assign p = include.pub %}
+<li class="pub pub--{{ p.group }}">
+  <div class="pub-mark">
+    {% if p.venue_short %}<span class="pub-venue" title="{{ p.venue | escape }}">{{ p.venue_short }}</span>{% endif %}
+    {% if p.year %}<span class="pub-year">{{ p.year }}</span>{% elsif p.group == 'under-review' %}<span class="pub-year">In review</span>{% endif %}
+  </div>
+  <div class="pub-body">
+    <h3 class="pub-title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% elsif p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% elsif p.pdf %}<a href="{{ p.pdf }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+    {% if p.authors %}<p class="pub-authors">{{ p.authors | replace: 'Kim, H.-I.', '<strong class="me">Kim, H.-I.</strong>' }}</p>{% endif %}
+    {% if p.venue %}<p class="pub-where"><em>{{ p.venue }}</em>{% if p.details %}, {{ p.details }}{% endif %}{% if p.status %}. <span class="pub-status">{{ p.status }}</span>{% endif %}</p>{% endif %}
+    {% if p.note %}<p class="pub-note"><i class="fas fa-award" aria-hidden="true"></i>{{ p.note }}</p>{% endif %}
+    {% if p.doi or p.url or p.pdf %}
+    <p class="pub-links">
+      {% if p.doi %}<a class="tag-link" href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}
+      {% if p.url %}<a class="tag-link" href="{{ p.url }}">Full text</a>{% endif %}
+      {% if p.pdf %}<a class="tag-link" href="{{ p.pdf }}">PDF</a>{% endif %}
+    </p>
+    {% endif %}
+  </div>
+</li>

@@ -1,0 +1,57 @@
+---
+layout: hk-page
+title: "Publications"
+permalink: /publications/
+lead: 'Journal articles, conference papers and work in progress. Full texts and citations are also on <a href="https://scholar.google.com/citations?user=6ISLA88AAAAJ&amp;hl=en">Google Scholar</a>.'
+description: "Publications of Hyeon-Il Kim: journal articles and conference papers on flow shop scheduling, reconfigurable manufacturing, disassembly planning and remanufacturing."
+---
+{% assign pubs = site.data.publications %}
+{% assign j_intl = pubs | where: "group", "journal" %}
+{% assign j_dom = pubs | where: "group", "domestic-journal" %}
+{% assign review = pubs | where: "group", "under-review" %}
+{% assign c_intl = pubs | where: "group", "intl-conf" %}
+{% assign c_dom = pubs | where: "group", "domestic-conf" %}
+{% assign working = pubs | where: "group", "working" %}
+{% assign n_journals = j_intl.size | plus: j_dom.size %}
+{% assign n_confs = c_intl.size | plus: c_dom.size %}
+{% assign n_progress = review.size | plus: working.size %}
+
+<div class="wrap">
+  <div class="filter-bar" data-filter-bar role="group" aria-label="Filter publications">
+    <button type="button" data-filter="all" aria-pressed="true">All<span class="n">{{ pubs.size }}</span></button>
+    <button type="button" data-filter="journals" aria-pressed="false">Journal articles<span class="n">{{ n_journals }}</span></button>
+    <button type="button" data-filter="conferences" aria-pressed="false">Conference papers<span class="n">{{ n_confs }}</span></button>
+    <button type="button" data-filter="progress" aria-pressed="false">In progress<span class="n">{{ n_progress }}</span></button>
+    <p class="filter-note">* Corresponding author.</p>
+  </div>
+</div>
+
+<section class="section wrap" data-pub-group="journals" aria-labelledby="g-journal">
+  <div class="section-head"><h2 class="section-title" id="g-journal">International journals<span class="count">{{ j_intl.size }} articles</span></h2></div>
+  <div class="section-body"><ol class="pub-list">{% for pub in j_intl %}{% include hk/pub.html pub=pub %}{% endfor %}</ol></div>
+</section>
+
+<section class="section wrap" data-pub-group="progress" aria-labelledby="g-review">
+  <div class="section-head"><h2 class="section-title" id="g-review">Under review<span class="count">{{ review.size }} manuscripts</span></h2></div>
+  <div class="section-body"><ol class="pub-list">{% for pub in review %}{% include hk/pub.html pub=pub %}{% endfor %}</ol></div>
+</section>
+
+<section class="section wrap" data-pub-group="journals" aria-labelledby="g-domestic">
+  <div class="section-head"><h2 class="section-title" id="g-domestic">Domestic journals<span class="count">{{ j_dom.size }} articles</span></h2></div>
+  <div class="section-body"><ol class="pub-list">{% for pub in j_dom %}{% include hk/pub.html pub=pub %}{% endfor %}</ol></div>
+</section>
+
+<section class="section wrap" data-pub-group="conferences" aria-labelledby="g-iconf">
+  <div class="section-head"><h2 class="section-title" id="g-iconf">International conferences<span class="count">{{ c_intl.size }} papers</span></h2></div>
+  <div class="section-body"><ol class="pub-list">{% for pub in c_intl %}{% include hk/pub.html pub=pub %}{% endfor %}</ol></div>
+</section>
+
+<section class="section wrap" data-pub-group="conferences" aria-labelledby="g-dconf">
+  <div class="section-head"><h2 class="section-title" id="g-dconf">Domestic conferences<span class="count">{{ c_dom.size }} papers</span></h2></div>
+  <div class="section-body"><ol class="pub-list">{% for pub in c_dom %}{% include hk/pub.html pub=pub %}{% endfor %}</ol></div>
+</section>
+
+<section class="section wrap" data-pub-group="progress" aria-labelledby="g-working">
+  <div class="section-head"><h2 class="section-title" id="g-working">Working papers<span class="count">{{ working.size }} papers</span></h2></div>
+  <div class="section-body"><ol class="plain-list">{% for pub in working %}<li>{{ pub.title }}</li>{% endfor %}</ol></div>
+</section>

@@ -1,0 +1,366 @@
+# ---------------------------------------------------------------------------
+# Publications
+# ---------------------------------------------------------------------------
+# Each entry appears on /publications/. Entries with `selected: true` also
+# appear on the home page.
+#
+#   group      : journal | domestic-journal | intl-conf | domestic-conf
+#                | under-review | working
+#   venue_short: short label shown in the left column (e.g. EJOR, IJPR)
+#   status     : free text shown for under-review papers
+#   doi        : DOI only (without https://doi.org/)
+#   url        : full-text link if different from the DOI page
+#   pdf        : direct PDF link
+#   note       : highlighted remark (e.g. an award)
+#
+# Your own name ("Kim, H.-I.") is bolded automatically.
+# ---------------------------------------------------------------------------
+
+# ---- Under review ---------------------------------------------------------
+- group: under-review
+  title: "A genetic programming based variable neighborhood search algorithm for hybrid flow shop scheduling with reworks under overlapped queue time limits"
+  venue: "Swarm and Evolutionary Computation"
+  venue_short: "SWEVO"
+  status: "Resubmitted after 2nd revision"
+
+- group: under-review
+  title: "Disassembly leveling and lot-sizing for end-of-life products with uncertain component yields: Mathematical models and solution algorithms"
+  venue: "International Journal of Production Research"
+  venue_short: "IJPR"
+  status: "Under review"
+
+- group: under-review
+  title: "Configurations selection algorithms for reconfigurable multi-part flow lines with non-identical parallel machines at each stage and operation lot splitting"
+  venue: "Computers & Industrial Engineering"
+  venue_short: "CAIE"
+  status: "Under review"
+
+# ---- International journals ----------------------------------------------
+- group: journal
+  selected: true
+  year: 2026
+  title: "Two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits"
+  authors: "Kim, H.-I., and Lee, D.-H.*"
+  venue: "European Journal of Operational Research"
+  venue_short: "EJOR"
+  details: "332(2): 376–390"
+  doi: "10.1016/j.ejor.2025.12.048"
+  url: "https://www.sciencedirect.com/science/article/pii/S037722172501015X"
+
+- group: journal
+  selected: true
+  year: 2025
+  title: "A genetic programming based deep reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits"
+  authors: "Kim, H.-I., Kim, Y.-R., and Lee, D.-H.*"
+  venue: "Computers & Industrial Engineering"
+  venue_short: "CAIE"
+  details: "203: 111062"
+  doi: "10.1016/j.cie.2025.111062"
+  pdf: "https://www.sciencedirect.com/science/article/pii/S0360835225002086/pdfft?md5=f7887a78c819626fc64869b53b3da871&pid=1-s2.0-S0360835225002086-main.pdf"
+
+- group: journal
+  selected: true
+  year: 2025
+  title: "A mathematical model and solution algorithms for optimizing system-level configurations of reconfigurable single part flow lines"
+  authors: "Kim, H.-I., Youn, A.-J., and Lee, D.-H.*"
+  venue: "International Journal of Production Research"
+  venue_short: "IJPR"
+  details: "63(1): 9–25"
+  doi: "10.1080/00207543.2024.2355324"
+  url: "https://www.tandfonline.com/doi/epdf/10.1080/00207543.2024.2355324?needAccess=true"
+
+- group: journal
+  year: 2024
+  title: "Team orienteering with possible multiple visits: Mathematical model and solution algorithms"
+  authors: "Jung, H.-B., Kim, H.-I., and Lee, D.-H.*"
+  venue: "Computers & Industrial Engineering"
+  venue_short: "CAIE"
+  details: "190: 110097"
+  doi: "10.1016/j.cie.2024.110097"
+
+- group: journal
+  year: 2024
+  title: "A scheduling mechanism for hybrid flow shops with reworks under general queue time limits"
+  authors: "Cho, Y., Kim, H.-I., Kim, Y.-R., Yoo, S.-K., Kim, B.-H., and Lee, D.-H.*"
+  venue: "Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture"
+  venue_short: "PIME-B"
+  details: "238(6-7): 962–970"
+  doi: "10.1177/09544054231182174"
+
+- group: journal
+  year: 2023
+  title: "Disassembly leveling and lot-sizing for multiple product types with uncertain component demands"
+  authors: "Choi, Y.-H., Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture"
+  venue_short: "PIME-B"
+  details: "237(11): 1660–1670"
+  doi: "10.1177/09544054221136526"
+
+- group: journal
+  selected: true
+  year: 2023
+  title: "Scheduling algorithms for multi-stage flow shops with reworks under overlapped queue time limits"
+  authors: "Kim, H.-I., and Lee, D.-H.*"
+  venue: "International Journal of Production Research"
+  venue_short: "IJPR"
+  details: "61(20): 6908–6922"
+  doi: "10.1080/00207543.2022.2139004"
+
+# ---- Domestic journals ----------------------------------------------------
+- group: domestic-journal
+  year: 2026
+  title: "System-level Configuration Optimization Algorithms for Reconfigurable Single Part Flow Lines with Controllable Processing Times"
+  authors: "Kim, H.-I., Youn, A.-J., and Lee, D.-H.*"
+  venue: "Journal of the Research Institute of Industrial Science"
+  venue_short: "JRIIS"
+
+- group: domestic-journal
+  year: 2025
+  title: "Priority scheduling for flexible machining systems with multiple setup stations and multi-fixturing pallets"
+  authors: "Sim, D.-G., Choi, H., Kim, H.-I., Youn, A.-J., and Lee, D.-H.*"
+  venue: "Journal of the Research Institute of Industrial Science"
+  venue_short: "JRIIS"
+
+- group: domestic-journal
+  year: 2024
+  title: "Capacity scalability planning algorithms for job-shop-type reconfigurable manufacturing systems with dynamic demands"
+  authors: "Li, X., Kim, H.-I., and Lee, D.-H.*"
+  venue: "Journal of the Korean Institute of Industrial Engineers"
+  venue_short: "JKIIE"
+  details: "50(3): 157–172"
+  pdf: "https://jkiie.org/xml/40903/40903.pdf"
+
+# ---- International conferences --------------------------------------------
+- group: intl-conf
+  year: 2025
+  title: "A Multi-tree Genetic Programming Algorithm for Scheduling Remanufacturing Systems with Disassembly, Reprocessing and Reassembly Lines"
+  authors: "Bai, C., Kim, H.-I., Lee, J.-Y., and Lee, D.-H.*"
+  venue: "Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2025)"
+  venue_short: "APIEMS"
+  details: "Hangzhou, China, November 2025"
+
+- group: intl-conf
+  year: 2025
+  title: "Dynamic Configuration Selection for Non-decreasing demands in Reconfigurable Single-part Flow Lines with Controllable Processing Times"
+  authors: "Moon, H.-J., Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2025)"
+  venue_short: "APIEMS"
+  details: "Hangzhou, China, November 2025"
+
+- group: intl-conf
+  year: 2024
+  title: "Two-phase Variable Neighborhood Search Algorithms for Multi-stage Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits"
+  authors: "Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2024)"
+  venue_short: "APIEMS"
+  details: "Chiang Mai, Thailand, November 2024"
+
+- group: intl-conf
+  year: 2024
+  title: "Hybrid Flow Shop Scheduling with Eligible Unrelated Parallel Machines and Controllable Processing Times"
+  authors: "Lee, J.-Y., Kim, H.-I., Choi, Y.-H., and Lee, D.-H.*"
+  venue: "Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2024)"
+  venue_short: "APIEMS"
+  details: "Chiang Mai, Thailand, November 2024"
+
+- group: intl-conf
+  year: 2023
+  title: "Operations Scheduling for Flexible Manufacturing Systems with Multiple Setup Stations and Multi-fixturing Pallets"
+  authors: "Sim, D.-G., Kim, H.-I., Youn, A.-J., and Lee, D.-H.*"
+  venue: "Proceedings of the International Conference on Sustainable Energy and Green Technology (SEGT 2023)"
+  venue_short: "SEGT"
+  details: "Ho Chi Minh City, Vietnam, December 2023"
+
+- group: intl-conf
+  year: 2023
+  title: "Variable Neighborhood Search Algorithms for Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits: Minimizing Total Tardiness"
+  authors: "Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the 17th International Congress on Logistics and SCM Systems (ICLS 2023)"
+  venue_short: "ICLS"
+  details: "Seoul, Korea, August 2023"
+  note: "Best Presentation Award"
+
+- group: intl-conf
+  year: 2023
+  title: "Variable Neighborhood Search Algorithms for System-level Configuration Selection in Reconfigurable Single Part Flow Lines"
+  authors: "Kim, H.-I., Youn A.-J., Lee, S.-H., and Lee, D.-H.*"
+  venue: "Proceedings of the 27th International Conference on Production Research (ICPR 2023)"
+  venue_short: "ICPR"
+  details: "Cluj-Napoca, Romania, July 2023"
+
+- group: intl-conf
+  year: 2023
+  title: "A Two-level Optimal Algorithm for Three-machine Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits"
+  authors: "Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the 27th International Conference on Production Research (ICPR 2023)"
+  venue_short: "ICPR"
+  details: "Cluj-Napoca, Romania, July 2023"
+
+- group: intl-conf
+  year: 2022
+  title: "Multi-period Capacity Scalability Planning Algorithms for Job-shop-type Reconfigurable Manufacturing Systems with Increasing Demands"
+  authors: "Li, X., Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2022)"
+  venue_short: "APIEMS"
+  details: "Taichung, Taiwan, November 2022"
+
+# ---- Domestic conferences -------------------------------------------------
+- group: domestic-conf
+  year: 2026
+  title: "A Multi-objective Genetic Programming based Variable Neighborhood Search Algorithm for Dynamic Hybrid Flow Shop Scheduling with Machine Availability and Possible Reworks under Overlapped Queue Time Limits"
+  authors: "Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Spring KIIE/KORMS/KSS Joint Conference"
+  venue_short: "KIIE"
+  details: "Gyeongju, Korea, June 2026"
+
+- group: domestic-conf
+  year: 2026
+  title: "Dynamic System Configuration Selection Algorithms for Reconfigurable Single-part Flow Lines with Controllable Processing Times"
+  authors: "Moon, H.-J., Kim, H.-I., Lee, M.-S., and Lee, D.-H.*"
+  venue: "Proceedings of the Spring KIIE/KORMS/KSS Joint Conference"
+  venue_short: "KIIE"
+  details: "Gyeongju, Korea, June 2026"
+
+- group: domestic-conf
+  year: 2025
+  title: "An Optimal Sample Average Approximation Algorithm for Disassembly Leveling and Lot-sizing for a Single Product Type with Uncertain Component Yields"
+  authors: "Lee, K.-M., Kim, H.-I., Kang, J.-H., and Lee, D.-H.*"
+  venue: "Proceedings of the Fall KIIE Conference"
+  venue_short: "KIIE"
+  details: "KAIST, Daejeon, Korea, November 2025"
+
+- group: domestic-conf
+  year: 2025
+  title: "A Configuration Selection and Scheduling Algorithm for Reconfigurable Multi-part Flow Lines with Controllable Processing Times"
+  authors: "Lee, J.-Y., Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Fall KIIE Conference"
+  venue_short: "KIIE"
+  details: "KAIST, Daejeon, Korea, November 2025"
+
+- group: domestic-conf
+  year: 2025
+  title: "A Genetic Programming based Variable Neighborhood Search Algorithm for Hybrid Flow Shops with Reworks under Overlapped Queue Time Limits"
+  authors: "Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Spring KIIE/KORMS/KSS Joint Conference"
+  venue_short: "KIIE"
+  details: "Jeju, Korea, June 2025"
+
+- group: domestic-conf
+  year: 2025
+  title: "System Configuration Selection Algorithms for Reconfigurable Multi-part Flow Lines with Non-identical Parallel Machine Workstations"
+  authors: "Kim, H.-I., Lee, K.-M., and Lee, D.-H.*"
+  venue: "Proceedings of the Spring KIIE/KORMS/KSS Joint Conference"
+  venue_short: "KIIE"
+  details: "Jeju, Korea, June 2025"
+
+- group: domestic-conf
+  year: 2024
+  title: "Genetic Programming based Scheduling for Hybrid Flow Shops with Reworks under Overlapped Queue Time Limits"
+  authors: "Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Fall KIIE Conference"
+  venue_short: "KIIE"
+  details: "Seoul, Korea, October 2024"
+
+- group: domestic-conf
+  year: 2024
+  title: "A Branch and Bound Algorithm for Three-stage Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits"
+  authors: "Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Spring KIIE/KORMS/KSS Joint Conference"
+  venue_short: "KIIE"
+  details: "Yeosu, Korea, May 2024"
+
+- group: domestic-conf
+  year: 2024
+  title: "System-level Configuration Optimization Algorithms for Reconfigurable Single Part Flow Lines with Controllable Processing Times"
+  authors: "Youn, A.-J., Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Spring KIIE/KORMS/KSS Joint Conference"
+  venue_short: "KIIE"
+  details: "Yeosu, Korea, May 2024"
+
+- group: domestic-conf
+  year: 2023
+  title: "System-level Configuration Selection Algorithms for Reconfigurable Single Part Flow Lines"
+  authors: "Kim, H.-I., Youn, A.-J., Lee, K.-M., and Lee, D.-H.*"
+  venue: "Proceedings of the Fall KIIE Conference"
+  venue_short: "KIIE"
+  details: "UNIST, Ulsan, Korea, November 2023"
+
+- group: domestic-conf
+  year: 2023
+  title: "Dynamic Capacity Scalability Algorithms for Job-shop-type Reconfigurable Manufacturing Systems"
+  authors: "Li, X., Kim, H.-I., Lee, S.-H., and Lee, D.-H.*"
+  venue: "Proceedings of the Spring KIIE/KORMS Joint Conference"
+  venue_short: "KIIE"
+  details: "Jeju, Korea, June 2023"
+
+- group: domestic-conf
+  year: 2023
+  title: "A Deep Reinforcement Learning based Scheduling Approach for Hybrid Flow Shops with Reworks under Queue Time Limits"
+  authors: "Kim, Y.-R., Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Spring KIIE/KORMS Joint Conference"
+  venue_short: "KIIE"
+  details: "Jeju, Korea, June 2023"
+
+- group: domestic-conf
+  year: 2022
+  title: "A Genetic Programming Approach for Hybrid Flow Shop Scheduling with Reworks under Queue Time Limits"
+  authors: "Kim, Y.-R., Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Fall KIIE Conference"
+  venue_short: "KIIE"
+  details: "Incheon National University, Incheon, Korea, November 2022"
+
+- group: domestic-conf
+  year: 2022
+  title: "Iterated Local Search Algorithms for Team Orienteering Problem with Possible Multiple Visits"
+  authors: "Jung, H.-B., Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Fall KIIE Conference"
+  venue_short: "KIIE"
+  details: "Incheon National University, Incheon, Korea, November 2022"
+
+- group: domestic-conf
+  year: 2022
+  title: "A Case Study on Production Planning for a Bolt Manufacturing System"
+  authors: "Sim, D.-G., Kim, H.-I., Kim, G., Choi, J., and Lee, D.-H.*"
+  venue: "Proceedings of the Fall KIIE Conference"
+  venue_short: "KIIE"
+  details: "Incheon National University, Incheon, Korea, November 2022"
+
+- group: domestic-conf
+  year: 2022
+  title: "Variable Neighborhood Search Algorithms for Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits"
+  authors: "Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Spring KIIE/KORMS Joint Conference"
+  venue_short: "KIIE"
+  details: "Jeju, Korea, June 2022"
+
+- group: domestic-conf
+  year: 2021
+  title: "A Random Forest based Scheduling Approach for a Flexible Manufacturing System with Multi-fixturing Pallets"
+  authors: "Heo, S.-S., Sim, D.-G., Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Fall KIIE Conference"
+  venue_short: "KIIE"
+  details: "Dongguk University, Seoul, Korea, November 2021"
+
+- group: domestic-conf
+  year: 2021
+  title: "Mathematical Model and Simple Heuristic for Flow Shop Scheduling with Overlapped Queue Time Limits and Reworks"
+  authors: "Kim, H.-I., Kim, Y.-R., Li, X., and Lee, D.-H.*"
+  venue: "Proceedings of the Spring KIIE/KORMS Joint Conference"
+  venue_short: "KIIE"
+  details: "Seogwipo, Jeju, Korea, June 2021"
+
+# ---- Working papers -------------------------------------------------------
+- group: working
+  title: "Multi-objective dynamic hybrid flow shop scheduling with preventive maintenances and possible reworks under overlapped queue time limits"
+
+- group: working
+  title: "A genetic programming based scheduling approach for remanufacturing systems with flow-shop-type disassembly, reprocessing and reassembly shops"
+
+- group: working
+  title: "Optimal and heuristic algorithms for disassembly leveling and lot-sizing for end-of-life products with capacity constraints"
+
+- group: working
+  title: "An iterative approach for configuration selection and scheduling of reconfigurable multi-part flow lines with controllable processing times"
+
+- group: working
+  title: "Dynamic configuration selection for reconfigurable single-part flow lines with controllable processing times"

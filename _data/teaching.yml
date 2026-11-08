@@ -1,0 +1,21 @@
+# Courses taught. Grouped by institution.
+
+- institution: "Hanyang University"
+  department: "Department of Industrial Engineering"
+  url: "http://ie.hanyang.ac.kr/"
+  place: "Seoul, Korea"
+  role: "Lecturer"
+  period: "2023 – 2024"
+  courses:
+    - code: "INE2009"
+      title: "Linear Programming"
+      level: "Undergraduate"
+      term: "Fall 2023"
+    - code: "INE3081"
+      title: "Operations Management"
+      level: "Undergraduate"
+      term: "Spring 2024"
+    - code: "INE9095"
+      title: "Production Planning and Control"
+      level: "Graduate"
+      term: "Spring 2024"

@@ -1,0 +1,47 @@
+---
+layout: hk-page
+title: "Projects"
+permalink: /projects/
+lead: "Research projects funded by national agencies, universities and industry partners."
+description: "Research projects of Hyeon-Il Kim, including SOLVE (Vinnova, Eureka) and NRF projects on scheduling, reconfigurable manufacturing and disassembly planning."
+---
+{% assign ongoing = site.data.projects | where: "status", "ongoing" %}
+{% assign completed = site.data.projects | where: "status", "completed" %}
+
+<section class="section wrap" aria-labelledby="p-ongoing">
+  <div class="section-head"><h2 class="section-title" id="p-ongoing">Ongoing<span class="count">{{ ongoing.size }} projects</span></h2></div>
+  <div class="section-body">
+    <ol class="dated-list dated-list--wide">
+      {% for p in ongoing %}
+      <li>
+        <span class="when">{{ p.period }}</span>
+        <div class="what">
+          <h3>{{ p.title }}</h3>
+          <p class="meta"><span class="org">{{ p.funder }}</span>{% if p.program %}, {{ p.program }}{% endif %}</p>
+          {% if p.role %}<span class="role-tag">{{ p.role }}</span>{% endif %}
+          {% if p.url %}<p class="project-links"><a href="{{ p.url }}">Project page <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section wrap" aria-labelledby="p-completed">
+  <div class="section-head"><h2 class="section-title" id="p-completed">Completed<span class="count">{{ completed.size }} projects</span></h2></div>
+  <div class="section-body">
+    <ol class="dated-list dated-list--wide">
+      {% for p in completed %}
+      <li>
+        <span class="when">{{ p.period }}</span>
+        <div class="what">
+          <h3>{{ p.title }}</h3>
+          <p class="meta"><span class="org">{{ p.funder }}</span>{% if p.program %}, {{ p.program }}{% endif %}</p>
+          {% if p.role %}<span class="role-tag">{{ p.role }}</span>{% endif %}
+          {% if p.url %}<p class="project-links"><a href="{{ p.url }}">Project page <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>

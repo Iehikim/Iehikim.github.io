@@ -1,3 +1,27 @@
+# Hyeon-Il Kim, research homepage
+
+Live site: https://iehikim.github.io/
+
+## Updating the content
+
+Most content lives in YAML files under `_data/`, so adding an item never requires touching HTML:
+
+| What | File | Notes |
+| --- | --- | --- |
+| News on the home page | `_data/news.yml` | Newest first. The first 5 show; older ones sit behind "Show older news". |
+| Papers | `_data/publications.yml` | Set `group` (journal, domestic-journal, under-review, intl-conf, domestic-conf, working). `selected: true` also lists a paper on the home page. Your name is bolded automatically. |
+| Projects | `_data/projects.yml` | `status: ongoing` or `completed`. |
+| Courses | `_data/teaching.yml` | |
+| Students | `_data/students.yml` | Leave `thesis: ""` while a thesis is in progress. |
+| Research areas, background, awards, talks, reviewer list, skills | `_data/cv.yml` | |
+| Bio and hero links | `_pages/about.html` | |
+| Top navigation | `_data/navigation.yml` | |
+| CV | `files/CV-HIK.pdf` | Replace the file; the CV links follow automatically. |
+
+Design files: `_layouts/hk-base.html`, `_layouts/hk-page.html`, `_includes/hk/`, `assets/css/site.css`, `assets/js/site.js`. Text font: IBM Plex Sans, self-hosted in `assets/fonts/ibm-plex-sans/` (SIL Open Font License).
+
+---
+
 A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
 I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
