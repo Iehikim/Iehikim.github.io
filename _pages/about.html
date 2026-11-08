@@ -14,23 +14,26 @@ redirect_from:
     <figure class="hero-photo">
       <img src="{{ '/images/profile-hero.jpg' | relative_url }}" alt="Portrait of Hyeon-Il Kim" width="640" height="640">
     </figure>
+    <address class="hero-card">
+      <p class="card-affil">Department of Engineering Mechanics, KTH Royal Institute of Technology</p>
+      <p class="card-addr">Teknikringen 8, Room 2305<br>SE-100 44 Stockholm, Sweden</p>
+      <ul class="card-links">
+        <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i>{{ site.author.email }}</a></li>
+        <li><a href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a></li>
+        <li><a href="{{ site.author.orcid }}"><i class="ai ai-orcid" aria-hidden="true"></i>ORCID</a></li>
+        <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+        <li><a href="{{ '/files/CV-HIK.pdf' | relative_url }}"><i class="fas fa-file-alt" aria-hidden="true"></i>CV (PDF)</a></li>
+      </ul>
+    </address>
     <div class="hero-text">
-      <h1 class="hero-name">Hyeon-Il Kim</h1>
+      <h1 class="hero-name"><span lang="ko">김현일</span> (Hyeon-Il Kim), Ph.D.</h1>
       <p class="hero-role">Postdoctoral Researcher at KTH Royal Institute of Technology, Stockholm</p>
       <div class="hero-bio">
         <p>I am a Postdoctoral Researcher in the <a href="https://www.kth.se/en/tekmek/institutionen-for-teknisk-mekanik-1.1204789">Department of Engineering Mechanics</a> and the <a href="https://www.eco2vehicledesign.kth.se/">Centre for ECO2 Vehicle Design</a> at KTH. My research covers operations scheduling, production planning, combinatorial optimization, the design and operation of manufacturing systems, environmentally conscious design and manufacturing, sustainable and circular closed-loop supply chains, and applications of operations research.</p>
         <p>I welcome opportunities to collaborate with researchers and industry practitioners on challenging real-world problems. Please <a href="mailto:{{ site.author.email }}">get in touch</a> if you are interested in working together.</p>
       </div>
-      <ul class="link-row">
-        <li><a href="{{ '/files/CV-HIK.pdf' | relative_url }}"><i class="fas fa-file-alt" aria-hidden="true"></i>CV</a></li>
-        <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a></li>
-        <li><a href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a></li>
-        <li><a href="{{ site.author.orcid }}"><i class="ai ai-orcid" aria-hidden="true"></i>ORCID</a></li>
-        <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
-      </ul>
     </div>
   </div>
-  {% include hk/gantt.html %}
 </section>
 
 <section class="section wrap" id="news" aria-labelledby="news-title">
@@ -72,6 +75,7 @@ redirect_from:
     <ol class="pub-list">
       {% for pub in selected %}{% include hk/pub.html pub=pub %}{% endfor %}
     </ol>
+    <p class="list-note">Journal metrics: Clarivate JCR, released {{ site.data.venues.jcr_release }}, best-ranked category.</p>
     <a class="more-link" href="{{ '/publications/' | relative_url }}">See all publications and conference papers</a>
   </div>
 </section>
@@ -84,10 +88,13 @@ redirect_from:
       {% for e in cv.experience %}
       <li>
         <span class="when">{{ e.period }}</span>
-        <div class="what">
-          <h3>{{ e.role }}</h3>
-          <p class="meta"><span class="org">{{ e.org }}</span>, {{ e.place }}</p>
-          {% if e.detail %}<p class="detail">{{ e.detail }}</p>{% endif %}
+        <div class="what org-entry">
+          {% if e.logo %}<img class="org-logo" src="{{ e.logo | relative_url }}" alt="" title="{{ e.org }}" width="40" height="40" loading="lazy">{% endif %}
+          <div class="org-text">
+            <h3>{{ e.role }}</h3>
+            <p class="meta"><span class="org">{{ e.org }}</span>, {{ e.place }}</p>
+            {% if e.detail %}<p class="detail">{{ e.detail }}</p>{% endif %}
+          </div>
         </div>
       </li>
       {% endfor %}
@@ -97,10 +104,13 @@ redirect_from:
       {% for e in cv.education %}
       <li>
         <span class="when">{{ e.period }}</span>
-        <div class="what">
-          <h3>{{ e.role }}</h3>
-          <p class="meta"><span class="org">{{ e.org }}</span>, {{ e.place }}</p>
-          {% if e.detail %}<p class="detail">{{ e.detail }}</p>{% endif %}
+        <div class="what org-entry">
+          {% if e.logo %}<img class="org-logo" src="{{ e.logo | relative_url }}" alt="" title="{{ e.org }}" width="40" height="40" loading="lazy">{% endif %}
+          <div class="org-text">
+            <h3>{{ e.role }}</h3>
+            <p class="meta"><span class="org">{{ e.org }}</span>, {{ e.place }}</p>
+            {% if e.detail %}<p class="detail">{{ e.detail }}</p>{% endif %}
+          </div>
         </div>
       </li>
       {% endfor %}

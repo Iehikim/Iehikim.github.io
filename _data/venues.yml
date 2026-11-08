@@ -1,0 +1,49 @@
+# Journal details keyed by `venue_short` in publications.yml.
+#   cover: thumbnail shown next to the paper (journals without one get a placeholder)
+#   jcr:   Clarivate Journal Citation Reports, release of June 2026 (2025 data).
+#          Quartile, rank and top % refer to the journal's best-ranked category.
+#          top = rank / journals in category x 100. Update these each June.
+jcr_release: "June 2026 (2025 data)"
+
+EJOR:
+  cover: /images/journals/ejor.webp
+  jcr:
+    if: "7.0"
+    quartile: Q1
+    rank: "11/109"
+    top: "10.1"
+    category: "Operations Research & Management Science"
+CAIE:
+  cover: /images/journals/caie.webp
+  jcr:
+    if: "7.3"
+    quartile: Q1
+    rank: "30/185"
+    top: "16.2"
+    category: "Computer Science, Interdisciplinary Applications"
+IJPR:
+  cover: /images/journals/ijpr.webp
+  jcr:
+    if: "8.7"
+    quartile: Q1
+    rank: "9/109"
+    top: "8.3"
+    category: "Operations Research & Management Science"
+PIME-B:
+  cover: /images/journals/pimeb.webp
+  jcr:
+    if: "2.1"
+    quartile: Q3
+    rank: "103/184"
+    top: "56.0"
+    category: "Engineering, Mechanical"
+SWEVO:
+  cover: /images/journals/swevo.webp
+  jcr:
+    if: "9.6"
+    quartile: Q1
+    rank: "9/146"
+    top: "6.2"
+    category: "Computer Science, Theory & Methods"
+JKIIE:
+  cover: /images/journals/jkiie.webp
