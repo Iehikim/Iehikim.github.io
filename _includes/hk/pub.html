@@ -3,7 +3,7 @@
   {% assign v = site.data.venues[p.venue_short] %}
   <div class="pub-mark">
     {% if p.group == 'journal' or p.group == 'domestic-journal' or p.group == 'under-review' %}
-      {% if v.cover %}<img class="pub-cover" src="{{ v.cover | relative_url }}" alt="" title="{{ p.venue | escape }}" width="84" height="112" loading="lazy">{% else %}<span class="pub-cover pub-cover--blank" title="{{ p.venue | escape }}">{{ p.venue_short }}</span>{% endif %}
+      {% if v.cover %}<img class="pub-cover" src="{{ v.cover | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" alt="" title="{{ p.venue | escape }}" width="84" height="112" loading="lazy">{% else %}<span class="pub-cover pub-cover--blank" title="{{ p.venue | escape }}">{{ p.venue_short }}</span>{% endif %}
     {% elsif p.venue_short %}<span class="pub-venue" title="{{ p.venue | escape }}">{{ p.venue_short }}</span>{% endif %}
     {% if p.year %}<span class="pub-year">{{ p.year }}</span>{% elsif p.group == 'under-review' %}<span class="pub-year">In review</span>{% endif %}
   </div>
