@@ -90,7 +90,7 @@
     if (kind === 'ij' || kind === 'dj') {
       var list = kind === 'ij' ? INTL : DOM;
       for (var i = 0; i < list.length; i++) {
-        var vm = rest.match(new RegExp('[,.]\\s*(' + list[i][0].source + ')', 'i'));
+        var vm = rest.match(new RegExp('[,.]\\s*((?:The\\s+)?' + list[i][0].source + ')', 'i'));
         if (vm && vm.index > 8) {
           title = rest.slice(0, vm.index); venue = vm[1];
           details = rest.slice(vm.index + vm[0].length).replace(/^[\s,.:]+/, '').replace(/[\s.]+$/, '');
@@ -99,7 +99,7 @@
       }
     } else {
       var cm = rest.match(/[,.]\s*((?:Proceedings|Proc\.|Book of Abstracts|Abstracts)[^]*)$/i) ||
-        rest.match(/[,.]\s*([^,]*(?:Conference|Congress|Symposium|Workshop|Meeting|Forum|학술대회)[^]*)$/i);
+        rest.match(/[,.]\s*([^,]*(?:Conference|Congress|Symposium|Workshop|Meeting|Forum|General Assembly|학술대회)[^]*)$/i);
       if (cm && cm.index > 8) { title = rest.slice(0, cm.index); venue = cm[1].replace(/\.?\s*\((\d{4}\.\d{1,2})\)\s*$/, ' ($1)').replace(/[\s.]+$/, ''); }
     }
     title = clean(title).replace(/[\s.,]+$/, '');
