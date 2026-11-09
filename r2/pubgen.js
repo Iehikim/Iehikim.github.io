@@ -26,37 +26,19 @@
     lncs: 'pli-cover-lncs.webp/7b975077-14ae-ae96-2ae0-63e255dc1d2f',
     trd: 'pli-cover-trd.webp/4bbe2d50-f44e-efa9-b356-cfc6459a8533'
   };
-  // Clarivate JCR, 2025 JIF (released 2026-06-17). [quartile, top % in best category, IF, best category + rank]
-  // Sources: ablesci.com journal pages (WOS 2026 release); FSMJ/AMM/IJSE percentile from wos-journal.info.
-  var JCR = {
-    'JMS': ['Q1', 0.9, 14.9, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 1/109'],
-    'ESWA': ['Q1', 5.5, 9.4, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 6/109'],
-    'AMM': ['Q1', 5.1, 5.5, 'ENGINEERING, MULTIDISCIPLINARY'],
-    'TR-D': ['Q1', 7.6, 8.7, 'TRANSPORTATION 5/66'],
-    'IJPR': ['Q1', 8.3, 8.7, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 9/109'],
-    'EJOR': ['Q1', 10.1, 7.0, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 11/109'],
-    'APMR': ['Q1', 12.9, 7.5, 'MANAGEMENT 55/426'],
-    'CAIE': ['Q1', 16.2, 7.3, 'COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS 30/185'],
-    'FSMJ': ['Q2', 30.3, 3.5, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 33/109'],
-    'CIRP<br>Annals': ['Q2', 30.4, 5.0, 'ENGINEERING, INDUSTRIAL 21/69'],
-    'IJAMT': ['Q2', 33.0, 3.7, 'AUTOMATION & CONTROL SYSTEMS 29/88'],
-    'ENG<br>OPT': ['Q2', 33.7, 2.8, 'ENGINEERING, MULTIDISCIPLINARY 60/178'],
-    'JORS': ['Q2', 43.1, 2.6, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 47/109'],
-    'IIE<br>Trans.': ['Q2', 43.1, 2.6, 'IISE Transactions · OPERATIONS RESEARCH & MANAGEMENT SCIENCE 47/109'],
-    'IJST': ['Q3', 51.5, 3.1, 'ENVIRONMENTAL STUDIES 104/202'],
-    'PIME-B': ['Q3', 56.0, 2.1, 'ENGINEERING, MECHANICAL 103/184'],
-    'IJSE': ['Q3', 64.0, 4.1, 'GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY (ESCI)'],
-    'SIC': ['Q3', 64.8, 1.8, 'AUTOMATION & CONTROL SYSTEMS 57/88'],
-    'EJIE': ['Q4', 75.2, 1.5, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 82/109'],
-    'IJIE': ['Q4', 84.1, 1.1, 'ENGINEERING, INDUSTRIAL 58/69'],
-    'IEMS': ['Q4', null, 0.5, 'ENGINEERING, INDUSTRIAL (ESCI)']
-  };
-  function metrics(abbr) {
-    var m = JCR[abbr];
+  // Clarivate JCR (jcr.clarivate.com journal profiles), matched to each paper's publication year.
+  // JH[abbr][JCR year] = [JIF as listed, best-category rank r/n, category]. Papers newer than the latest
+  // JCR year use the latest one; years before a journal's first JCR year (or before 1997) get no metrics.
+  var JCR_LATEST = 2025;
+  var JH = {"IJPR":{"1998":["0.584","3/29","ENGINEERING, MANUFACTURING"],"2001":["0.438","9/35","ENGINEERING, MANUFACTURING"],"2004":["0.558","15/33","ENGINEERING, INDUSTRIAL"],"2006":["0.799","10/32","ENGINEERING, INDUSTRIAL"],"2007":["0.560","17/33","ENGINEERING, INDUSTRIAL"],"2008":["0.774","21/38","ENGINEERING, MANUFACTURING"],"2011":["1.115","11/37","ENGINEERING, MANUFACTURING"],"2012":["1.460","22/79","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2013":["1.323","29/79","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2015":["1.693","26/82","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2017":["2.623","20/84","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2020":["8.568","2/84","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2023":["7.0","7/106","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2025":["8.7","9/109","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"]},"EJOR":{"2001":["0.494","19/53","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2013":["1.843","15/79","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2025":["7.0","11/109","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"]},"CAIE":{"1997":["0.117","20/24","ENGINEERING, INDUSTRIAL"],"2009":["1.491","10/37","ENGINEERING, INDUSTRIAL"],"2011":["1.589","9/43","ENGINEERING, INDUSTRIAL"],"2013":["1.690","11/43","ENGINEERING, INDUSTRIAL"],"2018":["3.518","24/106","COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS"],"2020":["5.431","21/111","COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS"],"2024":["6.5","25/177","COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS"],"2025":["7.3","30/185","COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS"]},"PIME-B":{"2001":["0.295","18/35","ENGINEERING, MANUFACTURING"],"2004":["0.249","76/103","ENGINEERING, MECHANICAL"],"2006":["0.386","65/106","ENGINEERING, MECHANICAL"],"2007":["0.203","87/107","ENGINEERING, MECHANICAL"],"2009":["0.412","83/116","ENGINEERING, MECHANICAL"],"2010":["0.699","55/122","ENGINEERING, MECHANICAL"],"2015":["0.978","79/132","ENGINEERING, MECHANICAL"],"2018":["1.752","66/129","ENGINEERING, MECHANICAL"],"2021":["2.759","64/137","ENGINEERING, MECHANICAL"],"2023":["1.9","92/183","ENGINEERING, MECHANICAL"],"2024":["1.9","103/182","ENGINEERING, MECHANICAL"]},"IJAMT":{"2009":["1.128","12/37","ENGINEERING, MANUFACTURING"],"2012":["1.205","18/39","ENGINEERING, MANUFACTURING"],"2013":["1.779","10/39","ENGINEERING, MANUFACTURING"],"2016":["2.209","25/60","AUTOMATION & CONTROL SYSTEMS"],"2017":["2.601","15/46","ENGINEERING, MANUFACTURING"],"2018":["2.496","29/62","AUTOMATION & CONTROL SYSTEMS"]},"JORS":{"1998":["0.552","7/44","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2004":["0.515","31/56","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2005":["0.603","29/56","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2006":["0.597","33/60","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2009":["1.009","36/73","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2012":["0.989","37/79","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2015":["1.225","41/82","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"]},"ENG<br>OPT":{"2017":["1.622","33/86","ENGINEERING, MULTIDISCIPLINARY"],"2019":["2.165","35/83","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"],"2022":["2.7","35/86","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"]},"IJIE":{"2003":["0.093","30/33","ENGINEERING, INDUSTRIAL"],"2014":["0.396","36/40","ENGINEERING, MANUFACTURING"],"2018":["0.532","47/49","ENGINEERING, MANUFACTURING"]},"CIRP<br>Annals":{"2003":["0.974","2/33","ENGINEERING, INDUSTRIAL"]},"JMS":{"1998":["0.380","10/30","ENGINEERING, INDUSTRIAL"],"1999":["0.507","5/31","ENGINEERING, INDUSTRIAL"]},"TR-D":{"2013":["1.626","33/98","ENVIRONMENTAL STUDIES"]},"IJST":{"2019":["2.709","49/123","ENVIRONMENTAL STUDIES"]},"EJIE":{"2018":["1.217","58/84","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"]},"AMM":{"2024":["5.1","8/136","MATHEMATICS, INTERDISCIPLINARY APPLICATIONS"]},"ESWA":{"2011":["2.203","5/77","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"]},"IIE<br>Trans.":{"2000":["0.383","9/31","ENGINEERING, INDUSTRIAL"]},"LNCS":{"2005":["0.402","62/71","COMPUTER SCIENCE, THEORY & METHODS"]},"LNAI":{"2005":["0.302","70/79","COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE"]},"FSMJ":{"2025":["3.5","33/109","OPERATIONS RESEARCH & MANAGEMENT SCIENCE"]}};
+  function metrics(abbr, y) {
+    var d = JH[abbr]; if (!d || !y) return '';
+    var yy = Math.min(y, JCR_LATEST), m = d[yy];
     if (!m) return '';
-    return '<span class="m q ' + m[0].toLowerCase() + '" title="JCR ' + esc(m[3]) + '">' + m[0] + '</span>' +
-      (m[1] != null ? '<span class="m">JCR 2025 · top ' + m[1].toFixed(1) + '%</span>' : '') +
-      '<span class="m">IF ' + m[2].toFixed(1) + '</span>';
+    var rn = m[1].split('/'), z = rn[0] / rn[1], q = z <= .25 ? 1 : z <= .5 ? 2 : z <= .75 ? 3 : 4;
+    return '<span class="m q q' + q + '" title="JCR ' + yy + ' · ' + esc(m[2]) + ' ' + m[1] + '">Q' + q + '</span>' +
+      '<span class="m">JCR ' + yy + ' · top ' + (z * 100).toFixed(1) + '%</span>' +
+      '<span class="m">IF ' + m[0] + '</span>';
   }
   // [regex for the venue as written, cover key or '', abbreviation for the text tile]
   var INTL = [
@@ -168,7 +150,7 @@
         '<div class="au">' + bold(p.authors) + '</div>' +
         '<div class="vn"><em>' + esc(p.venue) + '</em>' + (p.details ? ', ' + esc(p.details) : '') + (p.badge ? ' <span class="ix">' + p.badge + '</span>' : '') + '</div>';
     }
-    var mx = kind === 'ij' && p.venue ? metrics(p.abbr) : '';
+    var mx = kind === 'ij' && p.venue ? metrics(p.abbr, p.y) : '';
     var link = p.url ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + (/doi\.org/.test(p.url) ? 'DOI' : 'Link') + ' ↗</a>' : '';
     if (mx || link) body += '<div class="bt">' + mx + link + '</div>';
     return '<article class="pli-pub' + (cv ? ' has-cv' : '') + '" data-q="' + q + '">' + cv + '<div class="bd">' + body + '</div></article>';
