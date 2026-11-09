@@ -26,6 +26,38 @@
     lncs: 'pli-cover-lncs.webp/7b975077-14ae-ae96-2ae0-63e255dc1d2f',
     trd: 'pli-cover-trd.webp/4bbe2d50-f44e-efa9-b356-cfc6459a8533'
   };
+  // Clarivate JCR, 2025 JIF (released 2026-06-17). [quartile, top % in best category, IF, best category + rank]
+  // Sources: ablesci.com journal pages (WOS 2026 release); FSMJ/AMM/IJSE percentile from wos-journal.info.
+  var JCR = {
+    'JMS': ['Q1', 0.9, 14.9, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 1/109'],
+    'ESWA': ['Q1', 5.5, 9.4, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 6/109'],
+    'AMM': ['Q1', 5.1, 5.5, 'ENGINEERING, MULTIDISCIPLINARY'],
+    'TR-D': ['Q1', 7.6, 8.7, 'TRANSPORTATION 5/66'],
+    'IJPR': ['Q1', 8.3, 8.7, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 9/109'],
+    'EJOR': ['Q1', 10.1, 7.0, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 11/109'],
+    'APMR': ['Q1', 12.9, 7.5, 'MANAGEMENT 55/426'],
+    'CAIE': ['Q1', 16.2, 7.3, 'COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS 30/185'],
+    'FSMJ': ['Q2', 30.3, 3.5, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 33/109'],
+    'CIRP<br>Annals': ['Q2', 30.4, 5.0, 'ENGINEERING, INDUSTRIAL 21/69'],
+    'IJAMT': ['Q2', 33.0, 3.7, 'AUTOMATION & CONTROL SYSTEMS 29/88'],
+    'ENG<br>OPT': ['Q2', 33.7, 2.8, 'ENGINEERING, MULTIDISCIPLINARY 60/178'],
+    'JORS': ['Q2', 43.1, 2.6, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 47/109'],
+    'IIE<br>Trans.': ['Q2', 43.1, 2.6, 'IISE Transactions · OPERATIONS RESEARCH & MANAGEMENT SCIENCE 47/109'],
+    'IJST': ['Q3', 51.5, 3.1, 'ENVIRONMENTAL STUDIES 104/202'],
+    'PIME-B': ['Q3', 56.0, 2.1, 'ENGINEERING, MECHANICAL 103/184'],
+    'IJSE': ['Q3', 64.0, 4.1, 'GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY (ESCI)'],
+    'SIC': ['Q3', 64.8, 1.8, 'AUTOMATION & CONTROL SYSTEMS 57/88'],
+    'EJIE': ['Q4', 75.2, 1.5, 'OPERATIONS RESEARCH & MANAGEMENT SCIENCE 82/109'],
+    'IJIE': ['Q4', 84.1, 1.1, 'ENGINEERING, INDUSTRIAL 58/69'],
+    'IEMS': ['Q4', null, 0.5, 'ENGINEERING, INDUSTRIAL (ESCI)']
+  };
+  function metrics(abbr) {
+    var m = JCR[abbr];
+    if (!m) return '';
+    return '<span class="m q ' + m[0].toLowerCase() + '" title="JCR ' + esc(m[3]) + '">' + m[0] + '</span>' +
+      (m[1] != null ? '<span class="m">JCR 2025 · top ' + m[1].toFixed(1) + '%</span>' : '') +
+      '<span class="m">IF ' + m[2].toFixed(1) + '</span>';
+  }
   // [regex for the venue as written, cover key or '', abbreviation for the text tile]
   var INTL = [
     [/International Journal of Production Research/i, 'ijpr', 'IJPR'],
@@ -136,7 +168,9 @@
         '<div class="au">' + bold(p.authors) + '</div>' +
         '<div class="vn"><em>' + esc(p.venue) + '</em>' + (p.details ? ', ' + esc(p.details) : '') + (p.badge ? ' <span class="ix">' + p.badge + '</span>' : '') + '</div>';
     }
-    if (p.url) body += '<div class="bt"><a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + (/doi\.org/.test(p.url) ? 'DOI' : 'Link') + ' ↗</a></div>';
+    var mx = kind === 'ij' && p.venue ? metrics(p.abbr) : '';
+    var link = p.url ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + (/doi\.org/.test(p.url) ? 'DOI' : 'Link') + ' ↗</a>' : '';
+    if (mx || link) body += '<div class="bt">' + mx + link + '</div>';
     return '<article class="pli-pub' + (cv ? ' has-cv' : '') + '" data-q="' + q + '">' + cv + '<div class="bd">' + body + '</div></article>';
   }
 
