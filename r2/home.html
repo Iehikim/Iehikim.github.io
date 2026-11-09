@@ -1,0 +1,197 @@
+<style>
+body{overflow-x:hidden}
+.pli{--navy:#203864;--navy-d:#14264a;--blue:#0b75d8;--ink:#1e293b;--muted:#64748b;--line:#e3e8ef;--soft:#f6f8fb;
+font-family:Pretendard,'Pretendard Variable','Noto Sans KR','Nanum Gothic',sans-serif;color:var(--ink);font-size:16px;line-height:1.6;
+-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+.pli *,.pli *:before,.pli *:after{box-sizing:border-box}
+.pli a{color:inherit;text-decoration:none}
+.pli a:hover{text-decoration:none}
+.pli h1,.pli h2,.pli h3,.pli h4,.pli p,.pli ul,.pli ol,.pli figure,.pli dl,.pli dd{margin:0;padding:0}
+.pli h1,.pli h2,.pli h3,.pli h4{font-family:inherit;color:inherit;line-height:1.3;letter-spacing:-.01em}
+.pli ul,.pli ol{list-style:none}
+.pli img{max-width:100%;height:auto;border:0}
+.pli-wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.pli-bleed{position:relative;left:50%;width:100vw;margin-left:-50vw}
+.pli-k{font-size:12.5px;font-weight:700;letter-spacing:.16em;color:var(--blue);text-transform:uppercase}
+.pli-sh{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:28px}
+.pli-sh h2{font-size:32px;margin-top:6px;font-weight:800}
+.pli-sh p{margin-top:10px;color:var(--muted);font-size:16px;max-width:680px}
+.pli-more{font-weight:700;font-size:14.5px;color:var(--blue)!important;white-space:nowrap}
+.pli-sec{padding-top:84px}
+/* sub-page banner + sub navigation */
+.pli-banner{height:250px;display:grid;place-items:center;background:#14264a url("/documents/592325114/0/1764053565573+%281%29.jpeg/60ef0cc3-6882-ec9e-3ee7-62640a19eac5") center 38%/cover}
+.pli-banner:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,38,74,.55),rgba(20,38,74,.74))}
+.pli-tbox{position:relative;z-index:1;background:rgba(32,56,100,.92);color:#fff;padding:22px 46px 18px;border-radius:10px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.pli-tbox h1{font-size:28px;font-weight:800;color:#fff}
+.pli-tbox .bc{margin-top:8px;font-size:13px;color:#d3def2}
+.pli-tbox .bc a:hover{color:#fff}
+.pli-subnav{display:flex;justify-content:center;flex-wrap:wrap;gap:6px;margin:28px 0 0}
+.pli-subnav a{padding:9px 20px;border-radius:99px;font-size:14.5px;font-weight:600;color:#475569;border:1px solid var(--line);background:#fff;transition:all .2s}
+.pli-subnav a:hover{border-color:var(--navy);color:var(--navy)}
+.pli-subnav a.on{background:var(--navy);border-color:var(--navy);color:#fff}
+/* research cards */
+.pli-rgrid{display:grid;grid-template-columns:1fr 1fr;gap:34px 30px}
+.pli-rfig{position:relative;display:block;border-radius:16px;overflow:hidden;aspect-ratio:8/5;background:#f6f8fb;
+border:1px solid color-mix(in srgb,var(--c) 22%,#e3e8ef);transition:transform .25s,box-shadow .25s;cursor:zoom-in}
+button.pli-rfig{width:100%;padding:0;margin:0;font:inherit;color:inherit;text-align:left;-webkit-appearance:none;appearance:none}
+.pli-lb{position:fixed;inset:0;z-index:10000;background:rgba(15,23,42,.84);display:flex;align-items:center;justify-content:center;padding:48px 24px;cursor:zoom-out;animation:pliFade .2s ease}
+.pli-lb figure{margin:0;max-width:min(1280px,94vw);text-align:center}
+.pli-lb img{display:block;max-width:100%;max-height:80vh;margin:0 auto;border-radius:12px;background:#fff;box-shadow:0 24px 60px rgba(0,0,0,.35);cursor:default}
+.pli-lb figcaption{color:#e2e8f0;font-size:15px;font-weight:600;margin-top:14px;font-family:inherit}
+.pli-lb .x{position:absolute;top:18px;right:22px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.16);color:#fff;font-size:28px;line-height:44px;padding:0;cursor:pointer}
+.pli-lb .x:hover{background:rgba(255,255,255,.28)}
+@keyframes pliFade{from{opacity:0}to{opacity:1}}
+.pli-rfig:before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:var(--c);opacity:0;transition:opacity .25s;z-index:1}
+.pli-rfig img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.pli-rcard:hover .pli-rfig{transform:translateY(-4px);box-shadow:0 16px 34px -12px color-mix(in srgb,var(--c) 45%,transparent)}
+.pli-rcard:hover .pli-rfig:before{opacity:1}
+.pli-rcard:hover .pli-rfig img{transform:scale(1.025)}
+.pli-zoom{position:absolute;right:12px;bottom:12px;width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,.92);box-shadow:0 2px 8px rgba(15,23,42,.15);display:grid;place-items:center;opacity:0;transition:opacity .25s}
+.pli-rcard:hover .pli-zoom{opacity:1}
+.pli-rt h3{margin:18px 0 8px;font-size:20px;font-weight:800}
+.pli-rt h3 .no{color:var(--c);margin-right:.35em}
+.pli-rt p{font-size:15.5px;line-height:1.65;color:#475569}
+.pli-foot-note{margin-top:22px;font-size:13px;color:var(--muted)}
+@media (max-width:767px){
+.pli-wrap{padding:0 16px}
+.pli-sh{flex-direction:column;align-items:flex-start}.pli-sh h2{font-size:26px}
+.pli-sec{padding-top:56px}
+.pli-banner{height:180px}.pli-tbox{padding:16px 26px 14px}.pli-tbox h1{font-size:23px}
+.pli-subnav{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;margin-top:20px}
+.pli-subnav a{white-space:nowrap;padding:8px 16px;font-size:14px}
+.pli-rgrid{grid-template-columns:1fr;gap:28px}
+.pli-rt h3{font-size:18px;margin-top:14px}.pli-rt p{font-size:14.5px}
+}
+.pli-hero{background:var(--navy-d);color:#fff;overflow:hidden}
+.pli-hero .ph{position:absolute;inset:0 0 0 38%;background:url("/documents/592325114/0/1764053565573+%281%29.jpeg/60ef0cc3-6882-ec9e-3ee7-62640a19eac5") center 35%/cover}
+.pli-hero .ph:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--navy-d) 0%,rgba(20,38,74,.82) 22%,rgba(20,38,74,.25) 60%,rgba(20,38,74,.05) 100%)}
+.pli-hero .net{position:absolute;inset:0;opacity:.16;background-image:radial-gradient(circle at 1px 1px,#fff 1px,transparent 1.4px);background-size:24px 24px;-webkit-mask-image:linear-gradient(90deg,#000 0,#000 35%,transparent 60%);mask-image:linear-gradient(90deg,#000 0,#000 35%,transparent 60%)}
+.pli-hero .pli-wrap{position:relative;padding-top:92px;padding-bottom:132px}
+.pli-hero .eb{font-size:12.5px;font-weight:700;letter-spacing:.16em;color:#9fc1f5;text-transform:uppercase}
+.pli-hero h1{font-size:50px;line-height:1.1;margin:16px 0 14px;font-weight:800;max-width:640px;color:#fff}
+.pli-hero .ko{font-size:18px;color:#d5e2f7;margin:0 0 22px;font-weight:500}
+.pli-hero .tag{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:34px}
+.pli-hero .tag span{font-size:14px;font-weight:600;padding:7px 14px;border-radius:99px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.22)}
+.pli-btns{display:flex;gap:12px;flex-wrap:wrap}
+.pli-btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px;padding:13px 22px;border-radius:10px;transition:transform .2s}
+.pli-btn:hover{transform:translateY(-2px)}
+.pli-btn.pri{background:#fff;color:var(--navy)!important}
+.pli-btn.out{border:1.5px solid rgba(255,255,255,.55);color:#fff!important}
+.pli-stats{position:relative;margin-top:-64px;z-index:2}
+.pli-stats .box{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 14px 40px rgba(15,23,42,.10)}
+.pli-stat{padding:26px 28px;border-left:1px solid var(--line)}
+.pli-stat:first-child{border-left:0}
+.pli-stat b{display:block;font-size:38px;font-weight:800;color:var(--navy);letter-spacing:-.02em;line-height:1}
+.pli-stat b small{font-size:22px;font-weight:700;color:var(--blue);margin-left:2px}
+.pli-stat span{display:block;margin-top:8px;font-size:14px;color:var(--muted);font-weight:500}
+.pli-two{display:grid;grid-template-columns:1fr 1.25fr;gap:28px}
+.pli-panel{border:1px solid var(--line);border-radius:18px;padding:8px 24px 14px;background:#fff}
+.pli-panel h3{display:flex;justify-content:space-between;align-items:center;font-size:18px;font-weight:800;margin:14px 0 6px}
+.pli-panel h3 a{font-size:13.5px;color:var(--blue)!important}
+.pli-news li,.pli-pubs li{border-top:1px solid var(--line);padding:15px 0}
+.pli-news li:first-child,.pli-pubs li:first-child{border-top:0}
+.pli-news .d{font-size:12.5px;font-weight:700;color:var(--blue);letter-spacing:.04em}
+.pli-news .t{font-size:15px;font-weight:600;margin-top:4px;line-height:1.45}
+.pli-news a.t:hover{color:var(--blue)}
+.pli-badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px;background:#eef4ff;color:#1d4ed8;margin-right:6px}
+.pli-badge.v{background:#f3edff;color:#6d28d9}
+.pli-pubs .j{font-size:12.5px;font-weight:700;color:var(--muted)}
+.pli-pubs .j em{font-style:normal;color:var(--navy)}
+.pli-pubs .t{display:block;font-size:15px;font-weight:600;line-height:1.45;margin:4px 0 3px}
+.pli-pubs a.t:hover{color:var(--blue)}
+.pli-pubs .a{font-size:13px;color:var(--muted)}
+.pli-join{margin-top:84px;background:linear-gradient(120deg,var(--navy-d),#24477f);color:#fff;border-radius:24px;padding:42px 44px;position:relative;overflow:hidden}
+.pli-join:after{content:"";position:absolute;right:-80px;top:-80px;width:320px;height:320px;border-radius:50%;border:1px solid rgba(255,255,255,.14);box-shadow:0 0 0 40px rgba(255,255,255,.03),0 0 0 80px rgba(255,255,255,.025)}
+.pli-join .top{display:flex;justify-content:space-between;gap:24px;align-items:flex-start;position:relative;z-index:1}
+.pli-join .eb{font-size:12.5px;font-weight:700;letter-spacing:.16em;color:#9fc1f5}
+.pli-join h2{font-size:30px;margin:6px 0 8px;font-weight:800;color:#fff}
+.pli-join p{color:#cfdcf3;font-size:15.5px;max-width:600px}
+.pli-steps{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:30px;position:relative;z-index:1}
+.pli-step{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:16px}
+.pli-step i{font-style:normal;font-size:12px;font-weight:800;letter-spacing:.1em;color:#9fc1f5}
+.pli-step b{display:block;font-size:15.5px;margin-top:6px}
+.pli-step span{display:block;font-size:12.5px;color:#c4d3ee;margin-top:5px;line-height:1.45}
+.pli-contact{display:grid;grid-template-columns:1fr 1.3fr;gap:24px;align-items:stretch}
+.pli-cards{display:grid;gap:14px}
+.pli-cc{border:1px solid var(--line);border-radius:16px;padding:20px 22px}
+.pli-cc .r{font-size:12px;font-weight:700;letter-spacing:.12em;color:var(--blue)}
+.pli-cc b{display:block;font-size:17px;margin:6px 0 8px}
+.pli-cc div{font-size:14px;color:#475569;line-height:1.7}
+.pli-map{border-radius:16px;border:1px solid var(--line);min-height:320px;overflow:hidden;background:#eef2f6}
+.pli-map iframe{display:block;width:100%;height:100%;min-height:320px;border:0}
+.pli-home .pli-end{height:84px}
+@media (max-width:767px){
+.pli-hero .ph{inset:0;opacity:.55}
+.pli-hero .ph:after{background:linear-gradient(180deg,rgba(20,38,74,.55),var(--navy-d) 92%)}
+.pli-hero .pli-wrap{padding-top:54px;padding-bottom:104px}
+.pli-hero h1{font-size:33px}.pli-hero .ko{font-size:15.5px}
+.pli-hero .tag span{font-size:12.5px;padding:6px 11px}
+.pli-stats .box{grid-template-columns:1fr 1fr}
+.pli-stat{padding:18px;border-left:0;border-top:1px solid var(--line)}
+.pli-stat:nth-child(-n+2){border-top:0}.pli-stat:nth-child(2n){border-left:1px solid var(--line)}
+.pli-stat b{font-size:30px}
+.pli-two,.pli-contact{grid-template-columns:1fr}
+.pli-join{padding:28px 22px;border-radius:18px;margin-top:56px}
+.pli-join .top{flex-direction:column}.pli-join h2{font-size:24px}
+.pli-steps{grid-template-columns:1fr 1fr;gap:10px}.pli-step:last-child{grid-column:1/-1}.pli-step{padding:13px 14px}
+}
+</style>
+<div class="pli pli-home">
+<section class="pli-bleed pli-hero"><div class="ph" role="img" aria-label="Hanyang University main building"></div><div class="net"></div>
+<div class="pli-wrap"><div class="eb">Department of Industrial Engineering · Hanyang University</div>
+<h1>Production &amp; Logistics Information Lab</h1><p class="ko">한양대학교 산업공학과 생산 및 물류 정보 연구실</p>
+<div class="tag"><span>Optimization</span><span>Intelligence</span><span>Sustainability</span></div>
+<div class="pli-btns"><a class="pli-btn pri" href="#pli-areas">Research areas →</a><a class="pli-btn out" href="#pli-join">Join PLI Lab</a></div></div></section>
+<div class="pli-wrap pli-stats"><div class="box">
+<div class="pli-stat"><b>90</b><span>International journal papers</span></div>
+<div class="pli-stat"><b>161</b><span>Conference papers</span></div>
+<div class="pli-stat"><b>37</b><span>Research projects</span></div>
+<div class="pli-stat"><b>50<small>+</small></b><span>Ph.D. &amp; M.S. alumni</span></div></div></div>
+<section class="pli-sec" id="pli-areas"><div class="pli-wrap">
+<div class="pli-sh"><div><div class="pli-k">Research</div><h2>Research Areas</h2>
+<p>We develop mathematical models and optimization algorithms for the design and operation of manufacturing, logistics and service systems.</p></div>
+<a class="pli-more" href="/introduction">Introduction →</a></div>
+<div class="pli-rgrid"><article class="pli-rcard" style="--c:#2563eb"><button type="button" class="pli-rfig" data-cap="01 · Planning" aria-label="Enlarge figure: Planning"><img src="/documents/592325114/0/pli-lab-planning.webp/850c1104-fec9-d761-5398-f199f95ee6d4" alt="Research area 01: Planning" width="1440" height="900" loading="lazy" decoding="async" draggable="false"><span class="pli-zoom" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.8-4.8M10.5 7.5v6M7.5 10.5h6"/></svg></span></button><div class="pli-rt"><h3><span class="no">01</span>Planning</h3><p>Demand forecasting, inventory control, production planning, process planning and capacity planning.</p></div></article><article class="pli-rcard" style="--c:#0d9488"><button type="button" class="pli-rfig" data-cap="02 · Scheduling" aria-label="Enlarge figure: Scheduling"><img src="/documents/592325114/0/pli-lab-scheduling.webp/1c2f05b8-2fca-bbf8-a986-4838486e6168" alt="Research area 02: Scheduling" width="1440" height="900" loading="lazy" decoding="async" draggable="false"><span class="pli-zoom" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.8-4.8M10.5 7.5v6M7.5 10.5h6"/></svg></span></button><div class="pli-rt"><h3><span class="no">02</span>Scheduling</h3><p>Operations, service and project scheduling, and routing &amp; scheduling problems (TSP, VRP, OP, TOP).</p></div></article><article class="pli-rcard" style="--c:#7c3aed"><button type="button" class="pli-rfig" data-cap="03 · Design" aria-label="Enlarge figure: Design"><img src="/documents/592325114/0/pli-lab-design.webp/724e5d27-4637-ad31-0623-5cb183308eae" alt="Research area 03: Design" width="1440" height="900" loading="lazy" decoding="async" draggable="false"><span class="pli-zoom" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.8-4.8M10.5 7.5v6M7.5 10.5h6"/></svg></span></button><div class="pli-rt"><h3><span class="no">03</span>Design</h3><p>Supply chain and network design, facility layout and configuration selection of manufacturing systems.</p></div></article><article class="pli-rcard" style="--c:#16a34a"><button type="button" class="pli-rfig" data-cap="04 · Environmentally Conscious Design & Manufacturing" aria-label="Enlarge figure: Environmentally Conscious Design & Manufacturing"><img src="/documents/592325114/0/pli-lab-ecdm.webp/6f703fd8-6645-f91f-8e64-23e5a2b3fdf5" alt="Research area 04: Environmentally Conscious Design & Manufacturing" width="1440" height="900" loading="lazy" decoding="async" draggable="false"><span class="pli-zoom" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.8-4.8M10.5 7.5v6M7.5 10.5h6"/></svg></span></button><div class="pli-rt"><h3><span class="no">04</span>Environmentally Conscious Design &amp; Manufacturing</h3><p>Reverse logistics, remanufacturing systems, disassembly planning and disassembly lot-sizing.</p></div></article><article class="pli-rcard" style="--c:#b45309"><button type="button" class="pli-rfig" data-cap="05 · Theoretical Backgrounds" aria-label="Enlarge figure: Theoretical Backgrounds"><img src="/documents/592325114/0/pli-lab-theory.webp/930535ab-3530-4bad-8df7-b587927605ee" alt="Research area 05: Theoretical Backgrounds" width="1440" height="900" loading="lazy" decoding="async" draggable="false"><span class="pli-zoom" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.8-4.8M10.5 7.5v6M7.5 10.5h6"/></svg></span></button><div class="pli-rt"><h3><span class="no">05</span>Theoretical Backgrounds</h3><p>Operations research and operations management, linear and integer programming, and probability &amp; statistics.</p></div></article><article class="pli-rcard" style="--c:#e11d48"><button type="button" class="pli-rfig" data-cap="06 · Methodological Backgrounds" aria-label="Enlarge figure: Methodological Backgrounds"><img src="/documents/592325114/0/pli-lab-methods.webp/08bc6ae8-01b3-8360-aecd-72412245c4f3" alt="Research area 06: Methodological Backgrounds" width="1440" height="900" loading="lazy" decoding="async" draggable="false"><span class="pli-zoom" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M20 20l-4.8-4.8M10.5 7.5v6M7.5 10.5h6"/></svg></span></button><div class="pli-rt"><h3><span class="no">06</span>Methodological Backgrounds</h3><p>Exact (optimal) and heuristic approaches, reinforcement learning, deep learning and simulation.</p></div></article></div></div></section>
+<section class="pli-sec"><div class="pli-wrap">
+<div class="pli-sh"><div><div class="pli-k">Latest</div><h2>News &amp; Publications</h2></div></div>
+<div class="pli-two">
+<div class="pli-panel"><h3><span>Lab News</span><a href="/lab-news">More →</a></h3><ul class="pli-news" id="pli-news"><li><div class="d">2026.09</div><div class="t">Two new M.S. students, Ilza Athiyatamimy Hanun and Yu Zetong, joined PLI Lab.</div></li><li><div class="d">2026.03</div><div class="t">New NRF project started: capacitated disassembly leveling and lot-sizing for end-of-life products with uncertain component yields.</div></li><li><div class="d">2026</div><div class="t">Dr. Hyeon-Il Kim received his Ph.D. and joined KTH Royal Institute of Technology as a postdoctoral researcher.</div></li><li><div class="d">2025.11</div><div class="t">Paper on dynamic configuration selection for reconfigurable flow lines presented at APIEMS 2025, Hangzhou.</div></li></ul></div>
+<div class="pli-panel"><h3><span>Recent Journal Papers</span><a href="/international-journals">All publications →</a></h3><ul class="pli-pubs"><li><div class="j"><span class="pli-badge">Scheduling</span><em>European Journal of Operational Research</em> · 2026</div><a class="t" href="https://doi.org/10.1016/j.ejor.2025.12.048" target="_blank" rel="noopener">Two-phase optimal and heuristic algorithms for flow shop scheduling with reworks under overlapped queue time limits</a><div class="a">Kim, H.-I., and Lee, D.-H.</div></li><li><div class="j"><span class="pli-badge">Scheduling</span><em>Flexible Services and Manufacturing Journal</em> · 2025</div><a class="t" href="https://doi.org/10.1007/s10696-024-09567-5" target="_blank" rel="noopener">A two-stage solution approach for scheduling flexible manufacturing systems with multi-fixturing pallets</a><div class="a">Sim, D.-G., and Lee, D.-H.</div></li><li><div class="j"><span class="pli-badge">Scheduling</span><em>Computers &amp; Industrial Engineering</em> · 2025</div><a class="t" href="https://doi.org/10.1016/j.cie.2025.111062" target="_blank" rel="noopener">A genetic programming based reinforcement learning algorithm for dynamic hybrid flow shop scheduling with reworks under general queue time limits</a><div class="a">Kim, H.-I., Kim, Y.-R., and Lee, D.-H.</div></li><li><div class="j"><span class="pli-badge v">Design</span><em>International Journal of Production Research</em> · 2025</div><a class="t" href="https://doi.org/10.1080/00207543.2024.2355324" target="_blank" rel="noopener">A mathematical model and solution algorithms for optimizing system-level configurations of reconfigurable single part flow lines</a><div class="a">Kim, H.-I., Youn, A.-J., and Lee, D.-H.</div></li></ul></div>
+</div>
+<div class="pli-join" id="pli-join"><div class="top"><div><div class="eb">JOIN US</div><h2>대학원 신입생을 모집합니다</h2>
+<p>생산·물류 시스템 최적화에 관심 있는 석사·박사 지원자는 성적증명서와 자기소개서(A4 1장 내외)를 이동호 교수님께 이메일로 보내 주세요.</p></div>
+<a class="pli-btn pri" href="/how-to-apply">지원 방법 보기 →</a></div>
+<div class="pli-steps">
+<div class="pli-step"><i>STEP 1</i><b>서류 접수</b><span>leman@hanyang.ac.kr</span></div>
+<div class="pli-step"><i>STEP 2</i><b>교수님 면담</b><span>이메일로 일정 조율</span></div>
+<div class="pli-step"><i>STEP 3</i><b>재학생 평가</b><span>구성원과 함께 결정</span></div>
+<div class="pli-step"><i>STEP 4</i><b>한양대학교 지원</b><span>공식 입학 전형</span></div>
+<div class="pli-step"><i>STEP 5</i><b>연구실 합류</b><span>정식 구성원</span></div></div></div>
+</div></section>
+<section class="pli-sec"><div class="pli-wrap">
+<div class="pli-sh"><div><div class="pli-k">Contact</div><h2>Location</h2></div></div>
+<div class="pli-contact"><div class="pli-cards">
+<div class="pli-cc"><div class="r">PROFESSOR</div><b>이동호 교수 (Dong-Ho Lee)</b><div><a href="mailto:leman@hanyang.ac.kr">leman@hanyang.ac.kr</a> · 02-2220-0475<br>공업센터본관 7층 708-1호</div></div>
+<div class="pli-cc"><div class="r">LAB OFFICE</div><b>대학원 연구실</b><div>공업센터본관 7층 703-2호<br>서울특별시 성동구 왕십리로 222 (04763)</div></div></div>
+<div class="pli-map"><iframe src="__MAP_SRC__" title="Map: Hanyang University Engineering Center" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div></div>
+</div></section><div class="pli-end"></div>
+</div>
+<script>
+(function(){var ul=document.getElementById('pli-news');if(!ul||!window.fetch)return;
+fetch('/lab-news',{credentials:'same-origin'}).then(function(r){return r.text()}).then(function(h){
+var d=new DOMParser().parseFromString(h,'text/html'),out=[];
+var rows=d.querySelectorAll('#main-content tbody tr, #main-content .bbs-list li, #main-content .board-list li');
+rows.forEach(function(tr){var a=tr.querySelector('a[href]');if(!a)return;var t=(a.textContent||'').replace(/\s+/g,' ').trim();
+var m=(tr.textContent||'').match(/(20\d{2})[.\-\/](\d{1,2})[.\-\/](\d{1,2})/);if(!t||!m)return;
+out.push({t:t,h:a.getAttribute('href'),d:m[1]+'.'+('0'+m[2]).slice(-2)+'.'+('0'+m[3]).slice(-2)});});
+if(!out.length)return;ul.innerHTML='';out.slice(0,4).forEach(function(n){var li=document.createElement('li');
+var dd=document.createElement('div');dd.className='d';dd.textContent=n.d;var a=document.createElement('a');a.className='t';a.href=n.h;a.textContent=n.t;
+li.appendChild(dd);li.appendChild(a);ul.appendChild(li);});}).catch(function(){});})();
+(function(){var lb=null;function close(){if(lb){lb.remove();lb=null;document.removeEventListener('keydown',key);}}
+function key(e){if(e.key==='Escape')close();}
+document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('.pli-rfig');if(!b)return;e.preventDefault();var src=b.querySelector('img');close();
+lb=document.createElement('div');lb.className='pli-lb';lb.setAttribute('role','dialog');lb.setAttribute('aria-modal','true');lb.setAttribute('aria-label',b.getAttribute('aria-label')||'Figure');
+lb.innerHTML='<figure><img alt="" draggable="false"><figcaption></figcaption></figure><button type="button" class="x" aria-label="Close">&times;</button>';
+var im=lb.querySelector('img');im.src=src.currentSrc||src.src;im.alt=src.alt;lb.querySelector('figcaption').textContent=b.getAttribute('data-cap')||'';
+lb.addEventListener('click',function(ev){if(ev.target!==im)close();});document.body.appendChild(lb);document.addEventListener('keydown',key);lb.querySelector('.x').focus();});})();
+</script>
