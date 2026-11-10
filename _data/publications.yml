@@ -130,6 +130,30 @@
 
 # ---- International conferences --------------------------------------------
 - group: intl-conf
+  year: 2026
+  title: "A Disassembly Leveling and Lot-sizing Algorithm for a Single Product Type with Uncertain Component Yields"
+  authors: "Kim, H.-I., Lee, K.-M., Lee, M.-S., Kang, J.-H., and Lee, D.-H.*"
+  venue: "Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2026)"
+  venue_short: "APIEMS"
+  details: "Busan, Korea, December 2026"
+
+- group: intl-conf
+  year: 2026
+  title: "Priority Scheduling Approaches for Remanufacturing Systems with Flow-shop-type Disassembly, Reprocessing and Reassembly Lines"
+  authors: "Kim, H.-I., Bai, C., Shim, H., and Lee, D.-H.*"
+  venue: "Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2026)"
+  venue_short: "APIEMS"
+  details: "Busan, Korea, December 2026"
+
+- group: intl-conf
+  year: 2026
+  title: "A Genetic Programming Algorithm for Multi-Objective Dynamic Hybrid Flow Shop Scheduling with Preventive Maintenances and Reworks under Overlapped Queue Time Limits"
+  authors: "Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Asia Pacific Industrial Engineering and Management Systems Conference (APIEMS 2026)"
+  venue_short: "APIEMS"
+  details: "Busan, Korea, December 2026"
+
+- group: intl-conf
   year: 2025
   title: "A Multi-tree Genetic Programming Algorithm for Scheduling Remanufacturing Systems with Disassembly, Reprocessing and Reassembly Lines"
   authors: "Bai, C., Kim, H.-I., Lee, J.-Y., and Lee, D.-H.*"
@@ -203,6 +227,30 @@
   details: "Taichung, Taiwan, November 2022"
 
 # ---- Domestic conferences -------------------------------------------------
+- group: domestic-conf
+  year: 2026
+  title: "A Disassembly Leveling and Lot-sizing Algorithm for Multiple Product Types with Components Commonality and Uncertain Component Yields"
+  authors: "Kim, H.-I., Lee, K.-M., Lee, M.-S., Kang, J.-H., and Lee, D.-H.*"
+  venue: "Proceedings of the Fall KIIE Conference"
+  venue_short: "KIIE"
+  details: "BPEX, Busan, Korea, December 2026"
+
+- group: domestic-conf
+  year: 2026
+  title: "A Genetic Programming based Scheduling Approach for End-of-life Products with Non-identical Component Yields in Remanufacturing Systems"
+  authors: "Shim, H.-A., Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Fall KIIE Conference"
+  venue_short: "KIIE"
+  details: "BPEX, Busan, Korea, December 2026"
+
+- group: domestic-conf
+  year: 2026
+  title: "A Genetic Programming based Deep Reinforcement Learning Algorithm for Multi-objective Hybrid Flow Shop Scheduling with Reworks under Overlapped Queue Time Limits and Preventive Maintenance Activities"
+  authors: "Kim, H.-I., and Lee, D.-H.*"
+  venue: "Proceedings of the Fall KIIE Conference"
+  venue_short: "KIIE"
+  details: "BPEX, Busan, Korea, December 2026"
+
 - group: domestic-conf
   year: 2026
   title: "A Multi-objective Genetic Programming based Variable Neighborhood Search Algorithm for Dynamic Hybrid Flow Shop Scheduling with Machine Availability and Possible Reworks under Overlapped Queue Time Limits"
