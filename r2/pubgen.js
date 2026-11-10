@@ -67,7 +67,9 @@
     [/International Journal of Environmentally Conscious Design\s*(?:&|and)\s*Manufacturing/i, '', 'IJECDM'],
     [/Fundamenta Informaticae/i, '', 'FI'],
     [/Journal of Engineering Valuation and Cost Analysis/i, '', 'JEVCA'],
-    [/IIE Transactions/i, 'iise', 'IIE<br>Trans.']
+    [/IIE Transactions/i, 'iise', 'IIE<br>Trans.'],
+    [/Management Science and Financial Engineering/i, '', 'MSFE'],
+    [/International Journal of Management Science/i, '', 'IJMS']
   ];
   var DOM = [
     [/Journal of (?:the )?Korean Institute of Industrial Engineers[^,]*/i, 'jkiie', 'JKIIE'],
@@ -85,7 +87,7 @@
     'Sim, D.-G.', 'Li, X.', 'Choi, Y.-H.', 'Heo, S.-S.', 'Choi, H.', 'Cho, Y.', 'Lee, D.-K.', 'Zhou, Y.-D.', 'Ulugov, A.', 'Joo, G.-H.', 'Kim, J.-M.',
     'Huang, R.', 'Cho, Y.-H.', 'Yu, Z.-J.', 'Park, J.-H.', 'Kim, M.-G.', 'Lee, C.-W.', 'Kim, D.-H.', 'Choi, Y.-J.', 'Han, H.-J.', 'Go, H.',
     'Kang, K.-W.', 'Lee, J.-H.', 'Shim, I.-S.', 'Ahn, H.-D.', 'Ha, K.-W.', 'Ma, Y.-S.', 'Jeon, H.-B.', 'Park, S.-H.', 'Kim, S.-I.', 'Kim, H.-C.',
-    'Lee, K.-B.', 'Kim, J.-D.', 'Kwon, Y.-J.', 'Cho, B.-M.', 'Shim, H.-A.', 'Lee, M.-S.', 'Jung, H.'];
+    'Lee, K.-B.', 'Kim, J.-D.', 'Kwon, Y.-J.', 'Cho, B.-M.', 'Shim, H.-A.', 'Shim, H.', 'Lee, M.-S.', 'Jung, H.'];
 
   function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
   function clean(s) { return String(s).replace(/\s+/g, ' ').replace(/\s+([,.:;])/g, '$1').trim(); }
