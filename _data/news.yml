@@ -1,6 +1,9 @@
 # News, newest first. The first 5 are shown; the rest sit behind "Show older news".
 # date: free text shown in the left column. text: plain text or inline HTML.
 
+- date: "Dec 2026"
+  text: "Three papers accepted for presentation at APIEMS 2026 (Busan, Korea, November 29 – December 2) and three at the 2026 Fall KIIE Conference (BPEX, Busan, December 3–4)."
+
 - date: "Sep 2026"
   text: 'Started as a Postdoctoral Researcher at the <a href="https://www.kth.se/en/tekmek/institutionen-for-teknisk-mekanik-1.1204789">Department of Engineering Mechanics</a> and the <a href="https://www.eco2vehicledesign.kth.se/">Centre for ECO2 Vehicle Design</a>, KTH Royal Institute of Technology.'
 
