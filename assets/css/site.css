@@ -330,7 +330,9 @@ strong { font-weight: 600; color: var(--ink); }
 .hero-photo {
   margin: 6px 0 0;
   width: var(--gutter);
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 3 / 4;
+  box-sizing: border-box;
+  border: 1px solid var(--rule);   /* the portrait has a white backdrop; the hairline keeps its frame visible */
   border-radius: 14px;
   overflow: hidden;
   background: var(--paper-2);
