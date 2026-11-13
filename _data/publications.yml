@@ -7,7 +7,7 @@
 #   group      : journal | domestic-journal | intl-conf | domestic-conf
 #                | under-review | working
 #   venue_short: short label shown in the left column (e.g. EJOR, IJPR)
-#   status     : free text shown for under-review papers
+#   status     : free text shown for under-review and working papers
 #   doi        : DOI only (without https://doi.org/)
 #   url        : full-text link if different from the DOI page
 #   pdf        : direct PDF link
@@ -397,10 +397,17 @@
 
 # ---- Working papers -------------------------------------------------------
 - group: working
-  title: "Multi-objective dynamic hybrid flow shop scheduling with preventive maintenances and possible reworks under overlapped queue time limits"
+  title: "Genetic programming based imitation learning with Monte Carlo tree search for multi-objective dynamic hybrid flow shop scheduling with reworks under overlapped queue time limits"
+  status: "In preparation"
 
 - group: working
-  title: "A genetic programming based scheduling approach for remanufacturing systems with flow-shop-type disassembly, reprocessing and reassembly shops"
+  title: "Priority rule based scheduling for flow-shop-type remanufacturing systems with component commonality and matching requirements"
+  status: "In preparation"
 
 - group: working
-  title: "Configurations selection algorithms for reconfigurable multi-part flow lines with non-identical parallel machines at each stage and operation lot splitting"
+  title: "Decomposition based matheuristics for system-level configuration selection in reconfigurable multi-part flow lines with non-identical parallel machines at each stage and operation lot splitting"
+  status: "In preparation"
+
+- group: working
+  title: "Capacitated disassembly leveling and lot-sizing with quality-dependent recovery options under recovery rate and carbon emission regulations"
+  status: "In preparation"
