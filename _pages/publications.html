@@ -26,14 +26,14 @@ description: "Publications of Hyeon-Il Kim: journal articles and conference pape
   </div>
 </div>
 
+<section class="section wrap" data-pub-group="progress" aria-labelledby="g-working">
+  <div class="section-head"><h2 class="section-title" id="g-working">Working papers<span class="count">{{ n_progress }} papers</span></h2></div>
+  <div class="section-body"><ol class="pub-list pub-list--plain">{% for pub in review %}{% include hk/pub.html pub=pub plain=true %}{% endfor %}{% for pub in working %}{% include hk/pub.html pub=pub plain=true %}{% endfor %}</ol></div>
+</section>
+
 <section class="section wrap" data-pub-group="journals" aria-labelledby="g-journal">
   <div class="section-head"><h2 class="section-title" id="g-journal">International journals<span class="count">{{ j_intl.size }} articles</span></h2></div>
   <div class="section-body"><ol class="pub-list">{% for pub in j_intl %}{% include hk/pub.html pub=pub %}{% endfor %}</ol></div>
-</section>
-
-<section class="section wrap" data-pub-group="progress" aria-labelledby="g-review">
-  <div class="section-head"><h2 class="section-title" id="g-review">Under review<span class="count">{{ review.size }} manuscripts</span></h2></div>
-  <div class="section-body"><ol class="pub-list">{% for pub in review %}{% include hk/pub.html pub=pub %}{% endfor %}</ol></div>
 </section>
 
 <section class="section wrap" data-pub-group="journals" aria-labelledby="g-domestic">
@@ -49,9 +49,4 @@ description: "Publications of Hyeon-Il Kim: journal articles and conference pape
 <section class="section wrap" data-pub-group="conferences" aria-labelledby="g-dconf">
   <div class="section-head"><h2 class="section-title" id="g-dconf">Domestic conferences<span class="count">{{ c_dom.size }} papers</span></h2></div>
   <div class="section-body"><ol class="pub-list">{% for pub in c_dom %}{% include hk/pub.html pub=pub %}{% endfor %}</ol></div>
-</section>
-
-<section class="section wrap" data-pub-group="progress" aria-labelledby="g-working">
-  <div class="section-head"><h2 class="section-title" id="g-working">Working papers<span class="count">{{ working.size }} papers</span></h2></div>
-  <div class="section-body"><ol class="plain-list">{% for pub in working %}<li>{{ pub.title }}</li>{% endfor %}</ol></div>
 </section>

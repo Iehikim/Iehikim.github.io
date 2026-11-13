@@ -567,6 +567,7 @@ strong { font-weight: 600; color: var(--ink); }
   padding: 16px 0;
 }
 .pub-list > li.pub + li.pub { border-top: 1px solid var(--rule); }
+.pub-list--plain > li.pub { grid-template-columns: minmax(0, 1fr); }   /* Working papers: text only */
 
 .pub-mark {
   display: flex;
