@@ -75,14 +75,6 @@
   period: "2023.05 – 2024.04"
 
 - status: completed
-  title: "Collaboration-Based Network Design for Flexible Delivery Service"
-  funder: "National Research Foundation of Korea (NRF)"
-  logo: "/images/funders/nrf.webp"
-  program: "한국연구재단 이공학 개인기초연구지원 사업"
-  role: "Participant"
-  period: "2021.06 – 2024.02"
-
-- status: completed
   title: "Priority Scheduling for Flexible Machining Systems with Multiple Setup Stations and Multi-Fixturing Pallets"
   funder: "Hanyang University"
   logo: "/images/funders/hyu.webp"
