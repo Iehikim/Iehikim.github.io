@@ -397,7 +397,7 @@
 
 # ---- Working papers -------------------------------------------------------
 - group: working
-  title: "Genetic programming based imitation learning with Monte Carlo tree search for multi-objective dynamic hybrid flow shop scheduling with reworks under overlapped queue time limits"
+  title: "Genetic programming based imitation learning with Monte Carlo tree search for multi-objective dynamic hybrid flow shop scheduling with reworks under overlapped queue time limits and preventive maintenance activities"
   status: "In preparation"
 
 - group: working
